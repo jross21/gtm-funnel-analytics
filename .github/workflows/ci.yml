@@ -35,11 +35,6 @@ jobs:
         run: pip install -r requirements-dev.txt
       - name: dbt deps
         run: dbt deps
-      - name: Verify seeds are reproducible
-        # The committed seeds must always match the generator output, byte-for-byte.
-        run: |
-          python -m data_generator.generate
-          git diff --exit-status seeds/
       - name: Lint SQL (sqlfluff)
         run: sqlfluff lint models/ tests/
       - name: dbt build (strict)

@@ -79,11 +79,11 @@ Architecture + lineage: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 - **Versioned metric catalog** with golden-value locking; MetricFlow-shaped for a v2 port.
 - **Meaningful test suite** — generic + `dbt_utils` + bespoke singular tests + **dbt unit
   tests** on the gnarly transforms (dedupe, net-new flag, UTC normalization, attribution).
-- **Linted & reproducible** — sqlfluff + pre-commit; pinned deps; a CI guard that the
-  committed seeds still match the generator byte-for-byte; strict warning-free `dbt build`.
+- **Linted & locked** — sqlfluff + pre-commit; exactly-pinned deps; and a golden-value
+  test that fails the build if any canonical metric drifts from its catalog value.
 - **Code-first BI** — Evidence.dev compiles SQL + markdown to a static site on GitHub Pages.
-- **CI/CD** — every push runs the seed guard → sqlfluff → `dbt build` (strict) → builds &
-  deploys the site.
+- **CI/CD** — every push runs sqlfluff → strict `dbt build --warn-error` (seed → run →
+  test) → builds & deploys the site.
 
 ## Project structure
 
@@ -97,7 +97,7 @@ macros/ tests/    portability macros + bespoke singular tests
 reports/          Evidence.dev site (pages + duckdb source)
 docs/             architecture, Snowflake deploy, data dictionary, dashboard screenshot
 .sqlfluff · .pre-commit-config.yaml · requirements-dev.txt   SQL linting + dev tooling
-.github/workflows/ci.yml   seed guard → sqlfluff → dbt build (strict) → Evidence → Pages
+.github/workflows/ci.yml   sqlfluff → dbt build (strict) → Evidence → Pages
 ```
 
 ## Roadmap
