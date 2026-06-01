@@ -1,0 +1,31 @@
+version: 2
+
+# The 11 raw_* CSVs are the project's "raw" layer — Salesforce + HubSpot extracts plus
+# reference crosswalks. In this demo they are dbt seeds so the repo clones and runs with
+# no warehouse account. In production they would be EL-landed (Fivetran/Airbyte) tables
+# declared as dbt SOURCES with `loaded_at_field: _synced_at` and a 12h/24h freshness SLA
+# (see docs/DEPLOY_SNOWFLAKE.md). Column-level docs live in data_generator/README.md.
+
+seeds:
+  - name: raw_sf_accounts
+    description: "Salesforce accounts (raw). Messy segment labels, employee_count."
+  - name: raw_sf_users
+    description: "Salesforce users / reps (raw). Role, segment coverage, timezone, active flag."
+  - name: raw_sf_opportunities
+    description: "Salesforce opportunities (raw, pre-dedupe). Sales stage 0-6, amount/currency, type, lineage."
+  - name: raw_sf_opportunity_stage_history
+    description: "Opportunity stage transitions (raw). Some late-arriving / missing."
+  - name: raw_sf_activities
+    description: "Logged rep activities (raw). First-touch time in rep-local wall-clock."
+  - name: raw_hs_contacts
+    description: "HubSpot contacts (raw). Lead score, lifecycle stage, messy source/segment labels."
+  - name: raw_hs_marketing_events
+    description: "HubSpot marketing events (raw). Form fills, webinars, etc. (UTC)."
+  - name: raw_hs_lead_score_history
+    description: "HubSpot lead-score change history (raw). Crossing 40 = HubSpot MQL, 50 = canonical MQL."
+  - name: raw_hs_lifecycle_history
+    description: "HubSpot lifecycle stage entries per contact (raw)."
+  - name: raw_ref_segment_map
+    description: "Crosswalk: messy raw segment label -> canonical segment."
+  - name: raw_ref_id_crosswalk
+    description: "Crosswalk: hs_contact_id <-> sf_lead_id. ~8% intentionally unmatched."

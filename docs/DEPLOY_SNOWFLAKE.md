@@ -13,9 +13,11 @@ Snowflake target (seeds work on any adapter):
 dbt seed --profiles-dir profiles --target snowflake
 ```
 
-`models/staging/_sources.yml` already declares `loaded_at_field: _synced_at` with a
-12h warn / 24h error freshness policy, so `dbt source freshness --target snowflake` works
-against real load timestamps (no anchor trick needed in production).
+In this demo the raw tables are dbt **seeds** (referenced with `ref()`), so the project
+clones and runs with no warehouse. In production, declare them as dbt **sources** with
+`loaded_at_field: _synced_at` and a 12h warn / 24h error freshness policy, and
+`dbt source freshness --target snowflake` checks real load timestamps (no anchor trick
+needed). Point the staging models at the sources instead of the seeds.
 
 ## 2. Configure credentials (never committed)
 

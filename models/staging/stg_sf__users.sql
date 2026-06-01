@@ -1,9 +1,9 @@
 with src as (
-    select * from {{ source('arcline_raw', 'raw_sf_users') }}
+    select * from {{ ref('raw_sf_users') }}
 ),
 
 segment_map as (
-    select * from {{ source('arcline_raw', 'raw_ref_segment_map') }}
+    select * from {{ ref('raw_ref_segment_map') }}
 )
 
 select

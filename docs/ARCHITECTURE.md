@@ -11,8 +11,7 @@ flowchart LR
     S[(raw_sf_* / raw_hs_* / raw_ref_*)]
   end
   subgraph dbt[dbt · DuckDB]
-    SRC[sources] --> STG[staging stg_*]
-    STG --> INT[intermediate int_*]
+    STG[staging stg_*] --> INT[intermediate int_*]
     INT --> CORE[marts/core: dim_*, fct_*]
     CORE --> FUN[marts/funnel: conversion / velocity / cohort]
     CORE --> MET[marts/metrics: fct_metric_values + dim_metric_catalog]
@@ -20,7 +19,7 @@ flowchart LR
     CORE --> MON[marts/monitoring: rpt_source_freshness]
   end
   EV[Evidence.dev site] --> PAGES[GitHub Pages]
-  G --> S --> SRC
+  G --> S --> STG
   FUN --> EV
   MET --> EV
   REC --> EV
@@ -37,7 +36,7 @@ dbt docs generate --profiles-dir profiles && dbt docs serve
 
 | Layer | Path | Materialization | Job |
 |---|---|---|---|
-| Sources | `models/staging/_sources.yml` | — | Declare the 11 raw seeds + freshness |
+| Seeds (raw) | `seeds/raw_*` (`seeds/_seeds.yml`) | table | 11 raw extracts; in production these become sources (see deploy doc) |
 | Staging | `models/staging/stg_*` | view | 1:1 clean/rename/type, dedupe, resolve labels, flag defects |
 | Intermediate | `models/intermediate/int_*` | view | Joins + business logic (crosswalk, lifecycle, spells, UTC) |
 | Marts · core | `models/marts/core/` | table | Conformed dims + canonical facts (`fct_leads/mqls/opportunities/...`) |

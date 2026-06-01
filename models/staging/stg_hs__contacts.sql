@@ -1,9 +1,9 @@
 with src as (
-    select * from {{ source('arcline_raw', 'raw_hs_contacts') }}
+    select * from {{ ref('raw_hs_contacts') }}
 ),
 
 segment_map as (
-    select * from {{ source('arcline_raw', 'raw_ref_segment_map') }}
+    select * from {{ ref('raw_ref_segment_map') }}
 ),
 
 -- Dedupe contacts merged within HubSpot: same email, different hs_contact_id.

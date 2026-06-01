@@ -1,5 +1,5 @@
 with src as (
-    select * from {{ source('arcline_raw', 'raw_sf_opportunities') }}
+    select * from {{ ref('raw_sf_opportunities') }}
 ),
 
 -- Dedupe the injected duplicates (same business key, different opp_id): keep the

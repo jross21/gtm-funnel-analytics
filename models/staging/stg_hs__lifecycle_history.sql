@@ -1,5 +1,5 @@
 with src as (
-    select * from {{ source('arcline_raw', 'raw_hs_lifecycle_history') }}
+    select * from {{ ref('raw_hs_lifecycle_history') }}
 )
 
 select

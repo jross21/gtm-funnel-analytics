@@ -1,5 +1,5 @@
 with src as (
-    select * from {{ source('arcline_raw', 'raw_sf_activities') }}
+    select * from {{ ref('raw_sf_activities') }}
 )
 
 select

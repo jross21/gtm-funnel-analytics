@@ -7,7 +7,7 @@
 
 with raw_opps as (
     -- read the RAW seed (pre-dedupe) so the duplicate records inflate this number
-    select * from {{ source('arcline_raw', 'raw_sf_opportunities') }}
+    select * from {{ ref('raw_sf_opportunities') }}
 ),
 stg_opps as (
     select * from {{ ref('stg_sf__opportunities') }}
