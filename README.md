@@ -15,11 +15,10 @@ with **zero setup** (`git clone && dbt build`) and is **Snowflake-portable**.
 
 ## What it does
 
-Arcline had four dashboards showing "pipeline created." None agreed — Sales, Marketing,
-Finance, and the data team each computed it a slightly different (wrong) way. The
+In this example, Arcline had four dashboards showing "pipeline created." Each wishowing different values. Sales, Marketing,
+Finance, and the data team each computed it a slightly different (wrong) way due to poor system integration and underlying data mismatch. The
 [KPI Dictionary](https://github.com/jross21/RevOps_Portfolio/tree/main/artifacts/08-kpi-dictionary)
-says *what* the metrics should be; this project proves *how* you build, test, and govern
-them at scale — and reproduces the divergence, then resolves it to one canonical number:
+defines what the metrics should be; this dbt project demonstrates how these values are reconciled through a transformation layer and how the system is built, tested and governed at scale. This tool surfaces the divergents metrics and then resolves them into one canonical database:
 
 | Reported by | "Pipeline Created" | vs canonical | Why it differs |
 |---|---:|---:|---|
