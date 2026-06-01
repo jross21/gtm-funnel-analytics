@@ -5,7 +5,8 @@ models:
     description: "Long-format canonical metric values; the single source for KPI numbers."
     tests:
       - dbt_utils.unique_combination_of_columns:
-          combination_of_columns: [metric_name, grain, period_start, segment]
+          arguments:
+            combination_of_columns: [metric_name, grain, period_start, segment]
     columns:
       - name: metric_name
         tests: [not_null]

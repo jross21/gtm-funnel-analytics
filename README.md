@@ -11,6 +11,8 @@ with **zero setup** (`git clone && dbt build`) and is **Snowflake-portable**.
 
 🔗 **Live dashboard:** https://jross21.github.io/gtm-funnel-analytics/ &nbsp;·&nbsp; [Which number is right?](https://jross21.github.io/gtm-funnel-analytics/which-number-is-right)
 
+[![GTM Funnel Analytics — the reconciliation showpiece](docs/assets/dashboard-hero.png)](https://jross21.github.io/gtm-funnel-analytics/which-number-is-right)
+
 ## What it does
 
 Arcline had four dashboards showing "pipeline created." None agreed — Sales, Marketing,
@@ -47,7 +49,7 @@ Regenerate the synthetic source data (deterministic, `seed=42`): `make seed-data
 ## How it works
 
 ```
-seeds/ (raw CSVs) → staging → intermediate → marts (core · funnel · metrics · reconciliation)
+seeds/ (raw CSVs) → staging → intermediate → marts (core · funnel · metrics · reconciliation · attribution)
                                                    → Evidence.dev → GitHub Pages
 ```
 
@@ -71,30 +73,37 @@ Architecture + lineage: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   bits isolated in macros ([deploy path](docs/DEPLOY_SNOWFLAKE.md)).
 - **Three funnel marts** — conversion (stage × segment), stage velocity (median/avg/p90),
   monthly cohort progression (ragged triangle, immature cohorts left blank).
+- **Multi-touch attribution** — first / last / linear-touch credit of net-new pipeline to
+  campaigns, with a credit-conservation test and its own
+  [dashboard page](https://jross21.github.io/gtm-funnel-analytics/attribution).
 - **Versioned metric catalog** with golden-value locking; MetricFlow-shaped for a v2 port.
-- **Meaningful test suite** — generic + `dbt_utils` + bespoke singular tests (canonical
-  thresholds, no-test-records, pipeline exclusions, cohort monotonicity, reconciliation
-  completeness, anchored freshness).
+- **Meaningful test suite** — generic + `dbt_utils` + bespoke singular tests + **dbt unit
+  tests** on the gnarly transforms (dedupe, net-new flag, UTC normalization, attribution).
+- **Linted & reproducible** — sqlfluff + pre-commit; pinned deps; a CI guard that the
+  committed seeds still match the generator byte-for-byte; strict warning-free `dbt build`.
 - **Code-first BI** — Evidence.dev compiles SQL + markdown to a static site on GitHub Pages.
-- **CI/CD** — every push runs `dbt build` (seed → run → test) then builds + deploys the site.
+- **CI/CD** — every push runs the seed guard → sqlfluff → `dbt build` (strict) → builds &
+  deploys the site.
 
 ## Project structure
 
 ```
 data_generator/   deterministic synthetic-data generator (seed=42)
 seeds/            11 committed raw_* CSVs
-models/           staging → intermediate → marts (core·funnel·metrics·reconciliation·monitoring)
+models/           staging → intermediate → marts (core·funnel·metrics·reconciliation·attribution·monitoring)
+                  + _unit_tests.yml (dbt unit tests) and exposures.yml (dashboard lineage)
 metrics_catalog.yml   governed metric contract (golden values)
 macros/ tests/    portability macros + bespoke singular tests
 reports/          Evidence.dev site (pages + duckdb source)
-docs/             architecture, Snowflake deploy, data dictionary
-.github/workflows/ci.yml   dbt build → Evidence build → Pages deploy
+docs/             architecture, Snowflake deploy, data dictionary, dashboard screenshot
+.sqlfluff · .pre-commit-config.yaml · requirements-dev.txt   SQL linting + dev tooling
+.github/workflows/ci.yml   seed guard → sqlfluff → dbt build (strict) → Evidence → Pages
 ```
 
 ## Roadmap
 
-- **Multi-touch attribution** mart (first / last / linear touch) — the headline next piece.
-- Migrate the metric catalog to the **dbt Semantic Layer / MetricFlow**.
+- Migrate the metric catalog to the **dbt Semantic Layer / MetricFlow** (the YAML is
+  already MetricFlow-shaped, so it's a port).
 - Incremental models + snapshots for late-arriving stage history (CDC).
 - Elementary for data observability; a live Fivetran/Snowflake sync path.
 

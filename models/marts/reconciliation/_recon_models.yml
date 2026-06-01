@@ -13,7 +13,8 @@ models:
     description: "Showpiece: each team's number vs the canonical number, with delta, reason, and fix owner."
     tests:
       - dbt_utils.unique_combination_of_columns:
-          combination_of_columns: [metric_name, variant_key]
+          arguments:
+            combination_of_columns: [metric_name, variant_key]
     columns:
       - name: canonical_value
         tests: [not_null]

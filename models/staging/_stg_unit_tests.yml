@@ -1,0 +1,16 @@
+version: 2
+
+unit_tests:
+  - name: opportunities_dedupe_keeps_first_by_business_key
+    description: "Injected duplicates (same account/opp_name/created_date) collapse to the first opp_id."
+    model: stg_sf__opportunities
+    given:
+      - input: ref('raw_sf_opportunities')
+        rows:
+          - {opp_id: 'OPP-1', account_id: 'A1', opp_name: 'Acme - New Business #1', created_date: '2026-01-01', opp_amount: 1000, currency: 'USD', opp_type: 'New Business', is_test: false}
+          - {opp_id: 'OPP-1D', account_id: 'A1', opp_name: 'Acme - New Business #1', created_date: '2026-01-01', opp_amount: 1000, currency: 'USD', opp_type: 'New Business', is_test: false}
+          - {opp_id: 'OPP-2', account_id: 'A2', opp_name: 'Beta - New Business #2', created_date: '2026-01-02', opp_amount: 2000, currency: 'USD', opp_type: 'New Business', is_test: false}
+    expect:
+      rows:
+        - {opp_id: 'OPP-1'}
+        - {opp_id: 'OPP-2'}

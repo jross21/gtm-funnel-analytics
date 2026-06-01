@@ -15,5 +15,6 @@ with ordered as (
 
 select *
 from ordered
-where prev_reached is not null
-  and reached_opportunity < prev_reached
+where
+    prev_reached is not null
+    and reached_opportunity < prev_reached

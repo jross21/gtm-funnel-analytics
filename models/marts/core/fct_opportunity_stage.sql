@@ -5,7 +5,11 @@ with spells as (
 ),
 
 opps as (
-    select opp_id, segment, opp_type from {{ ref('fct_opportunities') }}
+    select
+        opp_id,
+        segment,
+        opp_type
+    from {{ ref('fct_opportunities') }}
 )
 
 select

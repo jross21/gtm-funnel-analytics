@@ -46,4 +46,4 @@ Step conversion from the previous stage:
   <Column id=conversion_rate fmt=pct1 contentType=colorscale/>
 </DataTable>
 
-→ See [Conversion](/conversion) · [Velocity](/velocity) · [Cohorts](/cohorts) · [Which number is right?](/which-number-is-right)
+→ See [Conversion](/conversion) · [Velocity](/velocity) · [Cohorts](/cohorts) · [Attribution](/attribution) · [Which number is right?](/which-number-is-right)

@@ -1,0 +1,5 @@
+# Dev/CI-only tooling (linting, pre-commit). Runtime deps are in requirements.txt.
+-r requirements.txt
+sqlfluff==4.2.1
+sqlfluff-templater-dbt==4.2.1
+pre-commit==4.0.1

@@ -9,15 +9,19 @@ with raw_opps as (
     -- read the RAW seed (pre-dedupe) so the duplicate records inflate this number
     select * from {{ ref('raw_sf_opportunities') }}
 ),
+
 stg_opps as (
     select * from {{ ref('stg_sf__opportunities') }}
 ),
+
 enriched as (
     select * from {{ ref('int_opportunities__enriched') }}
 ),
+
 contacts as (
     select * from {{ ref('stg_hs__contacts') }}
 ),
+
 crosswalk as (
     select * from {{ ref('stg_hs__id_crosswalk') }}
 )
@@ -26,7 +30,8 @@ select
     'sales' as variant_key,
     'Sales (Salesforce report)' as variant_label,
     'Sales Ops' as source_team,
-    'Counts every created opp with no exclusions — includes renewals, partner-sourced, $0/trial, and duplicate records.' as divergence_reason,
+    'Counts every created opp with no exclusions — includes renewals, partner-sourced, $0/trial, and duplicate records.'
+        as divergence_reason,
     'Sales Ops' as fix_owner,
     round((
         select sum(opp_amount) from raw_opps
@@ -42,12 +47,13 @@ select
     'Marketing Ops',
     round((
         select sum(o.opp_amount)
-        from stg_opps o
-        inner join contacts c on o.source_hs_contact_id = c.hs_contact_id
-        where o.created_date between {{ ws }} and {{ we }}
-          and o.lead_source in ('Inbound', 'Event', 'Content', 'Paid')
-          and c.hs_lead_score >= {{ var('mql_threshold_naive_hubspot') }}
-          and not o.is_test
+        from stg_opps as o
+        inner join contacts as c on o.source_hs_contact_id = c.hs_contact_id
+        where
+            o.created_date between {{ ws }} and {{ we }}
+            and o.lead_source in ('Inbound', 'Event', 'Content', 'Paid')
+            and c.hs_lead_score >= {{ var('mql_threshold_naive_hubspot') }}
+            and not o.is_test
     ), 2)
 
 union all
@@ -71,9 +77,10 @@ select
     'Data Eng',
     round((
         select sum(o.opp_amount)
-        from enriched o
-        inner join crosswalk x on o.source_hs_contact_id = x.hs_contact_id
-        where o.is_net_new_pipeline
-          and o.created_date between {{ ws }} and {{ we }}
-          and x.sf_lead_id is not null
+        from enriched as o
+        inner join crosswalk as x on o.source_hs_contact_id = x.hs_contact_id
+        where
+            o.is_net_new_pipeline
+            and o.created_date between {{ ws }} and {{ we }}
+            and x.sf_lead_id is not null
     ), 2)

@@ -1,0 +1,29 @@
+[sqlfluff]
+dialect = duckdb
+templater = dbt
+max_line_length = 120
+# Rules that fight intentional analytics-engineering patterns:
+#  AM04/ST06/RF02-04/ST07 - CTE-then-`select *`, column-count inference through ref()
+#  AL05                    - `(values ...) as t(col)` table-alias false positive
+#  AL03                    - union-all branches inherit names from the first select
+#  LT05                    - unwrappable long string literals (divergence reasons)
+#  LT02                    - indentation around Jinja `{{ }}` template tags
+#  AL08/LT09               - residual templated-layout edge cases
+exclude_rules = AM04, ST06, RF02, RF03, RF04, ST07, AL05, AL03, LT05, LT02, AL08, LT09
+
+[sqlfluff:templater:dbt]
+profiles_dir = profiles
+project_dir = .
+
+[sqlfluff:indentation]
+tab_space_size = 4
+indent_unit = space
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = lower
+
+[sqlfluff:rules:capitalisation.functions]
+capitalisation_policy = lower
+
+[sqlfluff:rules:capitalisation.identifiers]
+capitalisation_policy = lower

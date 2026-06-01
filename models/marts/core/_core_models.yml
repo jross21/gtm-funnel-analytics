@@ -15,7 +15,8 @@ models:
       - name: segment
         tests:
           - accepted_values:
-              values: ['SMB', 'Mid-Market', 'Enterprise']
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
 
   - name: dim_users
     description: "Conformed rep dimension."
@@ -25,7 +26,8 @@ models:
       - name: role
         tests:
           - accepted_values:
-              values: ['SDR', 'AE', 'AM']
+              arguments:
+                values: ['SDR', 'AE', 'AM']
 
   - name: fct_leads
     description: "Canonical lead fact: furthest stage reached, MQL timing, speed-to-lead, SLA."
@@ -36,13 +38,15 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['SMB', 'Mid-Market', 'Enterprise']
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
       - name: lifecycle_stage
         description: "Furthest canonical stage reached."
         tests:
           - not_null
           - accepted_values:
-              values: ['New', 'MQL', 'SAL', 'SQL', 'Opportunity', 'Closed Won', 'Closed Lost']
+              arguments:
+                values: ['New', 'MQL', 'SAL', 'SQL', 'Opportunity', 'Closed Won', 'Closed Lost']
 
   - name: fct_mqls
     description: "Canonical MQL events (KPI #1), cohorted by MQL month."
@@ -53,8 +57,9 @@ models:
         tests:
           - unique
           - relationships:
-              to: ref('fct_leads')
-              field: lead_id
+              arguments:
+                to: ref('fct_leads')
+                field: lead_id
       - name: mql_at
         tests: [not_null]
 
@@ -73,26 +78,31 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['SMB', 'Mid-Market', 'Enterprise']
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
       - name: account_id
         tests:
           - relationships:
-              to: ref('dim_accounts')
-              field: account_id
+              arguments:
+                to: ref('dim_accounts')
+                field: account_id
       - name: owner_id
         tests:
           - relationships:
-              to: ref('dim_users')
-              field: user_id
+              arguments:
+                to: ref('dim_users')
+                field: user_id
 
   - name: fct_opportunity_stage
     description: "Opportunity x stage spell with duration; feeds stage velocity."
     tests:
       - dbt_utils.unique_combination_of_columns:
-          combination_of_columns: [opp_id, stage_num]
+          arguments:
+            combination_of_columns: [opp_id, stage_num]
     columns:
       - name: days_in_stage
         tests:
           - dbt_utils.accepted_range:
-              min_value: 0
-              inclusive: true
+              arguments:
+                min_value: 0
+                inclusive: true

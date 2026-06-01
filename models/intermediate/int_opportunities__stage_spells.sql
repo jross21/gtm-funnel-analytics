@@ -8,7 +8,11 @@ with history as (
 ),
 
 opp as (
-    select opp_id, close_date, is_closed from {{ ref('stg_sf__opportunities') }}
+    select
+        opp_id,
+        close_date,
+        is_closed
+    from {{ ref('stg_sf__opportunities') }}
 ),
 
 ordered as (

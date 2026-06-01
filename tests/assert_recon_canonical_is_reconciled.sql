@@ -3,10 +3,11 @@
 
 select *
 from {{ ref('rpt_metric_reconciliation') }}
-where variant_key <> 'canonical'
-  and (
+where
+    variant_key <> 'canonical'
+    and (
         abs_delta is null
-     or canonical_value is null
-     or divergence_reason is null
-     or fix_owner is null
-  )
+        or canonical_value is null
+        or divergence_reason is null
+        or fix_owner is null
+    )

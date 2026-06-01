@@ -16,6 +16,10 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# Opt the pinned actions into the Node 24 runtime (clears the Node 20 deprecation).
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,12 +31,20 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
-      - name: Install dbt
-        run: pip install -r requirements.txt
-      - name: dbt build
+      - name: Install dbt + dev tooling
+        run: pip install -r requirements-dev.txt
+      - name: dbt deps
+        run: dbt deps
+      - name: Verify seeds are reproducible
+        # The committed seeds must always match the generator output, byte-for-byte.
         run: |
-          dbt deps
-          dbt build --profiles-dir profiles --target dev
+          python -m data_generator.generate
+          git diff --exit-status seeds/
+      - name: Lint SQL (sqlfluff)
+        run: sqlfluff lint models/ tests/
+      - name: dbt build (strict)
+        # --warn-error promotes any dbt warning (incl. deprecations) to a build failure.
+        run: dbt build --profiles-dir profiles --target dev --warn-error
 
       # --- Evidence: build the static site against the DuckDB file dbt just produced ---
       - uses: actions/setup-node@v4

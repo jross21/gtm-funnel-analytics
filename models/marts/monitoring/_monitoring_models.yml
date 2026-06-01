@@ -9,4 +9,5 @@ models:
       - name: freshness_status
         tests:
           - accepted_values:
-              values: ['Fresh', 'Warn', 'Stale']
+              arguments:
+                values: ['Fresh', 'Warn', 'Stale']

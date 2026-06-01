@@ -11,7 +11,8 @@ models:
     description: "Canonical lifecycle stage entries per lead (MQL from score >= 50)."
     tests:
       - dbt_utils.unique_combination_of_columns:
-          combination_of_columns: [hs_contact_id, lifecycle_stage]
+          arguments:
+            combination_of_columns: [hs_contact_id, lifecycle_stage]
 
   - name: int_opportunities__enriched
     description: "Opportunity grain + segment/owner + canonical net-new pipeline flag."
@@ -25,8 +26,9 @@ models:
       - name: days_in_stage
         tests:
           - dbt_utils.accepted_range:
-              min_value: 0
-              inclusive: true
+              arguments:
+                min_value: 0
+                inclusive: true
 
   - name: int_activities__first_touch
     description: "First rep touch per lead, normalized to UTC."

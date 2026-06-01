@@ -6,10 +6,11 @@ select
     v.metric_name,
     c.expected_window_value,
     v.value
-from {{ ref('fct_metric_values') }} v
-inner join {{ ref('dim_metric_catalog') }} c
+from {{ ref('fct_metric_values') }} as v
+inner join {{ ref('dim_metric_catalog') }} as c
     on v.metric_name = c.metric_name
-where v.grain = 'window'
-  and v.segment = 'All'
-  and c.expected_window_value is not null
-  and {{ assert_metric_equals('v.value', 'c.expected_window_value') }}
+where
+    v.grain = 'window'
+    and v.segment = 'All'
+    and c.expected_window_value is not null
+    and {{ assert_metric_equals('v.value', 'c.expected_window_value') }}

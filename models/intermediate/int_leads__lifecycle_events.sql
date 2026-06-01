@@ -23,13 +23,19 @@ canonical_mql as (
 ),
 
 events as (
-    select hs_contact_id, lifecycle_stage, entered_at
+    select
+        hs_contact_id,
+        lifecycle_stage,
+        entered_at
     from lifecycle
     where lifecycle_stage in ('New', 'SAL', 'SQL', 'Opportunity')
 
     union all
 
-    select hs_contact_id, 'MQL' as lifecycle_stage, entered_at
+    select
+        hs_contact_id,
+        'MQL' as lifecycle_stage,
+        entered_at
     from canonical_mql
 )
 

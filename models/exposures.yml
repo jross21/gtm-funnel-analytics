@@ -1,0 +1,78 @@
+version: 2
+
+# Exposures complete the lineage: raw -> staging -> marts -> these Evidence pages.
+# `dbt docs generate` then shows which models power each dashboard page (and a change to
+# a model flags the pages it affects).
+
+exposures:
+  - name: dashboard_overview
+    label: "Dashboard — Overview"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/
+    description: "Hero funnel + canonical headline KPIs."
+    depends_on: [ref('fct_funnel_conversion'), ref('fct_metric_values')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}
+
+  - name: dashboard_which_number_is_right
+    label: "Dashboard — Which number is right?"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/which-number-is-right
+    description: "The reconciliation showpiece: each team's number vs the canonical one."
+    depends_on: [ref('rpt_metric_reconciliation')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}
+
+  - name: dashboard_conversion
+    label: "Dashboard — Conversion"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/conversion
+    description: "Funnel conversion by stage and segment."
+    depends_on: [ref('fct_funnel_conversion')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}
+
+  - name: dashboard_velocity
+    label: "Dashboard — Velocity"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/velocity
+    description: "Time-in-stage by segment."
+    depends_on: [ref('fct_stage_velocity')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}
+
+  - name: dashboard_cohorts
+    label: "Dashboard — Cohorts"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/cohorts
+    description: "Monthly MQL cohort progression."
+    depends_on: [ref('fct_cohort_progression')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}
+
+  - name: dashboard_attribution
+    label: "Dashboard — Attribution"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/attribution
+    description: "Multi-touch attribution of net-new pipeline to campaigns."
+    depends_on: [ref('rpt_attribution_by_campaign')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}
+
+  - name: dashboard_metric_catalog
+    label: "Dashboard — Metric Catalog"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/metric-catalog
+    description: "The governed KPI definitions and their golden values."
+    depends_on: [ref('dim_metric_catalog')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}
+
+  - name: dashboard_data_quality
+    label: "Dashboard — Data Quality"
+    type: dashboard
+    maturity: high
+    url: https://jross21.github.io/gtm-funnel-analytics/data-quality
+    description: "Source freshness and the deliberate-defect ledger."
+    depends_on: [ref('rpt_source_freshness')]
+    owner: {name: "Julian Ross", email: jross21@gmail.com}

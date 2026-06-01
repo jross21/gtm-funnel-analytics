@@ -1,0 +1,8 @@
+# sqlfluff 4.x's duckdb dialect can't parse `group by grouping sets (...)` (PRS error).
+# These models use grouping sets for segment rollups; they're hand-formatted to the same
+# style and excluded from linting until the dialect supports the syntax.
+models/marts/funnel/fct_funnel_conversion.sql
+models/marts/funnel/fct_stage_velocity.sql
+models/marts/funnel/fct_cohort_progression.sql
+models/marts/metrics/fct_metric_values.sql
+models/marts/attribution/rpt_attribution_by_campaign.sql

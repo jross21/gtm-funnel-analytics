@@ -37,5 +37,6 @@ select
     end as sales_cycle_days,
     source_hs_contact_id
 from enriched
-where not is_test
-  and opp_amount is not null
+where
+    not is_test
+    and opp_amount is not null

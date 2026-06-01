@@ -1,0 +1,54 @@
+version: 2
+
+unit_tests:
+  - name: first_touch_picks_earliest_in_utc
+    description: "to_utc() normalizes rep-local time and first-touch keeps the earliest UTC instant."
+    model: int_activities__first_touch
+    given:
+      - input: ref('stg_sf__activities')
+        rows:
+          - {activity_id: 'A1', lead_id: 'L1', owner_id: 'U1', activity_at_local: '2026-01-01 09:00:00'}
+          - {activity_id: 'A2', lead_id: 'L1', owner_id: 'U1', activity_at_local: '2026-01-01 08:00:00'}
+      - input: ref('stg_sf__users')
+        rows:
+          - {user_id: 'U1', timezone: 'America/New_York'}
+    expect:
+      rows:
+        # 08:00 EST (UTC-5 in January) is the earlier instant -> 13:00 UTC
+        - {lead_id: 'L1', owner_id: 'U1', first_activity_at_utc: '2026-01-01 13:00:00'}
+
+  - name: net_new_pipeline_flag_excludes_renewals
+    description: "is_net_new_pipeline encodes the KPI #5 exclusions (renewals out, clean New Business in)."
+    model: int_opportunities__enriched
+    given:
+      - input: ref('stg_sf__opportunities')
+        rows:
+          - {opp_id: 'O1', account_id: 'ACC-1', owner_id: 'U1', opp_type: 'New Business', is_partner_sourced: false, opp_amount: 5000, currency: 'USD', is_test: false, opp_stage_num: 2, created_date: '2026-01-15', close_date: null}
+          - {opp_id: 'O2', account_id: 'ACC-1', owner_id: 'U1', opp_type: 'Renewal', is_partner_sourced: false, opp_amount: 5000, currency: 'USD', is_test: false, opp_stage_num: 2, created_date: '2026-01-15', close_date: null}
+      - input: ref('stg_sf__accounts')
+        rows:
+          - {account_id: 'ACC-1', segment: 'SMB'}
+      - input: ref('stg_sf__users')
+        rows:
+          - {user_id: 'U1', role: 'AE', is_active: true}
+    expect:
+      rows:
+        - {opp_id: 'O1', is_net_new_pipeline: true}
+        - {opp_id: 'O2', is_net_new_pipeline: false}
+
+  - name: attribution_touches_filter_and_rank
+    description: "Only touches before the opp's created_date count, ranked in time."
+    model: int_attribution__opp_touches
+    given:
+      - input: ref('fct_opportunities')
+        rows:
+          - {opp_id: 'O1', source_hs_contact_id: 'C1', segment: 'SMB', opp_amount: 1000, created_date: '2026-02-01', is_net_new_pipeline: true}
+      - input: ref('stg_hs__marketing_events')
+        rows:
+          - {event_id: 'E1', hs_contact_id: 'C1', campaign: 'CampA', event_at_utc: '2026-01-01 00:00:00'}
+          - {event_id: 'E2', hs_contact_id: 'C1', campaign: 'CampB', event_at_utc: '2026-01-15 00:00:00'}
+          - {event_id: 'E3', hs_contact_id: 'C1', campaign: 'CampC', event_at_utc: '2026-03-01 00:00:00'}
+    expect:
+      rows:
+        - {opp_id: 'O1', segment: 'SMB', opp_amount: 1000, event_id: 'E1', campaign: 'CampA', event_at_utc: '2026-01-01 00:00:00', touch_rank: 1, touch_count: 2}
+        - {opp_id: 'O1', segment: 'SMB', opp_amount: 1000, event_id: 'E2', campaign: 'CampB', event_at_utc: '2026-01-15 00:00:00', touch_rank: 2, touch_count: 2}

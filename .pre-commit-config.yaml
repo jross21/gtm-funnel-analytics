@@ -1,0 +1,24 @@
+# Run locally with:  pre-commit install   (then hooks run on every commit)
+# or one-off:        pre-commit run --all-files
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^seeds/
+      - id: end-of-file-fixer
+        exclude: ^seeds/
+      - id: check-yaml
+      - id: check-merge-conflict
+
+  # sqlfluff with the dbt templater needs the project's venv (dbt + adapter + deps),
+  # so run the installed sqlfluff via a local hook rather than an isolated env.
+  - repo: local
+    hooks:
+      - id: sqlfluff-lint
+        name: sqlfluff lint (dbt/duckdb)
+        entry: sqlfluff lint
+        language: system
+        files: \.sql$
+        pass_filenames: false
+        args: [models/, tests/]

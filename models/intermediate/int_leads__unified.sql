@@ -24,6 +24,6 @@ select
     c.country,
     c.created_at,
     c.is_internal
-from contacts c
+from contacts as c
 left join crosswalk
     on c.hs_contact_id = crosswalk.hs_contact_id

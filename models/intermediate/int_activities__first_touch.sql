@@ -7,7 +7,10 @@ with activities as (
 ),
 
 users as (
-    select user_id, timezone from {{ ref('stg_sf__users') }}
+    select
+        user_id,
+        timezone
+    from {{ ref('stg_sf__users') }}
 ),
 
 normalized as (
