@@ -1,0 +1,31 @@
+# Checked-in profile. Two targets:
+#   dev       -> DuckDB, zero-config, the default (clone-and-run + CI)
+#   snowflake -> the portable production path; all secrets via env vars, never committed
+#
+# Run with:  dbt build --profiles-dir profiles --target dev
+arcline:
+  target: dev
+  outputs:
+
+    dev:
+      type: duckdb
+      # Path is relative to the directory dbt runs from (the project root), so the
+      # DuckDB file and the Evidence datasource point at the same arcline.duckdb.
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'arcline.duckdb') }}"
+      schema: main
+      threads: 4
+      extensions:
+        - icu          # timezone support for AT TIME ZONE (to_utc macro)
+
+    snowflake:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      # Prefer key-pair or SSO in production; password kept optional for trial accounts.
+      password: "{{ env_var('SNOWFLAKE_PASSWORD', '') }}"
+      authenticator: "{{ env_var('SNOWFLAKE_AUTHENTICATOR', 'snowflake') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'TRANSFORMER') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'ARCLINE') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'TRANSFORMING') }}"
+      schema: "{{ env_var('SNOWFLAKE_SCHEMA', 'ANALYTICS') }}"
+      threads: 8

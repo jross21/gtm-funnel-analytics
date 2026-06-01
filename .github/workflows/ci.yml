@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Allow the deploy job to publish to GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- dbt: seed + run + test -> arcline.duckdb (fails CI on any test failure) ---
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dbt
+        run: pip install -r requirements.txt
+      - name: dbt build
+        run: |
+          dbt deps
+          dbt build --profiles-dir profiles --target dev
+
+      # --- Evidence: build the static site against the DuckDB file dbt just produced ---
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: reports/package-lock.json
+      - name: Configure Evidence base path for GitHub Pages
+        # Project Pages serve under /<repo>/, so inject the base path for this build only.
+        env:
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: |
+          printf '\ndeployment:\n  basePath: /%s\n' "$REPO_NAME" >> reports/evidence.config.yaml
+      - name: Build Evidence site
+        working-directory: reports
+        run: |
+          npm ci
+          npm run sources
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: reports/build
+
+  deploy:
+    # Publish only from main; PRs run the build job for validation only.
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: int_leads__unified
+    description: "One row per lead; sf_lead_id joined via the crosswalk (LEFT), unmatched flagged."
+    columns:
+      - name: lead_id
+        tests: [unique, not_null]
+
+  - name: int_leads__lifecycle_events
+    description: "Canonical lifecycle stage entries per lead (MQL from score >= 50)."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [hs_contact_id, lifecycle_stage]
+
+  - name: int_opportunities__enriched
+    description: "Opportunity grain + segment/owner + canonical net-new pipeline flag."
+    columns:
+      - name: opp_id
+        tests: [unique, not_null]
+
+  - name: int_opportunities__stage_spells
+    description: "Time-in-stage spells (active selling stages 1-4)."
+    columns:
+      - name: days_in_stage
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+
+  - name: int_activities__first_touch
+    description: "First rep touch per lead, normalized to UTC."
+    columns:
+      - name: lead_id
+        tests: [unique, not_null]

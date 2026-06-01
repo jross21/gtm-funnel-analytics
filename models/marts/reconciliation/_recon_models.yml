@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: int_pipeline__naive_variants
+    description: "The four naive Pipeline Created numbers, each computed a team's wrong way."
+    columns:
+      - name: variant_key
+        tests: [unique, not_null]
+      - name: variant_value
+        tests: [not_null]
+
+  - name: rpt_metric_reconciliation
+    description: "Showpiece: each team's number vs the canonical number, with delta, reason, and fix owner."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [metric_name, variant_key]
+    columns:
+      - name: canonical_value
+        tests: [not_null]
+      - name: variant_value
+        tests: [not_null]
+      - name: divergence_reason
+        tests: [not_null]

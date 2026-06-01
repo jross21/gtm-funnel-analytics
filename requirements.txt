@@ -1,0 +1,11 @@
+# dbt + DuckDB warehouse (clone-and-run, no cloud account needed).
+# dbt-duckdb pulls a compatible dbt-core and duckdb. The duckdb pin is kept in
+# lockstep with the Evidence node duckdb version so the .duckdb file format matches
+# (see reports/package.json).
+dbt-core>=1.9,<2.0
+dbt-duckdb>=1.9,<2.0
+duckdb>=1.1,<2.0
+
+# Synthetic source-data generator only (not needed to build the committed seeds).
+pandas>=2.0,<3.0
+Faker>=24,<40

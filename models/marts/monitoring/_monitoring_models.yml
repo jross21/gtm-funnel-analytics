@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: rpt_source_freshness
+    description: "Per-source recency vs SLA, anchored to the build date. Feeds the data-quality page."
+    columns:
+      - name: source_name
+        tests: [unique, not_null]
+      - name: freshness_status
+        tests:
+          - accepted_values:
+              values: ['Fresh', 'Warn', 'Stale']

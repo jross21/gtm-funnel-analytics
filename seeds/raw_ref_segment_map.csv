@@ -1,0 +1,13 @@
+segment_raw,segment_canonical
+ENT,Enterprise
+Enterprise,Enterprise
+MM,Mid-Market
+Mid Market,Mid-Market
+Mid-Market,Mid-Market
+MidMarket,Mid-Market
+SMB,SMB
+Small Business,SMB
+SmallBiz,SMB
+Strategic,Enterprise
+enterprise,Enterprise
+smb,SMB

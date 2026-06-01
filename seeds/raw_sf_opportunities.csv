@@ -1,0 +1,630 @@
+opp_id,account_id,owner_id,opp_name,opp_stage,opp_stage_num,opp_amount,currency,opp_type,lead_source,is_partner_sourced,created_date,close_date,is_won,is_closed,is_test,source_hs_contact_id,source_sf_lead_id,_synced_at
+OPP-00001,ACC-00927,USR-0032,Baker-Wilson - New Business #00001,Proposal,3,11361.42,USD,New Business,Inbound,false,2026-02-24,,false,false,false,HS-000011,LEAD-000011,2026-04-01 05:30:00
+OPP-00002,ACC-00182,,Sheppard LLC - New Business #00002,Negotiation,4,4170.90,USD,New Business,Partner,true,2026-03-16,,false,false,false,HS-000013,LEAD-000013,2026-04-01 05:30:00
+OPP-00003,ACC-00566,USR-0028,Stewart-Bailey - New Business #00003,Negotiation,4,6638.75,USD,New Business,Referral,false,2026-03-18,,false,false,false,HS-000034,LEAD-000034,2026-04-01 05:30:00
+OPP-00004,ACC-00264,USR-0024,"Evans, Hayden and Vaughn - New Business #00004",Closed Lost,6,,USD,New Business,Referral,false,2025-10-29,2025-11-21,false,true,false,HS-000046,LEAD-000046,2026-04-01 05:30:00
+OPP-00005,ACC-00392,USR-0033,Hayes LLC - New Business #00005,Closed Won,5,27496.38,USD,New Business,Partner,true,2026-01-31,2026-03-12,true,true,false,HS-000047,LEAD-000047,2026-04-01 05:30:00
+OPP-00006,ACC-00374,USR-0028,Dixon Inc - New Business #00006,Proposal,3,6537.72,USD,New Business,Inbound,false,2026-03-17,,false,false,false,HS-000049,LEAD-000049,2026-04-01 05:30:00
+OPP-00007,ACC-00970,USR-0028,Davis and Sons - New Business #00007,Closed Lost,6,3771.60,USD,New Business,Event,false,2025-12-10,2025-12-28,false,true,false,HS-000052,LEAD-000052,2026-04-01 05:30:00
+OPP-00008,ACC-00435,USR-0027,Gilbert-Bullock - New Business #00008,Closed Lost,6,3223.80,USD,New Business,Inbound,false,2025-11-19,2026-01-14,false,true,false,HS-000059,LEAD-000059,2026-04-01 05:30:00
+OPP-00009,ACC-00179,,Terry-Martinez - New Business #00009,Closed Lost,6,76869.06,USD,New Business,Inbound,false,2025-11-19,2026-02-19,false,true,false,HS-000064,LEAD-000064,2026-04-01 05:30:00
+OPP-00010,ACC-00542,USR-0029,Martin-Ewing - New Business #00010,Closed Lost,6,4967.33,USD,New Business,Referral,false,2025-09-17,2025-10-09,false,true,false,HS-000076,LEAD-000076,2026-04-01 05:30:00
+OPP-00011,ACC-00750,USR-0033,"Porter, Schultz and Allen - New Business #00011",Closed Lost,6,48951.23,USD,New Business,Event,false,2025-09-29,2025-12-21,false,true,false,HS-000085,LEAD-000085,2026-04-01 05:30:00
+OPP-00012,ACC-00786,USR-0029,"Mccarthy, Evans and Mendez - New Business #00012",Closed Lost,6,6932.91,USD,New Business,Outbound,false,2025-12-24,2026-01-26,false,true,false,HS-000099,LEAD-000099,2026-04-01 05:30:00
+OPP-00013,ACC-00439,USR-0035,Barnes PLC - New Business #00013,Discovery,1,85704.34,USD,New Business,Partner,true,2026-03-15,,false,false,false,HS-000109,LEAD-000109,2026-04-01 05:30:00
+OPP-00014,ACC-01138,USR-0024,"Davis, Rodriguez and Andrews - New Business #00014",Closed Won,5,5473.50,USD,New Business,Event,false,2025-11-30,2025-12-20,true,true,false,HS-000114,LEAD-000114,2026-04-01 05:30:00
+OPP-00015,ACC-00718,USR-0029,Miller-Montgomery - New Business #00015,Closed Lost,6,2809.29,USD,New Business,Inbound,false,2025-12-24,2026-01-09,false,true,false,HS-000118,LEAD-000118,2026-04-01 05:30:00
+OPP-00015D,ACC-00718,USR-0029,Miller-Montgomery - New Business #00015,Closed Lost,6,2809.29,USD,New Business,Inbound,false,2025-12-24,2026-01-09,false,true,false,HS-000118,LEAD-000118,2026-04-01 05:30:00
+OPP-00016,ACC-00520,USR-0029,"Rodriguez, Allen and Martinez - New Business #00016",Proposal,3,0.00,USD,New Business,Paid,false,2026-03-12,,false,false,false,HS-000152,LEAD-000152,2026-04-01 05:30:00
+OPP-00017,ACC-00679,USR-0026,"Bernard, Warren and Combs - New Business #00017",Closed Lost,6,11904.89,USD,New Business,Outbound,false,2025-09-17,2025-09-30,false,true,false,HS-000157,LEAD-000157,2026-04-01 05:30:00
+OPP-00018,ACC-00819,USR-0023,"Martinez, Cline and Wright - New Business #00018",Closed Lost,6,10294.50,USD,New Business,Content,false,2025-12-06,2025-12-19,false,true,false,HS-000174,LEAD-000174,2026-04-01 05:30:00
+OPP-00019,ACC-01132,USR-0034,Campbell Inc - New Business #00019,Closed Lost,6,24323.68,USD,New Business,Inbound,false,2025-12-18,2026-03-21,false,true,false,HS-000180,LEAD-000180,2026-04-01 05:30:00
+OPP-00019D,ACC-01132,USR-0034,Campbell Inc - New Business #00019,Closed Lost,6,24323.68,USD,New Business,Inbound,false,2025-12-18,2026-03-21,false,true,false,HS-000180,LEAD-000180,2026-04-01 05:30:00
+OPP-00020,ACC-00867,USR-0023,"Wheeler, Rice and Levine - New Business #00020",Proposal,3,12308.12,USD,New Business,Outbound,false,2026-03-09,,false,false,false,HS-000185,LEAD-000185,2026-04-01 05:30:00
+OPP-00021,ACC-01198,USR-0034,Waller-Chavez - New Business #00021,Closed Lost,6,29611.24,USD,New Business,Outbound,false,2025-11-07,2025-11-24,false,true,false,HS-000190,LEAD-000190,2026-04-01 05:30:00
+OPP-00022,ACC-00405,USR-0024,"Osborn, Gaines and Davis - New Business #00022",Closed Lost,6,3396.99,USD,New Business,Outbound,false,2026-01-03,2026-02-13,false,true,false,HS-000207,LEAD-000207,2026-04-01 05:30:00
+OPP-00023,ACC-00260,USR-0028,"Thomas, Murray and King - New Business #00023",Closed Lost,6,7286.29,USD,New Business,Event,false,2025-12-10,2026-01-06,false,true,false,HS-000209,LEAD-000209,2026-04-01 05:30:00
+OPP-00024,ACC-00917,USR-0024,"Miller, Davis and Anderson - New Business #00024",Closed Lost,6,4401.43,USD,New Business,Outbound,false,2025-10-28,2025-12-17,false,true,false,HS-000212,LEAD-000212,2026-04-01 05:30:00
+OPP-00025,ACC-00771,USR-0025,"Wilson, Sweeney and Wong - New Business #00025",Closed Lost,6,3483.14,USD,New Business,Inbound,false,2025-11-09,2025-11-23,false,true,false,HS-000218,LEAD-000218,2026-04-01 05:30:00
+OPP-00026,ACC-01175,USR-0029,Petersen PLC - New Business #00026,Closed Lost,6,13857.47,USD,New Business,Outbound,false,2025-10-27,2025-11-15,false,true,false,HS-000231,LEAD-000231,2026-04-01 05:30:00
+OPP-00027,ACC-01108,USR-0028,Powell-Sanford - New Business #00027,Closed Lost,6,8350.16,USD,New Business,Outbound,false,2025-10-03,2025-10-11,false,true,false,HS-000244,LEAD-000244,2026-04-01 05:30:00
+OPP-00028,ACC-00853,USR-0026,Bishop and Sons - New Business #00028,Closed Lost,6,,USD,New Business,Outbound,false,2025-09-24,2025-10-14,false,true,false,HS-000292,LEAD-000292,2026-04-01 05:30:00
+OPP-00029,ACC-00315,USR-0024,Strickland-Palmer - New Business #00029,Closed Lost,6,2450.23,USD,New Business,Content,false,2025-12-13,2026-01-15,false,true,false,HS-000293,LEAD-000293,2026-04-01 05:30:00
+OPP-00030,ACC-00624,USR-0024,Mitchell and Sons - New Business #00030,Closed Lost,6,6871.24,USD,New Business,Partner,true,2025-11-15,2025-11-23,false,true,false,HS-000319,LEAD-000319,2026-04-01 05:30:00
+OPP-00031,ACC-01115,USR-0025,Bryant-Meyer - New Business #00031,Demo,2,18109.74,USD,New Business,Inbound,false,2026-03-16,,false,false,false,HS-000329,LEAD-000329,2026-04-01 05:30:00
+OPP-00031D,ACC-01115,USR-0025,Bryant-Meyer - New Business #00031,Demo,2,18109.74,USD,New Business,Inbound,false,2026-03-16,,false,false,false,HS-000329,LEAD-000329,2026-04-01 05:30:00
+OPP-00032,ACC-00457,USR-0026,Robertson-Hays - New Business #00032,Closed Lost,6,4175.75,USD,New Business,Inbound,false,2025-12-06,2025-12-25,false,true,false,HS-000339,LEAD-000339,2026-04-01 05:30:00
+OPP-00033,ACC-00917,USR-0024,"Miller, Davis and Anderson - New Business #00033",Closed Lost,6,3966.93,USD,New Business,Inbound,false,2026-01-30,2026-02-21,false,true,false,HS-000394,LEAD-000394,2026-04-01 05:30:00
+OPP-00034,ACC-01099,USR-0025,Taylor and Sons - New Business #00034,Closed Won,5,2943.90,USD,New Business,Inbound,false,2026-01-30,2026-03-13,true,true,false,HS-000416,LEAD-000416,2026-04-01 05:30:00
+OPP-00035,ACC-00216,USR-0026,Cordova Group - New Business #00035,Closed Won,5,5936.52,USD,New Business,Inbound,false,2025-12-22,2026-02-03,true,true,false,HS-000433,LEAD-000433,2026-04-01 05:30:00
+OPP-00036,ACC-00969,USR-0026,Weaver-Thompson - New Business #00036,Closed Won,5,11494.97,USD,New Business,Partner,true,2025-10-04,2025-10-16,true,true,false,HS-000436,LEAD-000436,2026-04-01 05:30:00
+OPP-00037,ACC-00881,USR-0024,Wilson-Salazar - New Business #00037,Closed Won,5,5828.37,USD,New Business,Inbound,false,2025-12-04,2025-12-16,true,true,false,HS-000440,LEAD-000440,2026-04-01 05:30:00
+OPP-00038,ACC-00812,USR-0029,Martin-Taylor - New Business #00038,Closed Lost,6,3337.77,CAD,New Business,Inbound,false,2025-11-29,2025-12-19,false,true,false,HS-000442,LEAD-000442,2026-04-01 05:30:00
+OPP-00039,ACC-01131,USR-0027,Hunt PLC - New Business #00039,Closed Lost,6,8484.94,USD,New Business,Content,false,2025-10-20,2025-11-15,false,true,false,HS-000451,LEAD-000451,2026-04-01 05:30:00
+OPP-00040,ACC-00229,,Baird-Sanchez - New Business #00040,Closed Lost,6,4716.07,USD,New Business,Inbound,false,2026-01-17,2026-03-13,false,true,false,HS-000456,LEAD-000456,2026-04-01 05:30:00
+OPP-00041,ACC-00248,USR-0029,"Miller, Murphy and Craig - New Business #00041",Closed Won,5,2645.01,USD,New Business,Inbound,false,2025-11-15,2025-12-26,true,true,false,HS-000462,LEAD-000462,2026-04-01 05:30:00
+OPP-00042,ACC-00947,USR-0029,Ramirez-Stephenson - New Business #00042,Closed Won,5,4734.62,USD,New Business,Inbound,false,2025-11-21,2025-12-02,true,true,false,HS-000478,LEAD-000478,2026-04-01 05:30:00
+OPP-00043,ACC-00049,USR-0026,Moore-Bass - New Business #00043,Closed Lost,6,3378.41,USD,New Business,Outbound,false,2025-10-26,2025-11-21,false,true,false,HS-000483,LEAD-000483,2026-04-01 05:30:00
+OPP-00044,ACC-00653,USR-0031,Faulkner-Grant - New Business #00044,Closed Lost,6,2775.70,USD,New Business,Event,false,2025-09-26,2025-10-27,false,true,false,HS-000496,LEAD-000496,2026-04-01 05:30:00
+OPP-00045,ACC-00613,USR-0023,"Leach, Harris and Herrera - New Business #00045",Closed Lost,6,4042.51,USD,New Business,Inbound,false,2025-10-26,2025-12-06,false,true,false,HS-000504,LEAD-000504,2026-04-01 05:30:00
+OPP-00046,ACC-00150,USR-0034,Reed Group - New Business #00046,Closed Won,5,43394.10,USD,New Business,Inbound,false,2025-12-29,2026-03-06,true,true,false,HS-000514,LEAD-000514,2026-04-01 05:30:00
+OPP-00047,ACC-00493,USR-0033,Mcdonald-Bird - New Business #00047,Closed Lost,6,24294.51,USD,New Business,Paid,false,2025-09-21,2025-11-12,false,true,false,HS-000533,LEAD-000533,2026-04-01 05:30:00
+OPP-00048,ACC-00241,USR-0025,Hughes-Alvarado - New Business #00048,Closed Won,5,4055.00,USD,New Business,Content,false,2025-10-28,2025-11-14,true,true,false,HS-000548,LEAD-000548,2026-04-01 05:30:00
+OPP-00049,ACC-00650,USR-0035,White-Medina - New Business #00049,Proposal,3,62753.38,USD,New Business,Outbound,false,2026-01-28,,false,false,false,HS-000550,LEAD-000550,2026-04-01 05:30:00
+OPP-00050,ACC-00124,USR-0026,Castaneda-Ashley - New Business #00050,Demo,2,5735.47,USD,New Business,Inbound,false,2026-03-01,,false,false,false,HS-000552,LEAD-000552,2026-04-01 05:30:00
+OPP-00051,ACC-00791,USR-0024,Lopez-Reid - New Business #00051,Closed Won,5,4329.45,USD,New Business,Outbound,false,2026-02-08,2026-02-23,true,true,false,HS-000558,LEAD-000558,2026-04-01 05:30:00
+OPP-00052,ACC-00638,USR-0023,Wheeler Group - New Business #00052,Closed Lost,6,5515.78,USD,New Business,Inbound,false,2026-01-11,2026-01-19,false,true,false,HS-000572,LEAD-000572,2026-04-01 05:30:00
+OPP-00053,ACC-01090,USR-0032,Hardy-Hansen - New Business #00053,Proposal,3,19085.71,USD,New Business,Event,false,2026-01-13,,false,false,false,HS-000589,LEAD-000589,2026-04-01 05:30:00
+OPP-00054,ACC-00833,USR-0035,Williams Ltd - New Business #00054,Discovery,1,137126.52,USD,New Business,Outbound,false,2026-03-30,,false,false,false,HS-000595,LEAD-000595,2026-04-01 05:30:00
+OPP-00055,ACC-00884,USR-0028,"Smith, Crawford and Reed - New Business #00055",Closed Lost,6,1606.83,USD,New Business,Content,false,2025-10-05,2025-12-15,false,true,false,HS-000618,LEAD-000618,2026-04-01 05:30:00
+OPP-00056,ACC-01180,USR-0036,Moran-Cox - New Business #00056,Closed Lost,6,60489.33,USD,New Business,Outbound,false,2026-01-06,2026-02-21,false,true,false,HS-000619,LEAD-000619,2026-04-01 05:30:00
+OPP-00057,ACC-00966,USR-0036,Drake-Wolfe - New Business #00057,Discovery,1,40651.25,USD,New Business,Content,false,2026-03-30,,false,false,false,HS-000626,LEAD-000626,2026-04-01 05:30:00
+OPP-00058,ACC-00216,USR-0029,Cordova Group - New Business #00058,Closed Lost,6,6354.56,USD,New Business,Event,false,2025-11-20,2025-12-02,false,true,false,HS-000648,LEAD-000648,2026-04-01 05:30:00
+OPP-00059,ACC-00443,USR-0034,Mendez and Sons - New Business #00059,Closed Lost,6,8586.57,USD,New Business,Content,false,2025-11-16,2026-01-28,false,true,false,HS-000695,LEAD-000695,2026-04-01 05:30:00
+OPP-00060,ACC-01104,USR-0025,"Brown, Hayes and Clark - New Business #00060",Closed Lost,6,4268.12,USD,New Business,Inbound,false,2025-09-12,2025-10-13,false,true,false,HS-000731,LEAD-000731,2026-04-01 05:30:00
+OPP-00061,ACC-01077,USR-0031,"Lynch, Evans and Rodriguez - New Business #00061",Closed Won,5,4349.74,USD,New Business,Inbound,false,2025-11-14,2025-12-09,true,true,false,HS-000746,LEAD-000746,2026-04-01 05:30:00
+OPP-00062,ACC-00247,USR-0025,Morgan-Schwartz - New Business #00062,Closed Lost,6,5760.66,USD,New Business,Inbound,false,2025-11-04,2025-12-16,false,true,false,HS-000752,LEAD-000752,2026-04-01 05:30:00
+OPP-00063,ACC-00519,USR-0029,Anderson-Wood - New Business #00063,Negotiation,4,10143.55,USD,New Business,Outbound,false,2026-03-02,,false,false,false,HS-000830,LEAD-000830,2026-04-01 05:30:00
+OPP-00064,ACC-00732,USR-0029,Thomas-Jackson - New Business #00064,Closed Lost,6,1413.29,USD,New Business,Content,false,2025-10-29,2026-02-27,false,true,false,HS-000832,LEAD-000832,2026-04-01 05:30:00
+OPP-00065,ACC-00982,USR-0032,"Phillips, Thompson and Smith - New Business #00065",Closed Lost,6,42962.40,USD,New Business,Paid,false,2025-11-11,2026-01-01,false,true,false,HS-000835,LEAD-000835,2026-04-01 05:30:00
+OPP-00066,ACC-00630,USR-0029,"Long, Anderson and Irwin - New Business #00066",Closed Lost,6,5172.73,USD,New Business,Outbound,false,2026-02-02,2026-03-02,false,true,false,HS-000841,LEAD-000841,2026-04-01 05:30:00
+OPP-00067,ACC-01124,USR-0023,"Vang, Stanley and Valdez - New Business #00067",Closed Lost,6,3779.99,USD,New Business,Inbound,false,2026-01-23,2026-03-11,false,true,false,HS-000868,LEAD-000868,2026-04-01 05:30:00
+OPP-00068,ACC-00070,USR-0031,Patton-Jenkins - New Business #00068,Closed Lost,6,3627.28,USD,New Business,Event,false,2026-01-25,2026-02-17,false,true,false,HS-000870,LEAD-000870,2026-04-01 05:30:00
+OPP-00069,ACC-00318,USR-0023,"Turner, Schneider and Johnson - New Business #00069",Closed Won,5,,USD,New Business,Event,false,2026-01-12,2026-02-18,true,true,false,HS-000885,LEAD-000885,2026-04-01 05:30:00
+OPP-00070,ACC-00057,USR-0034,Davis Group - New Business #00070,Closed Won,5,9138.66,USD,New Business,Event,false,2025-12-28,2026-02-10,true,true,false,HS-000910,LEAD-000910,2026-04-01 05:30:00
+OPP-00071,ACC-00566,USR-0023,Stewart-Bailey - New Business #00071,Closed Won,5,1783.45,USD,New Business,Inbound,false,2026-02-17,2026-03-08,true,true,false,HS-000917,LEAD-000917,2026-04-01 05:30:00
+OPP-00072,ACC-00728,USR-0023,Smith-Gutierrez - New Business #00072,Closed Won,5,9824.06,USD,New Business,Partner,true,2026-01-03,2026-02-05,true,true,false,HS-000941,LEAD-000941,2026-04-01 05:30:00
+OPP-00073,ACC-00797,USR-0033,"DELETEME - Wagner, Simpson and Cohen - New Business #00073",Closed Lost,6,45582.01,USD,New Business,Outbound,false,2025-10-04,2026-01-13,false,true,true,HS-000953,LEAD-000953,2026-04-01 05:30:00
+OPP-00074,ACC-00587,USR-0024,Mcdowell-Smith - New Business #00074,Closed Lost,6,5364.27,USD,New Business,Inbound,false,2026-01-23,2026-02-03,false,true,false,HS-000955,LEAD-000955,2026-04-01 05:30:00
+OPP-00075,ACC-00453,USR-0031,"Marshall, Dominguez and Welch - New Business #00075",Closed Won,5,3490.34,USD,New Business,Outbound,false,2026-03-08,2026-03-29,true,true,false,HS-001002,LEAD-001002,2026-04-01 05:30:00
+OPP-00076,ACC-00235,USR-0026,"Burns, Hernandez and Ryan - New Business #00076",Demo,2,4384.75,USD,New Business,Paid,false,2026-03-09,,false,false,false,HS-001010,LEAD-001010,2026-04-01 05:30:00
+OPP-00077,ACC-00567,USR-0025,"Hill, Martinez and Rhodes - New Business #00077",Closed Lost,6,6201.71,USD,New Business,Inbound,false,2026-02-04,2026-03-01,false,true,false,HS-001013,LEAD-001013,2026-04-01 05:30:00
+OPP-00078,ACC-00801,USR-0025,Medina and Sons - New Business #00078,Closed Won,5,5978.61,USD,New Business,Inbound,false,2025-10-08,2025-11-09,true,true,false,HS-001030,LEAD-001030,2026-04-01 05:30:00
+OPP-00079,ACC-00943,USR-0024,Jackson PLC - New Business #00079,Closed Lost,6,7744.48,USD,New Business,Content,false,2025-10-01,2025-10-12,false,true,false,HS-001045,LEAD-001045,2026-04-01 05:30:00
+OPP-00080,ACC-00546,USR-0036,Whitney PLC - New Business #00080,Closed Won,5,120583.39,USD,New Business,Inbound,false,2025-12-09,2026-02-04,true,true,false,HS-001049,LEAD-001049,2026-04-01 05:30:00
+OPP-00081,ACC-00966,USR-0036,Drake-Wolfe - New Business #00081,Demo,2,97168.80,USD,New Business,Event,false,2026-01-10,,false,false,false,HS-001094,LEAD-001094,2026-04-01 05:30:00
+OPP-00082,ACC-00509,USR-0023,Miller Ltd - New Business #00082,Closed Lost,6,8137.61,USD,New Business,Outbound,false,2025-10-09,2025-11-04,false,true,false,HS-001099,LEAD-001099,2026-04-01 05:30:00
+OPP-00083,ACC-00306,USR-0034,Jones PLC - New Business #00083,Closed Lost,6,25864.65,USD,New Business,Outbound,false,2025-10-06,2025-12-18,false,true,false,HS-001101,LEAD-001101,2026-04-01 05:30:00
+OPP-00084,ACC-00876,USR-0033,Miller-Mccall - New Business #00084,Demo,2,12234.45,USD,New Business,Paid,false,2026-03-07,,false,false,false,HS-001124,LEAD-001124,2026-04-01 05:30:00
+OPP-00085,ACC-00170,USR-0030,"Pierce, Bell and Chavez - New Business #00085",Closed Lost,6,14490.75,USD,New Business,Inbound,false,2025-11-15,2026-01-14,false,true,false,HS-001130,LEAD-001130,2026-04-01 05:30:00
+OPP-00086,ACC-00380,USR-0033,Marshall-Elliott - New Business #00086,Closed Lost,6,23577.64,USD,New Business,Paid,false,2025-12-10,2026-01-31,false,true,false,HS-001137,LEAD-001137,2026-04-01 05:30:00
+OPP-00087,ACC-00933,USR-0026,Crane Group - New Business #00087,Closed Won,5,11934.40,USD,New Business,Inbound,false,2026-01-24,2026-02-06,true,true,false,HS-001138,LEAD-001138,2026-04-01 05:30:00
+OPP-00088,ACC-00644,USR-0026,Young-Walter - New Business #00088,Closed Lost,6,2550.82,USD,New Business,Outbound,false,2025-12-28,2026-02-10,false,true,false,HS-001167,LEAD-001167,2026-04-01 05:30:00
+OPP-00089,ACC-00619,USR-0024,Chambers-Parker - New Business #00089,Closed Won,5,2331.42,USD,New Business,Paid,false,2025-10-05,2025-10-27,true,true,false,HS-001169,LEAD-001169,2026-04-01 05:30:00
+OPP-00090,ACC-00372,USR-0030,"Miller, Harrell and Reese - New Business #00090",Closed Lost,6,38911.56,USD,New Business,Inbound,false,2025-10-07,2025-11-15,false,true,false,HS-001177,LEAD-001177,2026-04-01 05:30:00
+OPP-00091,ACC-00167,USR-0029,Davis and Sons - New Business #00091,Closed Won,5,6832.10,USD,New Business,Inbound,false,2025-10-18,2025-11-03,true,true,false,HS-001189,LEAD-001189,2026-04-01 05:30:00
+OPP-00092,ACC-00616,USR-0025,"Burns, Nolan and Griffin - New Business #00092",Closed Lost,6,19486.06,USD,New Business,Inbound,false,2025-09-16,2025-10-17,false,true,false,HS-001193,LEAD-001193,2026-04-01 05:30:00
+OPP-00093,ACC-00384,USR-0023,Welch-Hogan - New Business #00093,Closed Lost,6,3457.97,USD,New Business,Paid,false,2025-12-22,2026-01-03,false,true,false,HS-001204,LEAD-001204,2026-04-01 05:30:00
+OPP-00094,ACC-00215,USR-0028,"Johnson, Miller and King - New Business #00094",Closed Lost,6,0.00,USD,New Business,Inbound,false,2025-09-29,2025-11-01,false,true,false,HS-001206,LEAD-001206,2026-04-01 05:30:00
+OPP-00095,ACC-00028,USR-0030,Russell Group - New Business #00095,Discovery,1,51764.26,USD,New Business,Inbound,false,2026-03-12,,false,false,false,HS-001244,LEAD-001244,2026-04-01 05:30:00
+OPP-00096,ACC-00725,USR-0023,Hawkins-Hunt - New Business #00096,Closed Lost,6,4579.18,USD,New Business,Referral,false,2026-01-04,2026-01-28,false,true,false,HS-001256,LEAD-001256,2026-04-01 05:30:00
+OPP-00097,ACC-01052,USR-0034,Figueroa-Malone - New Business #00097,Closed Lost,6,64009.67,USD,New Business,Outbound,false,2025-10-24,2025-12-06,false,true,false,HS-001262,LEAD-001262,2026-04-01 05:30:00
+OPP-00098,ACC-01057,USR-0023,Wright Group - New Business #00098,Closed Lost,6,2835.97,USD,New Business,Inbound,false,2026-03-02,2026-03-31,false,true,false,HS-001282,LEAD-001282,2026-04-01 05:30:00
+OPP-00099,ACC-00497,USR-0026,"Jones, Compton and Day - New Business #00099",Discovery,1,2144.38,USD,New Business,Outbound,false,2026-03-25,,false,false,false,HS-001291,LEAD-001291,2026-04-01 05:30:00
+OPP-00100,ACC-01020,USR-0026,"Gutierrez, Avila and Perez - New Business #00100",Closed Lost,6,1853.82,USD,New Business,Inbound,false,2025-10-02,2025-10-15,false,true,false,HS-001295,LEAD-001295,2026-04-01 05:30:00
+OPP-00101,ACC-00700,USR-0029,"Mueller, Knight and Hodge - New Business #00101",Closed Won,5,4101.20,USD,New Business,Referral,false,2025-11-10,2025-11-30,true,true,false,HS-001325,LEAD-001325,2026-04-01 05:30:00
+OPP-00102,ACC-00467,USR-0034,Parker-Morrison - New Business #00102,Demo,2,46046.23,USD,New Business,Inbound,false,2026-03-19,,false,false,false,HS-001363,LEAD-001363,2026-04-01 05:30:00
+OPP-00103,ACC-00805,USR-0025,Weaver-Sherman - New Business #00103,Closed Lost,6,5154.00,USD,New Business,Outbound,false,2026-01-13,2026-02-22,false,true,false,HS-001367,LEAD-001367,2026-04-01 05:30:00
+OPP-00104,ACC-00338,USR-0025,Moore Group - New Business #00104,Closed Won,5,4072.00,USD,New Business,Event,false,2025-10-19,2025-12-13,true,true,false,HS-001415,LEAD-001415,2026-04-01 05:30:00
+OPP-00105,ACC-00218,,Gutierrez-Lopez - New Business #00105,Closed Won,5,9524.30,USD,New Business,Inbound,false,2025-10-31,2025-12-01,true,true,false,HS-001422,LEAD-001422,2026-04-01 05:30:00
+OPP-00106,ACC-00091,USR-0028,Spencer-Lee - New Business #00106,Closed Won,5,3369.08,USD,New Business,Inbound,false,2025-12-22,2026-01-22,true,true,false,HS-001424,LEAD-001424,2026-04-01 05:30:00
+OPP-00107,ACC-00499,USR-0030,Humphrey PLC - New Business #00107,Closed Lost,6,36237.94,USD,New Business,Outbound,false,2025-12-30,2026-02-15,false,true,false,HS-001432,LEAD-001432,2026-04-01 05:30:00
+OPP-00108,ACC-00094,USR-0035,Mitchell-Jordan - New Business #00108,Negotiation,4,113147.50,USD,New Business,Outbound,false,2026-02-01,,false,false,false,HS-001467,LEAD-001467,2026-04-01 05:30:00
+OPP-00109,ACC-00556,USR-0024,Salas-Fitzgerald - New Business #00109,Closed Lost,6,3204.10,USD,New Business,Inbound,false,2025-12-14,2026-01-15,false,true,false,HS-001469,LEAD-001469,2026-04-01 05:30:00
+OPP-00110,ACC-00906,USR-0025,Vargas-Snyder - New Business #00110,Closed Lost,6,3624.41,USD,New Business,Outbound,false,2025-11-06,2025-12-07,false,true,false,HS-001493,LEAD-001493,2026-04-01 05:30:00
+OPP-00111,ACC-00507,,"Moore, Hopkins and Le - New Business #00111",Closed Lost,6,2594.60,USD,New Business,Paid,false,2026-01-21,2026-02-10,false,true,false,HS-001506,LEAD-001506,2026-04-01 05:30:00
+OPP-00112,ACC-00460,USR-0026,"Rivera, Martinez and Richardson - New Business #00112",Closed Won,5,2696.07,USD,New Business,Inbound,false,2026-02-08,2026-02-18,true,true,false,HS-001532,LEAD-001532,2026-04-01 05:30:00
+OPP-00113,ACC-00014,USR-0024,Jones Inc - New Business #00113,Closed Lost,6,3677.46,USD,New Business,Referral,false,2025-11-02,2025-11-21,false,true,false,HS-001554,LEAD-001554,2026-04-01 05:30:00
+OPP-00114,ACC-00817,USR-0033,"Ochoa, Taylor and Brady - New Business #00114",Negotiation,4,27105.07,USD,New Business,Partner,true,2025-11-09,,false,false,false,HS-001555,LEAD-001555,2026-04-01 05:30:00
+OPP-00115,ACC-00255,USR-0032,Williams Inc - New Business #00115,Closed Lost,6,46970.74,USD,New Business,Inbound,false,2025-11-01,2025-12-25,false,true,false,HS-001571,LEAD-001571,2026-04-01 05:30:00
+OPP-00116,ACC-00657,USR-0032,"Calderon, Williams and Bennett - New Business #00116",Proposal,3,36347.26,USD,New Business,Event,false,2026-02-21,,false,false,false,HS-001574,LEAD-001574,2026-04-01 05:30:00
+OPP-00117,ACC-01176,USR-0029,"Walsh, Wu and Hart - New Business #00117",Closed Lost,6,3976.29,USD,New Business,Inbound,false,2026-01-09,2026-01-27,false,true,false,HS-001579,LEAD-001579,2026-04-01 05:30:00
+OPP-00118,ACC-00665,USR-0025,"Morris, Campbell and Owens - New Business #00118",Discovery,1,3818.47,USD,New Business,Outbound,false,2026-03-29,,false,false,false,HS-001609,LEAD-001609,2026-04-01 05:30:00
+OPP-00119,ACC-00942,USR-0026,Williams Group - New Business #00119,Closed Lost,6,8585.45,USD,New Business,Partner,true,2026-01-11,2026-02-24,false,true,false,HS-001615,LEAD-001615,2026-04-01 05:30:00
+OPP-00120,ACC-00098,USR-0023,"Harvey, Davis and Crane - New Business #00120",Closed Won,5,5742.59,USD,New Business,Inbound,false,2025-12-11,2026-01-03,true,true,false,HS-001618,LEAD-001618,2026-04-01 05:30:00
+OPP-00121,ACC-00196,USR-0028,Warner-Gibson - New Business #00121,Closed Lost,6,4568.54,USD,New Business,Inbound,false,2026-01-31,2026-03-08,false,true,false,HS-001632,LEAD-001632,2026-04-01 05:30:00
+OPP-00122,ACC-01117,USR-0036,Ferrell-Henry - New Business #00122,Closed Lost,6,122448.64,USD,New Business,Outbound,false,2025-12-25,2026-01-29,false,true,false,HS-001636,LEAD-001636,2026-04-01 05:30:00
+OPP-00123,ACC-01035,USR-0029,"Ellis, Marks and Buchanan - New Business #00123",Closed Lost,6,10526.87,USD,New Business,Partner,true,2025-12-22,2026-01-17,false,true,false,HS-001646,LEAD-001646,2026-04-01 05:30:00
+OPP-00124,ACC-00512,USR-0028,May-Turner - New Business #00124,Closed Lost,6,5963.22,USD,New Business,Inbound,false,2025-12-06,2025-12-21,false,true,false,HS-001684,LEAD-001684,2026-04-01 05:30:00
+OPP-00125,ACC-00123,USR-0031,Smith-Bell - New Business #00125,Closed Lost,6,,USD,New Business,Event,false,2025-09-25,2025-10-19,false,true,false,HS-001689,LEAD-001689,2026-04-01 05:30:00
+OPP-00126,ACC-01172,USR-0029,West-Wilson - New Business #00126,Closed Lost,6,1856.93,USD,New Business,Inbound,false,2026-01-14,2026-02-14,false,true,false,HS-001726,LEAD-001726,2026-04-01 05:30:00
+OPP-00127,ACC-00359,USR-0029,Duran LLC - New Business #00127,Closed Lost,6,6324.90,USD,New Business,Inbound,false,2025-12-31,2026-01-31,false,true,false,HS-001728,LEAD-001728,2026-04-01 05:30:00
+OPP-00128,ACC-00588,USR-0033,"Morrison, Hebert and Rogers - New Business #00128",Discovery,1,15690.52,USD,New Business,Inbound,false,2026-03-30,,false,false,false,HS-001729,LEAD-001729,2026-04-01 05:30:00
+OPP-00129,ACC-00121,USR-0023,Stein-Silva - New Business #00129,Closed Lost,6,3136.02,USD,New Business,Inbound,false,2025-12-13,2026-01-05,false,true,false,HS-001734,LEAD-001734,2026-04-01 05:30:00
+OPP-00130,ACC-00918,USR-0027,Jones-Bradley - New Business #00130,Closed Won,5,7935.15,USD,New Business,Partner,true,2025-11-27,2025-12-15,true,true,false,HS-001738,LEAD-001738,2026-04-01 05:30:00
+OPP-00131,ACC-00356,USR-0025,Gregory-Watkins - New Business #00131,Closed Lost,6,3346.33,USD,New Business,Inbound,false,2025-11-07,2025-11-22,false,true,false,HS-001746,LEAD-001746,2026-04-01 05:30:00
+OPP-00132,ACC-00656,USR-0025,Boone-Davis - New Business #00132,Closed Lost,6,15440.05,USD,New Business,Partner,true,2025-11-19,2025-12-13,false,true,false,HS-001757,LEAD-001757,2026-04-01 05:30:00
+OPP-00133,ACC-01105,USR-0029,Johnston and Sons - New Business #00133,Closed Won,5,6787.69,USD,New Business,Partner,true,2026-03-07,2026-03-24,true,true,false,HS-001758,LEAD-001758,2026-04-01 05:30:00
+OPP-00134,ACC-01055,USR-0026,"Powell, Deleon and Warren - New Business #00134",Closed Lost,6,3366.43,USD,New Business,Outbound,false,2026-01-15,2026-01-21,false,true,false,HS-001767,LEAD-001767,2026-04-01 05:30:00
+OPP-00135,ACC-00914,USR-0025,Dawson Inc - New Business #00135,Closed Lost,6,4047.95,USD,New Business,Inbound,false,2025-10-10,2025-11-11,false,true,false,HS-001773,LEAD-001773,2026-04-01 05:30:00
+OPP-00136,ACC-00314,USR-0034,"Fisher, Wilson and Brown - New Business #00136",Closed Won,5,17046.65,USD,New Business,Referral,false,2025-11-13,2026-02-02,true,true,false,HS-001775,LEAD-001775,2026-04-01 05:30:00
+OPP-00137,ACC-00184,USR-0026,Jones-Soto - New Business #00137,Closed Lost,6,4348.13,GBP,New Business,Inbound,false,2026-01-18,2026-01-30,false,true,false,HS-001780,LEAD-001780,2026-04-01 05:30:00
+OPP-00138,ACC-00188,USR-0025,Rowe Group - New Business #00138,Closed Lost,6,6834.30,USD,New Business,Outbound,false,2026-02-16,2026-03-27,false,true,false,HS-001795,LEAD-001795,2026-04-01 05:30:00
+OPP-00139,ACC-00823,USR-0034,Schultz Inc - New Business #00139,Negotiation,4,18869.53,USD,New Business,Outbound,false,2026-01-08,,false,false,false,HS-001803,LEAD-001803,2026-04-01 05:30:00
+OPP-00140,ACC-00345,USR-0024,Kane PLC - New Business #00140,Closed Won,5,7877.61,USD,New Business,Event,false,2025-09-18,2025-10-30,true,true,false,HS-001822,LEAD-001822,2026-04-01 05:30:00
+OPP-00141,ACC-00556,USR-0025,Salas-Fitzgerald - New Business #00141,Closed Lost,6,4356.60,USD,New Business,Outbound,false,2025-10-11,2025-11-29,false,true,false,HS-001826,LEAD-001826,2026-04-01 05:30:00
+OPP-00142,ACC-00681,USR-0034,Duran Group - New Business #00142,Closed Lost,6,11231.47,USD,New Business,Inbound,false,2025-10-22,2025-12-18,false,true,false,HS-001835,LEAD-001835,2026-04-01 05:30:00
+OPP-00143,ACC-00240,USR-0030,Garner-Thornton - New Business #00143,Closed Won,5,12756.76,USD,New Business,Inbound,false,2025-11-09,2026-03-13,true,true,false,HS-001836,LEAD-001836,2026-04-01 05:30:00
+OPP-00144,ACC-01137,USR-0030,"DELETEME - Fitzpatrick, Rivera and Smith - New Business #00144",Proposal,3,25587.01,USD,New Business,Partner,true,2026-03-17,,false,false,true,HS-001837,LEAD-001837,2026-04-01 05:30:00
+OPP-00145,ACC-00713,USR-0029,Peterson PLC - New Business #00145,Closed Lost,6,3773.70,USD,New Business,Paid,false,2025-10-19,2025-11-03,false,true,false,HS-001846,LEAD-001846,2026-04-01 05:30:00
+OPP-00146,ACC-00591,USR-0023,"Mcdonald, Lee and Rodriguez - New Business #00146",Closed Lost,6,8947.68,USD,New Business,Content,false,2025-11-30,2026-01-08,false,true,false,HS-001857,LEAD-001857,2026-04-01 05:30:00
+OPP-00147,ACC-00181,USR-0026,Harrison-Alexander - New Business #00147,Closed Lost,6,2927.92,USD,New Business,Outbound,false,2025-09-28,2025-10-16,false,true,false,HS-001862,LEAD-001862,2026-04-01 05:30:00
+OPP-00148,ACC-01096,USR-0026,"Carpenter, Oliver and Kennedy - New Business #00148",Closed Won,5,3815.52,USD,New Business,Event,false,2025-09-17,2025-10-02,true,true,false,HS-001871,LEAD-001871,2026-04-01 05:30:00
+OPP-00149,ACC-00568,USR-0026,Huang-Foster - New Business #00149,Closed Won,5,1699.31,USD,New Business,Inbound,false,2026-01-24,2026-03-18,true,true,false,HS-001884,LEAD-001884,2026-04-01 05:30:00
+OPP-00150,ACC-00714,USR-0023,"Sanders, Ayala and Johnson - New Business #00150",Closed Won,5,9580.84,USD,New Business,Referral,false,2025-09-23,2025-10-12,true,true,false,HS-001885,LEAD-001885,2026-04-01 05:30:00
+OPP-00151,ACC-00057,USR-0034,Davis Group - New Business #00151,Closed Won,5,11357.03,USD,New Business,Content,false,2025-12-15,2026-02-12,true,true,false,HS-001888,LEAD-001888,2026-04-01 05:30:00
+OPP-00152,ACC-00963,USR-0030,Gallagher and Sons - New Business #00152,Closed Won,5,84518.29,USD,New Business,Content,false,2025-12-29,2026-02-06,true,true,false,HS-001901,LEAD-001901,2026-04-01 05:30:00
+OPP-00153,ACC-00023,USR-0028,"West, Henderson and Ramirez - New Business #00153",Closed Lost,6,4937.00,USD,New Business,Inbound,false,2026-02-23,2026-03-27,false,true,false,HS-001907,LEAD-001907,2026-04-01 05:30:00
+OPP-00154,ACC-00701,USR-0032,Jacobson Inc - New Business #00154,Demo,2,28324.72,USD,New Business,Partner,true,2026-02-26,,false,false,false,HS-001917,LEAD-001917,2026-04-01 05:30:00
+OPP-00155,ACC-00023,USR-0025,"West, Henderson and Ramirez - New Business #00155",Closed Won,5,5822.03,USD,New Business,Paid,false,2025-09-15,2025-11-25,true,true,false,HS-001939,LEAD-001939,2026-04-01 05:30:00
+OPP-00156,ACC-00397,USR-0026,"Williams, Mccoy and Cook - New Business #00156",Closed Won,5,2691.37,USD,New Business,Content,false,2026-03-05,2026-03-27,true,true,false,HS-001959,LEAD-001959,2026-04-01 05:30:00
+OPP-00157,ACC-00209,USR-0033,Ruiz Ltd - New Business #00157,Proposal,3,38426.54,USD,New Business,Inbound,false,2026-02-26,,false,false,false,HS-001961,LEAD-001961,2026-04-01 05:30:00
+OPP-00158,ACC-01194,USR-0031,Holt and Sons - New Business #00158,Closed Won,5,,USD,New Business,Paid,false,2025-10-27,2025-12-17,true,true,false,HS-001963,LEAD-001963,2026-04-01 05:30:00
+OPP-00159,ACC-00459,USR-0028,Kelly-Norman - New Business #00159,Discovery,1,7313.97,USD,New Business,Outbound,false,2026-03-27,,false,false,false,HS-001986,LEAD-001986,2026-04-01 05:30:00
+OPP-00159D,ACC-00459,USR-0028,Kelly-Norman - New Business #00159,Discovery,1,7313.97,USD,New Business,Outbound,false,2026-03-27,,false,false,false,HS-001986,LEAD-001986,2026-04-01 05:30:00
+OPP-00160,ACC-00737,USR-0028,Cook-Oliver - New Business #00160,Closed Lost,6,3774.92,USD,New Business,Outbound,false,2025-09-11,2025-11-28,false,true,false,HS-001993,LEAD-001993,2026-04-01 05:30:00
+OPP-00161,ACC-01060,USR-0026,"Sanders, Leblanc and Maldonado - New Business #00161",Closed Lost,6,5047.07,USD,New Business,Partner,true,2025-11-29,2025-12-22,false,true,false,HS-001998,LEAD-001998,2026-04-01 05:30:00
+OPP-00162,ACC-00335,USR-0028,"Pugh, Henderson and Moon - New Business #00162",Closed Lost,6,6206.61,USD,New Business,Content,false,2026-02-09,2026-03-04,false,true,false,HS-002003,LEAD-002003,2026-04-01 05:30:00
+OPP-00163,ACC-00056,USR-0026,Wagner-King - New Business #00163,Closed Lost,6,8300.27,USD,New Business,Outbound,false,2026-01-06,2026-01-30,false,true,false,HS-002010,LEAD-002010,2026-04-01 05:30:00
+OPP-00164,ACC-00815,USR-0033,Werner-Carter - New Business #00164,Closed Lost,6,30062.69,USD,New Business,Outbound,false,2026-02-03,2026-03-17,false,true,false,HS-002016,LEAD-002016,2026-04-01 05:30:00
+OPP-00165,ACC-00112,USR-0033,Manning Group - New Business #00165,Closed Lost,6,18901.90,USD,New Business,Inbound,false,2026-01-25,2026-03-04,false,true,false,HS-002034,LEAD-002034,2026-04-01 05:30:00
+OPP-00166,ACC-00789,USR-0033,Brooks and Sons - New Business #00166,Proposal,3,27153.16,USD,New Business,Referral,false,2026-02-19,,false,false,false,HS-002046,LEAD-002046,2026-04-01 05:30:00
+OPP-00167,ACC-00843,USR-0034,Rios-Padilla - New Business #00167,Closed Lost,6,25309.76,USD,New Business,Event,false,2026-02-17,2026-03-13,false,true,false,HS-002049,LEAD-002049,2026-04-01 05:30:00
+OPP-00168,ACC-00272,USR-0023,Robinson-Lee - New Business #00168,Closed Won,5,3964.62,USD,New Business,Outbound,false,2026-01-22,2026-02-08,true,true,false,HS-002076,LEAD-002076,2026-04-01 05:30:00
+OPP-00169,ACC-00599,USR-0025,Boyle-Smith - New Business #00169,Negotiation,4,4694.84,USD,New Business,Event,false,2026-03-14,,false,false,false,HS-002086,LEAD-002086,2026-04-01 05:30:00
+OPP-00170,ACC-00668,USR-0024,"Harrison, Franco and Rocha - New Business #00170",Demo,2,4671.60,USD,New Business,Inbound,false,2026-03-17,,false,false,false,HS-002101,LEAD-002101,2026-04-01 05:30:00
+OPP-00171,ACC-01147,USR-0033,"Adams, Quinn and Watson - New Business #00171",Closed Lost,6,40329.75,USD,New Business,Outbound,false,2026-02-01,2026-03-21,false,true,false,HS-002108,LEAD-002108,2026-04-01 05:30:00
+OPP-00172,ACC-01149,USR-0036,Nelson-Cruz - New Business #00172,Negotiation,4,95376.93,USD,New Business,Content,false,2025-11-19,,false,false,false,HS-002120,LEAD-002120,2026-04-01 05:30:00
+OPP-00173,ACC-00738,USR-0024,Alexander-Jordan - New Business #00173,Closed Lost,6,5297.45,USD,New Business,Event,false,2025-11-15,2025-12-19,false,true,false,HS-002123,LEAD-002123,2026-04-01 05:30:00
+OPP-00174,ACC-00275,USR-0032,"Lucas, Parker and Alexander - New Business #00174",Negotiation,4,43573.77,USD,New Business,Paid,false,2026-02-13,,false,false,false,HS-002133,LEAD-002133,2026-04-01 05:30:00
+OPP-00175,ACC-00944,USR-0025,Underwood-Foster - New Business #00175,Closed Lost,6,,USD,New Business,Inbound,false,2026-02-08,2026-02-26,false,true,false,HS-002155,LEAD-002155,2026-04-01 05:30:00
+OPP-00176,ACC-00675,,Levy-May - New Business #00176,Closed Lost,6,0.00,USD,New Business,Outbound,false,2025-10-15,2025-11-09,false,true,false,HS-002172,LEAD-002172,2026-04-01 05:30:00
+OPP-00177,ACC-00671,USR-0024,Tran-Silva - New Business #00177,Closed Lost,6,9406.74,USD,New Business,Outbound,false,2026-01-02,2026-01-20,false,true,false,HS-002214,LEAD-002214,2026-04-01 05:30:00
+OPP-00178,ACC-00144,USR-0024,Rodriguez-Johnson - New Business #00178,Closed Lost,6,10314.82,USD,New Business,Outbound,false,2025-10-04,2025-10-21,false,true,false,HS-002241,LEAD-002241,2026-04-01 05:30:00
+OPP-00179,ACC-00338,USR-0023,Moore Group - New Business #00179,Closed Lost,6,5006.30,USD,New Business,Event,false,2025-10-22,2025-11-10,false,true,false,HS-002243,LEAD-002243,2026-04-01 05:30:00
+OPP-00180,ACC-00225,,Gay Inc - New Business #00180,Closed Lost,6,1732.16,USD,New Business,Inbound,false,2026-01-25,2026-02-23,false,true,false,HS-002260,LEAD-002260,2026-04-01 05:30:00
+OPP-00181,ACC-01046,USR-0023,Morgan LLC - New Business #00181,Closed Lost,6,7779.72,USD,New Business,Event,false,2026-02-15,2026-03-25,false,true,false,HS-002265,LEAD-002265,2026-04-01 05:30:00
+OPP-00182,ACC-01037,USR-0025,Hernandez PLC - New Business #00182,Closed Lost,6,1962.97,USD,New Business,Inbound,false,2026-01-10,2026-02-13,false,true,false,HS-002266,LEAD-002266,2026-04-01 05:30:00
+OPP-00183,ACC-00148,USR-0023,DELETEME - Garcia LLC - New Business #00183,Closed Won,5,3309.21,USD,New Business,Inbound,false,2025-09-24,2025-10-20,true,true,true,HS-002276,LEAD-002276,2026-04-01 05:30:00
+OPP-00184,ACC-01079,USR-0028,"Nguyen, Hill and Douglas - New Business #00184",Closed Lost,6,4614.71,USD,New Business,Partner,true,2026-02-28,2026-03-19,false,true,false,HS-002295,LEAD-002295,2026-04-01 05:30:00
+OPP-00185,ACC-01015,USR-0028,Watson Group - New Business #00185,Closed Lost,6,6088.15,USD,New Business,Event,false,2026-03-15,2026-03-25,false,true,false,HS-002302,LEAD-002302,2026-04-01 05:30:00
+OPP-00186,ACC-00159,USR-0030,Christensen PLC - New Business #00186,Closed Lost,6,31773.97,USD,New Business,Outbound,false,2026-01-24,2026-03-17,false,true,false,HS-002352,LEAD-002352,2026-04-01 05:30:00
+OPP-00187,ACC-00586,USR-0024,Lopez-Curry - New Business #00187,Closed Lost,6,4052.14,USD,New Business,Inbound,false,2026-03-19,2026-03-30,false,true,false,HS-002365,LEAD-002365,2026-04-01 05:30:00
+OPP-00188,ACC-00231,USR-0024,"Suarez, Shields and Hill - New Business #00188",Closed Lost,6,3008.70,USD,New Business,Content,false,2025-11-28,2025-12-31,false,true,false,HS-002367,LEAD-002367,2026-04-01 05:30:00
+OPP-00189,ACC-00536,USR-0036,"Becker, Wilson and Hester - New Business #00189",Demo,2,51686.34,USD,New Business,Event,false,2026-01-23,,false,false,false,HS-002390,LEAD-002390,2026-04-01 05:30:00
+OPP-00190,ACC-01182,USR-0035,Smith LLC - New Business #00190,Proposal,3,71848.47,USD,New Business,Content,false,2025-12-02,,false,false,false,HS-002394,LEAD-002394,2026-04-01 05:30:00
+OPP-00191,ACC-00866,USR-0032,Cruz-Allen - New Business #00191,Discovery,1,37860.16,USD,New Business,Inbound,false,2026-03-30,,false,false,false,HS-002396,LEAD-002396,2026-04-01 05:30:00
+OPP-00192,ACC-00318,USR-0023,"Turner, Schneider and Johnson - New Business #00192",Demo,2,3245.02,USD,New Business,Inbound,false,2026-03-18,,false,false,false,HS-002404,LEAD-002404,2026-04-01 05:30:00
+OPP-00193,ACC-00686,USR-0023,"Durham, Hopkins and Smith - New Business #00193",Closed Lost,6,4910.46,USD,New Business,Content,false,2025-11-28,2025-12-23,false,true,false,HS-002411,LEAD-002411,2026-04-01 05:30:00
+OPP-00194,ACC-00920,USR-0024,Green-Edwards - New Business #00194,Closed Won,5,3802.62,USD,New Business,Partner,true,2025-12-28,2026-01-16,true,true,false,HS-002419,LEAD-002419,2026-04-01 05:30:00
+OPP-00195,ACC-00198,USR-0028,"Guerrero, Peck and Coleman - New Business #00195",Demo,2,7729.95,USD,New Business,Outbound,false,2026-03-20,,false,false,false,HS-002422,LEAD-002422,2026-04-01 05:30:00
+OPP-00196,ACC-00268,USR-0028,"Phillips, Spence and Barrett - New Business #00196",Closed Lost,6,9085.46,USD,New Business,Partner,true,2026-03-02,2026-03-25,false,true,false,HS-002437,LEAD-002437,2026-04-01 05:30:00
+OPP-00197,ACC-00628,USR-0024,Miller-Brandt - New Business #00197,Discovery,1,3665.92,USD,New Business,Inbound,false,2026-03-23,,false,false,false,HS-002442,LEAD-002442,2026-04-01 05:30:00
+OPP-00198,ACC-00180,USR-0029,Garcia-Smith - New Business #00198,Demo,2,9392.61,USD,New Business,Content,false,2026-03-24,,false,false,false,HS-002451,LEAD-002451,2026-04-01 05:30:00
+OPP-00199,ACC-01120,USR-0029,Clark Inc - New Business #00199,Closed Lost,6,3622.00,USD,New Business,Inbound,false,2025-09-16,2025-10-13,false,true,false,HS-002454,LEAD-002454,2026-04-01 05:30:00
+OPP-00200,ACC-01053,USR-0028,Nicholson-Robertson - New Business #00200,Closed Lost,6,8891.88,USD,New Business,Outbound,false,2026-02-04,2026-02-24,false,true,false,HS-002455,LEAD-002455,2026-04-01 05:30:00
+OPP-00201,ACC-00682,USR-0028,Kirby and Sons - New Business #00201,Closed Won,5,12771.92,USD,New Business,Inbound,false,2025-10-10,2025-11-14,true,true,false,HS-002471,LEAD-002471,2026-04-01 05:30:00
+OPP-00202,ACC-00096,USR-0036,"Lewis, Kennedy and Santana - New Business #00202",Closed Lost,6,87643.78,USD,New Business,Event,false,2025-10-28,2026-02-24,false,true,false,HS-002501,LEAD-002501,2026-04-01 05:30:00
+OPP-00203,ACC-00582,USR-0025,Pearson and Sons - New Business #00203,Closed Lost,6,3172.48,USD,New Business,Event,false,2025-10-26,2025-11-16,false,true,false,HS-002520,LEAD-002520,2026-04-01 05:30:00
+OPP-00204,ACC-00509,USR-0029,Miller Ltd - New Business #00204,Closed Lost,6,7515.50,USD,New Business,Inbound,false,2025-10-28,2025-11-15,false,true,false,HS-002548,LEAD-002548,2026-04-01 05:30:00
+OPP-00205,ACC-00438,USR-0032,Young-Martinez - New Business #00205,Closed Lost,6,13168.96,USD,New Business,Outbound,false,2025-12-09,2026-02-03,false,true,false,HS-002603,LEAD-002603,2026-04-01 05:30:00
+OPP-00206,ACC-00414,USR-0032,"Lamb, Martin and Kim - New Business #00206",Closed Lost,6,79449.15,USD,New Business,Inbound,false,2025-12-04,2026-02-20,false,true,false,HS-002627,LEAD-002627,2026-04-01 05:30:00
+OPP-00207,ACC-00175,USR-0029,"Carlson, Hooper and Wall - New Business #00207",Closed Lost,6,6691.92,USD,New Business,Outbound,false,2025-09-22,2025-10-18,false,true,false,HS-002641,LEAD-002641,2026-04-01 05:30:00
+OPP-00208,ACC-01163,USR-0030,Alvarado-Davidson - New Business #00208,Negotiation,4,,USD,New Business,Referral,false,2026-01-11,,false,false,false,HS-002647,LEAD-002647,2026-04-01 05:30:00
+OPP-00209,ACC-01150,USR-0028,Marsh-Banks - New Business #00209,Closed Lost,6,7127.31,USD,New Business,Partner,true,2025-11-16,2025-12-13,false,true,false,HS-002648,LEAD-002648,2026-04-01 05:30:00
+OPP-00210,ACC-00852,USR-0030,Jones PLC - New Business #00210,Closed Won,5,29970.20,USD,New Business,Partner,true,2025-09-23,2025-10-23,true,true,false,HS-002667,LEAD-002667,2026-04-01 05:30:00
+OPP-00211,ACC-00088,USR-0026,"Mccall, Hanson and Alvarado - New Business #00211",Closed Lost,6,6254.66,USD,New Business,Event,false,2025-11-29,2025-12-24,false,true,false,HS-002669,LEAD-002669,2026-04-01 05:30:00
+OPP-00212,ACC-00304,USR-0032,"Harper, Smith and Buchanan - New Business #00212",Closed Lost,6,12856.07,GBP,New Business,Event,false,2025-09-23,2025-10-13,false,true,false,HS-002672,LEAD-002672,2026-04-01 05:30:00
+OPP-00213,ACC-00935,USR-0026,Martinez Inc - New Business #00213,Closed Won,5,3960.35,USD,New Business,Inbound,false,2026-01-03,2026-01-19,true,true,false,HS-002684,LEAD-002684,2026-04-01 05:30:00
+OPP-00214,ACC-00092,USR-0004,"Bentley, Byrd and Orr - New Business #00214",Closed Won,5,3614.74,USD,New Business,Content,false,2026-02-02,2026-02-17,true,true,false,HS-002704,LEAD-002704,2026-04-01 05:30:00
+OPP-00215,ACC-00699,USR-0028,Miller Group - New Business #00215,Closed Won,5,2189.02,USD,New Business,Outbound,false,2025-10-26,2025-11-20,true,true,false,HS-002716,LEAD-002716,2026-04-01 05:30:00
+OPP-00216,ACC-00328,USR-0024,Perry-Davis - New Business #00216,Closed Won,5,2704.14,USD,New Business,Outbound,false,2026-01-10,2026-01-28,true,true,false,HS-002771,LEAD-002771,2026-04-01 05:30:00
+OPP-00217,ACC-00499,USR-0034,Humphrey PLC - New Business #00217,Closed Lost,6,26474.96,USD,New Business,Outbound,false,2025-11-26,2026-02-14,false,true,false,HS-002785,LEAD-002785,2026-04-01 05:30:00
+OPP-00218,ACC-00532,USR-0027,Luna-Gallagher - New Business #00218,Closed Lost,6,8963.21,USD,New Business,Inbound,false,2025-10-01,2025-10-28,false,true,false,HS-002794,LEAD-002794,2026-04-01 05:30:00
+OPP-00219,ACC-00937,USR-0026,Parks-Pace - New Business #00219,Closed Won,5,4711.63,USD,New Business,Event,false,2026-02-27,2026-03-21,true,true,false,HS-002819,LEAD-002819,2026-04-01 05:30:00
+OPP-00220,ACC-00267,USR-0024,Armstrong-Andrews - New Business #00220,Closed Lost,6,7020.50,USD,New Business,Inbound,false,2025-09-30,2025-10-28,false,true,false,HS-002836,LEAD-002836,2026-04-01 05:30:00
+OPP-00221,ACC-01190,USR-0023,Ellis-Lawrence - New Business #00221,Closed Won,5,4818.97,USD,New Business,Outbound,false,2025-09-10,2025-09-30,true,true,false,HS-002845,LEAD-002845,2026-04-01 05:30:00
+OPP-00222,ACC-00549,USR-0025,"Patton, Parsons and Lane - New Business #00222",Discovery,1,4004.52,USD,New Business,Partner,true,2026-03-28,,false,false,false,HS-002857,LEAD-002857,2026-04-01 05:30:00
+OPP-00223,ACC-00929,USR-0026,"Terry, Williams and Huff - New Business #00223",Negotiation,4,6976.91,USD,New Business,Inbound,false,2026-02-25,,false,false,false,HS-002859,LEAD-002859,2026-04-01 05:30:00
+OPP-00224,ACC-00016,USR-0030,"Washington, Ryan and Cummings - New Business #00224",Closed Won,5,43369.36,USD,New Business,Event,false,2025-11-11,2026-01-06,true,true,false,HS-002862,LEAD-002862,2026-04-01 05:30:00
+OPP-00225,ACC-00682,USR-0026,Kirby and Sons - New Business #00225,Closed Lost,6,3742.99,USD,New Business,Outbound,false,2025-12-11,2026-01-23,false,true,false,HS-002903,LEAD-002903,2026-04-01 05:30:00
+OPP-00226,ACC-00013,USR-0028,"Robinson, Jones and Welch - New Business #00226",Demo,2,4374.19,USD,New Business,Partner,true,2026-03-21,,false,false,false,HS-002914,LEAD-002914,2026-04-01 05:30:00
+OPP-00227,ACC-00169,USR-0029,"Wood, Tran and Cooper - New Business #00227",Closed Won,5,4029.18,USD,New Business,Event,false,2025-11-05,2025-12-08,true,true,false,HS-002919,LEAD-002919,2026-04-01 05:30:00
+OPP-00228,ACC-01038,USR-0033,"Chang, Ayers and Buckley - New Business #00228",Closed Won,5,18790.41,USD,New Business,Partner,true,2025-10-30,2026-01-15,true,true,false,HS-002920,LEAD-002920,2026-04-01 05:30:00
+OPP-00229,ACC-00448,USR-0034,King-Smith - New Business #00229,Closed Won,5,27944.10,USD,New Business,Inbound,false,2025-12-12,2026-01-09,true,true,false,HS-002933,LEAD-002933,2026-04-01 05:30:00
+OPP-00230,ACC-01200,USR-0026,"Tanner, Hunt and Cameron - New Business #00230",Closed Won,5,3348.00,USD,New Business,Inbound,false,2025-12-10,2026-01-15,true,true,false,HS-002943,LEAD-002943,2026-04-01 05:30:00
+OPP-00231,ACC-00845,USR-0034,Wheeler PLC - New Business #00231,Closed Lost,6,28802.08,USD,New Business,Inbound,false,2025-11-13,2025-11-26,false,true,false,HS-002952,LEAD-002952,2026-04-01 05:30:00
+OPP-00231D,ACC-00845,USR-0034,Wheeler PLC - New Business #00231,Closed Lost,6,28802.08,USD,New Business,Inbound,false,2025-11-13,2025-11-26,false,true,false,HS-002952,LEAD-002952,2026-04-01 05:30:00
+OPP-00232,ACC-01177,USR-0024,"Powers, Clements and Cox - New Business #00232",Closed Lost,6,6494.65,USD,New Business,Partner,true,2025-12-11,2026-01-01,false,true,false,HS-002975,LEAD-002975,2026-04-01 05:30:00
+OPP-00233,ACC-00791,USR-0025,Lopez-Reid - New Business #00233,Closed Lost,6,10141.70,USD,New Business,Content,false,2025-09-15,2025-10-01,false,true,false,HS-003006,LEAD-003006,2026-04-01 05:30:00
+OPP-00234,ACC-01156,USR-0028,"Mcpherson, Anderson and Knapp - New Business #00234",Closed Lost,6,4769.10,USD,New Business,Outbound,false,2025-11-12,2025-12-05,false,true,false,HS-003009,LEAD-003009,2026-04-01 05:30:00
+OPP-00235,ACC-01161,USR-0028,"Marks, Stone and Watts - New Business #00235",Closed Lost,6,5482.27,USD,New Business,Inbound,false,2025-11-04,2025-11-10,false,true,false,HS-003026,LEAD-003026,2026-04-01 05:30:00
+OPP-00236,ACC-00656,USR-0029,Boone-Davis - New Business #00236,Closed Won,5,4353.54,USD,New Business,Content,false,2025-12-23,2026-01-21,true,true,false,HS-003029,LEAD-003029,2026-04-01 05:30:00
+OPP-00237,ACC-00006,USR-0032,Anderson Group - New Business #00237,Closed Lost,6,22739.11,USD,New Business,Inbound,false,2026-01-30,2026-03-10,false,true,false,HS-003032,LEAD-003032,2026-04-01 05:30:00
+OPP-00238,ACC-01031,USR-0004,Flowers LLC - New Business #00238,Closed Won,5,1938.41,USD,New Business,Inbound,false,2026-01-27,2026-03-06,true,true,false,HS-003038,LEAD-003038,2026-04-01 05:30:00
+OPP-00239,ACC-00291,USR-0035,"Turner, Ortiz and Taylor - New Business #00239",Closed Lost,6,38098.13,USD,New Business,Referral,false,2025-10-19,2025-12-23,false,true,false,HS-003039,LEAD-003039,2026-04-01 05:30:00
+OPP-00240,ACC-00994,USR-0029,Bell-Bennett - New Business #00240,Negotiation,4,2382.35,USD,New Business,Partner,true,2026-03-09,,false,false,false,HS-003042,LEAD-003042,2026-04-01 05:30:00
+OPP-00241,ACC-01042,USR-0034,Powell-Montgomery - New Business #00241,Closed Lost,6,28847.58,USD,New Business,Outbound,false,2025-12-19,2026-02-23,false,true,false,HS-003051,LEAD-003051,2026-04-01 05:30:00
+OPP-00242,ACC-00321,USR-0030,Lam LLC - New Business #00242,Negotiation,4,21785.91,USD,New Business,Inbound,false,2025-12-02,,false,false,false,HS-003055,LEAD-003055,2026-04-01 05:30:00
+OPP-00243,ACC-01185,,"Newton, Ortiz and King - New Business #00243",Negotiation,4,9341.21,USD,New Business,Partner,true,2026-03-10,,false,false,false,HS-003063,LEAD-003063,2026-04-01 05:30:00
+OPP-00244,ACC-00463,USR-0036,"Jimenez, Glass and Stone - New Business #00244",Discovery,1,41849.54,USD,New Business,Inbound,false,2026-03-30,,false,false,false,HS-003094,LEAD-003094,2026-04-01 05:30:00
+OPP-00245,ACC-00899,USR-0033,Shaw Inc - New Business #00245,Closed Won,5,23446.98,USD,New Business,Partner,true,2025-12-03,2026-01-25,true,true,false,HS-003123,LEAD-003123,2026-04-01 05:30:00
+OPP-00246,ACC-01037,USR-0004,Hernandez PLC - New Business #00246,Closed Lost,6,6475.75,USD,New Business,Outbound,false,2026-01-24,2026-03-02,false,true,false,HS-003125,LEAD-003125,2026-04-01 05:30:00
+OPP-00247,ACC-00178,USR-0025,Williams-Brown - New Business #00247,Closed Won,5,7539.23,USD,New Business,Event,false,2026-01-22,2026-02-25,true,true,false,HS-003147,LEAD-003147,2026-04-01 05:30:00
+OPP-00248,ACC-01170,USR-0028,"Gray, Montoya and Miller - New Business #00248",Closed Lost,6,4326.81,USD,New Business,Partner,true,2026-01-15,2026-02-26,false,true,false,HS-003160,LEAD-003160,2026-04-01 05:30:00
+OPP-00249,ACC-00480,USR-0026,Johnson and Sons - New Business #00249,Closed Lost,6,1460.64,USD,New Business,Paid,false,2026-02-08,2026-03-12,false,true,false,HS-003166,LEAD-003166,2026-04-01 05:30:00
+OPP-00250,ACC-01064,USR-0035,Curry-Barker - New Business #00250,Proposal,3,112436.17,USD,New Business,Content,false,2025-12-26,,false,false,false,HS-003167,LEAD-003167,2026-04-01 05:30:00
+OPP-00251,ACC-00398,USR-0025,Davis-Gregory - New Business #00251,Closed Lost,6,,USD,New Business,Paid,false,2025-12-08,2025-12-20,false,true,false,HS-003173,LEAD-003173,2026-04-01 05:30:00
+OPP-00252,ACC-00567,USR-0028,"Hill, Martinez and Rhodes - New Business #00252",Closed Lost,6,4170.73,USD,New Business,Inbound,false,2026-03-06,2026-03-28,false,true,false,HS-003177,LEAD-003177,2026-04-01 05:30:00
+OPP-00253,ACC-00025,USR-0027,Morton-Chase - New Business #00253,Closed Lost,6,2301.79,USD,New Business,Outbound,false,2025-10-21,2025-11-24,false,true,false,HS-003184,LEAD-003184,2026-04-01 05:30:00
+OPP-00254,ACC-00090,USR-0024,"Parker, Ortiz and Powell - New Business #00254",Closed Won,5,20157.25,USD,New Business,Content,false,2025-11-24,2025-12-20,true,true,false,HS-003191,LEAD-003191,2026-04-01 05:30:00
+OPP-00255,ACC-00551,USR-0030,"Harvey, Randall and Hernandez - New Business #00255",Demo,2,,USD,New Business,Inbound,false,2026-02-25,,false,false,false,HS-003194,LEAD-003194,2026-04-01 05:30:00
+OPP-00256,ACC-00948,USR-0023,Mendez PLC - New Business #00256,Closed Lost,6,2887.76,USD,New Business,Inbound,false,2025-12-13,2026-01-12,false,true,false,HS-003203,LEAD-003203,2026-04-01 05:30:00
+OPP-00257,ACC-00141,USR-0023,"Gould, Marshall and Scott - New Business #00257",Closed Lost,6,6158.53,USD,New Business,Referral,false,2025-10-01,2025-11-04,false,true,false,HS-003208,LEAD-003208,2026-04-01 05:30:00
+OPP-00258,ACC-01101,USR-0025,Thomas-Huffman - New Business #00258,Closed Lost,6,2536.31,USD,New Business,Partner,true,2026-02-15,2026-03-15,false,true,false,HS-003214,LEAD-003214,2026-04-01 05:30:00
+OPP-00259,ACC-00136,USR-0033,Curry Inc - New Business #00259,Discovery,1,12485.75,USD,New Business,Outbound,false,2026-03-24,,false,false,false,HS-003216,LEAD-003216,2026-04-01 05:30:00
+OPP-00260,ACC-00370,USR-0033,Kim Inc - New Business #00260,Demo,2,12265.95,USD,New Business,Paid,false,2026-01-30,,false,false,false,HS-003218,LEAD-003218,2026-04-01 05:30:00
+OPP-00261,ACC-00288,USR-0025,Harvey PLC - New Business #00261,Closed Lost,6,5327.45,USD,New Business,Inbound,false,2025-10-01,2025-10-16,false,true,false,HS-003220,LEAD-003220,2026-04-01 05:30:00
+OPP-00262,ACC-01088,USR-0029,"Evans, Jackson and Sandoval - New Business #00262",Closed Won,5,7826.00,USD,New Business,Outbound,false,2026-01-10,2026-02-13,true,true,false,HS-003225,LEAD-003225,2026-04-01 05:30:00
+OPP-00263,ACC-00126,USR-0023,"Hurst, Freeman and Nelson - New Business #00263",Discovery,1,4157.24,USD,New Business,Paid,false,2026-03-25,,false,false,false,HS-003243,LEAD-003243,2026-04-01 05:30:00
+OPP-00264,ACC-01160,USR-0033,"Saunders, Ray and Cunningham - New Business #00264",Closed Lost,6,16593.60,USD,New Business,Inbound,false,2025-12-13,2026-01-31,false,true,false,HS-003245,LEAD-003245,2026-04-01 05:30:00
+OPP-00265,ACC-00948,,Mendez PLC - New Business #00265,Closed Won,5,10612.28,USD,New Business,Event,false,2025-10-31,2025-11-18,true,true,false,HS-003247,LEAD-003247,2026-04-01 05:30:00
+OPP-00266,ACC-00410,USR-0026,"Wise, Conley and Stephenson - New Business #00266",Closed Won,5,5174.64,USD,New Business,Content,false,2025-10-09,2025-12-08,true,true,false,HS-003257,LEAD-003257,2026-04-01 05:30:00
+OPP-00267,ACC-00595,USR-0028,Thompson Ltd - New Business #00267,Closed Lost,6,1776.70,USD,New Business,Inbound,false,2026-01-05,2026-02-04,false,true,false,HS-003258,LEAD-003258,2026-04-01 05:30:00
+OPP-00268,ACC-00267,USR-0028,Armstrong-Andrews - New Business #00268,Closed Lost,6,7090.60,USD,New Business,Outbound,false,2025-10-05,2025-10-24,false,true,false,HS-003287,LEAD-003287,2026-04-01 05:30:00
+OPP-00269,ACC-00683,USR-0035,Mann Inc - New Business #00269,Closed Lost,6,105317.18,USD,New Business,Partner,true,2025-12-08,2026-01-19,false,true,false,HS-003293,LEAD-003293,2026-04-01 05:30:00
+OPP-00270,ACC-00904,USR-0026,Wood LLC - New Business #00270,Closed Lost,6,3153.42,USD,New Business,Event,false,2026-02-21,2026-03-09,false,true,false,HS-003332,LEAD-003332,2026-04-01 05:30:00
+OPP-00271,ACC-00168,USR-0034,Holt-Torres - New Business #00271,Closed Lost,6,24784.67,USD,New Business,Event,false,2025-11-24,2026-01-29,false,true,false,HS-003363,LEAD-003363,2026-04-01 05:30:00
+OPP-00272,ACC-00835,USR-0023,Alexander Inc - New Business #00272,Closed Lost,6,10207.60,USD,New Business,Outbound,false,2026-01-07,2026-02-04,false,true,false,HS-003367,LEAD-003367,2026-04-01 05:30:00
+OPP-00273,ACC-00559,USR-0034,Fox-Edwards - New Business #00273,Closed Lost,6,26190.44,USD,New Business,Inbound,false,2026-02-21,2026-03-29,false,true,false,HS-003390,LEAD-003390,2026-04-01 05:30:00
+OPP-00274,ACC-00510,USR-0035,"Baker, Clark and Armstrong - New Business #00274",Negotiation,4,94097.82,USD,New Business,Inbound,false,2026-01-09,,false,false,false,HS-003424,LEAD-003424,2026-04-01 05:30:00
+OPP-00275,ACC-00011,USR-0025,Walker LLC - New Business #00275,Closed Lost,6,7429.34,USD,New Business,Outbound,false,2025-11-09,2025-11-24,false,true,false,HS-003430,LEAD-003430,2026-04-01 05:30:00
+OPP-00276,ACC-00357,USR-0023,"Estrada, Williams and Foster - New Business #00276",Closed Lost,6,5670.88,USD,New Business,Paid,false,2025-12-25,2026-01-21,false,true,false,HS-003443,LEAD-003443,2026-04-01 05:30:00
+OPP-00277,ACC-00775,USR-0034,Lopez Ltd - New Business #00277,Discovery,1,32756.18,USD,New Business,Partner,true,2026-03-29,,false,false,false,HS-003450,LEAD-003450,2026-04-01 05:30:00
+OPP-00278,ACC-00904,USR-0024,Wood LLC - New Business #00278,Closed Won,5,8011.91,USD,New Business,Content,false,2025-11-11,2025-11-29,true,true,false,HS-003454,LEAD-003454,2026-04-01 05:30:00
+OPP-00279,ACC-00651,USR-0028,Atkinson LLC - New Business #00279,Closed Lost,6,5096.22,USD,New Business,Outbound,false,2025-09-10,2025-09-25,false,true,false,HS-003486,LEAD-003486,2026-04-01 05:30:00
+OPP-00280,ACC-00934,USR-0028,"Adkins, Wright and Murray - New Business #00280",Negotiation,4,10834.81,USD,New Business,Inbound,false,2026-03-24,,false,false,false,HS-003488,LEAD-003488,2026-04-01 05:30:00
+OPP-00281,ACC-00509,USR-0023,Miller Ltd - New Business #00281,Closed Lost,6,7935.48,USD,New Business,Referral,false,2026-01-04,2026-01-27,false,true,false,HS-003503,LEAD-003503,2026-04-01 05:30:00
+OPP-00282,ACC-00213,USR-0027,"Garcia, Martin and Jenkins - New Business #00282",Closed Won,5,2111.44,USD,New Business,Outbound,false,2025-12-26,2026-01-12,true,true,false,HS-003514,LEAD-003514,2026-04-01 05:30:00
+OPP-00283,ACC-00546,USR-0036,Whitney PLC - New Business #00283,Closed Lost,6,45077.71,USD,New Business,Inbound,false,2025-12-04,2026-01-17,false,true,false,HS-003516,LEAD-003516,2026-04-01 05:30:00
+OPP-00284,ACC-00207,USR-0029,"Matthews, Smith and Hubbard - New Business #00284",Closed Won,5,5983.42,USD,New Business,Outbound,false,2026-02-25,2026-03-22,true,true,false,HS-003537,LEAD-003537,2026-04-01 05:30:00
+OPP-00285,ACC-00919,USR-0023,Bates-Anderson - New Business #00285,Closed Won,5,4730.75,USD,New Business,Outbound,false,2025-12-03,2026-01-05,true,true,false,HS-003599,LEAD-003599,2026-04-01 05:30:00
+OPP-00286,ACC-00445,USR-0028,Jones-Fox - New Business #00286,Closed Lost,6,1375.35,USD,New Business,Content,false,2025-12-27,2026-01-30,false,true,false,HS-003610,LEAD-003610,2026-04-01 05:30:00
+OPP-00287,ACC-01180,USR-0035,Moran-Cox - New Business #00287,Demo,2,124221.17,USD,New Business,Outbound,false,2026-02-11,,false,false,false,HS-003611,LEAD-003611,2026-04-01 05:30:00
+OPP-00288,ACC-00802,USR-0029,Cunningham-Barton - New Business #00288,Closed Lost,6,1300.04,USD,New Business,Inbound,false,2026-01-30,2026-02-10,false,true,false,HS-003616,LEAD-003616,2026-04-01 05:30:00
+OPP-00289,ACC-00130,USR-0025,Meadows PLC - New Business #00289,Closed Won,5,10244.40,USD,New Business,Paid,false,2025-11-08,2025-12-02,true,true,false,HS-003622,LEAD-003622,2026-04-01 05:30:00
+OPP-00290,ACC-01134,USR-0024,Decker-Dudley - New Business #00290,Closed Lost,6,0.00,USD,New Business,Inbound,false,2025-10-01,2025-11-17,false,true,false,HS-003625,LEAD-003625,2026-04-01 05:30:00
+OPP-00291,ACC-00159,USR-0034,Christensen PLC - New Business #00291,Closed Lost,6,60858.56,USD,New Business,Inbound,false,2025-11-28,2026-01-15,false,true,false,HS-003629,LEAD-003629,2026-04-01 05:30:00
+OPP-00292,ACC-00690,,Rodriguez Inc - New Business #00292,Closed Won,5,20355.73,USD,New Business,Paid,false,2025-11-21,2026-01-07,true,true,false,HS-003639,LEAD-003639,2026-04-01 05:30:00
+OPP-00293,ACC-00107,USR-0025,"Holmes, Williams and Wright - New Business #00293",Discovery,1,5895.96,USD,New Business,Referral,false,2026-03-23,,false,false,false,HS-003650,LEAD-003650,2026-04-01 05:30:00
+OPP-00294,ACC-00836,USR-0029,Harris-Barker - New Business #00294,Closed Won,5,6127.61,USD,New Business,Event,false,2026-01-23,2026-02-19,true,true,false,HS-003656,LEAD-003656,2026-04-01 05:30:00
+OPP-00295,ACC-01001,USR-0032,Wheeler-Austin - New Business #00295,Proposal,3,11482.57,USD,New Business,Inbound,false,2026-02-11,,false,false,false,HS-003657,LEAD-003657,2026-04-01 05:30:00
+OPP-00296,ACC-00639,USR-0029,"Powers, Brennan and Sanchez - New Business #00296",Closed Won,5,,USD,New Business,Inbound,false,2026-02-20,2026-03-17,true,true,false,HS-003665,LEAD-003665,2026-04-01 05:30:00
+OPP-00297,ACC-00924,USR-0032,Moore and Sons - New Business #00297,Negotiation,4,12058.60,USD,New Business,Content,false,2025-12-10,,false,false,false,HS-003680,LEAD-003680,2026-04-01 05:30:00
+OPP-00298,ACC-01105,USR-0029,Johnston and Sons - New Business #00298,Negotiation,4,4630.82,USD,New Business,Outbound,false,2026-02-26,,false,false,false,HS-003684,LEAD-003684,2026-04-01 05:30:00
+OPP-00299,ACC-00930,USR-0024,Hernandez-Dawson - New Business #00299,Closed Lost,6,10638.47,USD,New Business,Outbound,false,2025-11-14,2025-12-24,false,true,false,HS-003688,LEAD-003688,2026-04-01 05:30:00
+OPP-00300,ACC-00604,USR-0023,Sullivan PLC - New Business #00300,Closed Won,5,9175.35,USD,New Business,Outbound,false,2026-01-10,2026-01-25,true,true,false,HS-003735,LEAD-003735,2026-04-01 05:30:00
+OPP-00301,ACC-00276,USR-0023,"Diaz, Anderson and Browning - New Business #00301",Closed Lost,6,6626.97,USD,New Business,Paid,false,2025-12-28,2026-01-06,false,true,false,HS-003744,LEAD-003744,2026-04-01 05:30:00
+OPP-00302,ACC-01095,USR-0028,Ruiz Ltd - New Business #00302,Negotiation,4,5471.08,USD,New Business,Paid,false,2026-03-21,,false,false,false,HS-003766,LEAD-003766,2026-04-01 05:30:00
+OPP-00303,ACC-00251,USR-0025,Young Ltd - New Business #00303,Closed Lost,6,1878.70,USD,New Business,Outbound,false,2025-12-01,2026-01-06,false,true,false,HS-003789,LEAD-003789,2026-04-01 05:30:00
+OPP-00304,ACC-00860,USR-0034,Wright PLC - New Business #00304,Discovery,1,16172.92,USD,New Business,Content,false,2026-03-31,,false,false,false,HS-003808,LEAD-003808,2026-04-01 05:30:00
+OPP-00305,ACC-00854,USR-0032,Bell-Lewis - New Business #00305,Closed Won,5,19312.20,USD,New Business,Inbound,false,2025-10-06,2025-11-27,true,true,false,HS-003819,LEAD-003819,2026-04-01 05:30:00
+OPP-00306,ACC-01064,USR-0035,Curry-Barker - New Business #00306,Discovery,1,69703.76,USD,New Business,Event,false,2026-02-17,,false,false,false,HS-003847,LEAD-003847,2026-04-01 05:30:00
+OPP-00307,ACC-00928,USR-0025,Aguirre LLC - New Business #00307,Closed Lost,6,3504.25,USD,New Business,Inbound,false,2025-10-11,2026-01-12,false,true,false,HS-003868,LEAD-003868,2026-04-01 05:30:00
+OPP-00307D,ACC-00928,USR-0025,Aguirre LLC - New Business #00307,Closed Lost,6,,USD,New Business,Inbound,false,2025-10-11,2026-01-12,false,true,false,HS-003868,LEAD-003868,2026-04-01 05:30:00
+OPP-00308,ACC-00978,USR-0026,Conner-Yu - New Business #00308,Closed Lost,6,5055.64,USD,New Business,Inbound,false,2026-01-17,2026-02-26,false,true,false,HS-003869,LEAD-003869,2026-04-01 05:30:00
+OPP-00309,ACC-00332,USR-0029,Reynolds Ltd - New Business #00309,Demo,2,9258.40,USD,New Business,Inbound,false,2026-03-10,,false,false,false,HS-003879,LEAD-003879,2026-04-01 05:30:00
+OPP-00310,ACC-00932,USR-0024,Green-Ewing - New Business #00310,Closed Won,5,3893.56,USD,New Business,Inbound,false,2025-12-15,2026-02-16,true,true,false,HS-003902,LEAD-003902,2026-04-01 05:30:00
+OPP-00311,ACC-00130,USR-0024,Meadows PLC - New Business #00311,Demo,2,8676.36,USD,New Business,Inbound,false,2026-03-13,,false,false,false,HS-003928,LEAD-003928,2026-04-01 05:30:00
+OPP-00312,ACC-00183,USR-0029,Wilson-Jones - New Business #00312,Closed Lost,6,2052.33,USD,New Business,Paid,false,2025-11-27,2026-01-14,false,true,false,HS-003932,LEAD-003932,2026-04-01 05:30:00
+OPP-00313,ACC-01086,USR-0028,"Reeves, Parks and Little - New Business #00313",Closed Lost,6,4315.85,USD,New Business,Outbound,false,2025-11-18,2025-12-16,false,true,false,HS-003939,LEAD-003939,2026-04-01 05:30:00
+OPP-00314,ACC-00993,USR-0027,"Barnes, Jackson and Gutierrez - New Business #00314",Closed Lost,6,7049.04,USD,New Business,Inbound,false,2025-09-09,2025-10-03,false,true,false,HS-003961,LEAD-003961,2026-04-01 05:30:00
+OPP-00315,ACC-00240,USR-0032,Garner-Thornton - New Business #00315,Closed Won,5,32940.46,USD,New Business,Content,false,2025-12-08,2026-01-02,true,true,false,HS-003967,LEAD-003967,2026-04-01 05:30:00
+OPP-00316,ACC-00406,USR-0034,"Henderson, Cox and Cox - New Business #00316",Closed Won,5,37631.49,USD,New Business,Content,false,2026-01-05,2026-02-28,true,true,false,HS-003974,LEAD-003974,2026-04-01 05:30:00
+OPP-00317,ACC-00320,USR-0026,Henry Group - New Business #00317,Discovery,1,3659.11,USD,New Business,Inbound,false,2026-03-30,,false,false,false,HS-003978,LEAD-003978,2026-04-01 05:30:00
+OPP-00318,ACC-00809,USR-0025,Gonzales Inc - New Business #00318,Closed Lost,6,6675.57,USD,New Business,Event,false,2025-12-20,2026-01-19,false,true,false,HS-003980,LEAD-003980,2026-04-01 05:30:00
+OPP-00319,ACC-00839,USR-0024,Pena LLC - New Business #00319,Closed Won,5,7493.30,USD,New Business,Outbound,false,2025-12-12,2026-01-02,true,true,false,HS-003982,LEAD-003982,2026-04-01 05:30:00
+OPP-00320,ACC-00733,USR-0036,Fisher-Washington - New Business #00320,Demo,2,90299.25,USD,New Business,Outbound,false,2026-03-05,,false,false,false,HS-003996,LEAD-003996,2026-04-01 05:30:00
+OPP-00321,ACC-01122,USR-0026,Brooks Ltd - New Business #00321,Closed Lost,6,2501.83,USD,New Business,Inbound,false,2025-10-06,2025-10-31,false,true,false,HS-003997,LEAD-003997,2026-04-01 05:30:00
+OPP-00322,ACC-00881,USR-0029,Wilson-Salazar - New Business #00322,Closed Lost,6,4900.79,USD,New Business,Content,false,2026-02-22,2026-03-20,false,true,false,HS-004017,LEAD-004017,2026-04-01 05:30:00
+OPP-00323,ACC-00814,USR-0025,"Bell, Campbell and Ryan - New Business #00323",Closed Lost,6,7985.84,EUR,New Business,Content,false,2026-03-12,2026-03-20,false,true,false,HS-004026,LEAD-004026,2026-04-01 05:30:00
+OPP-00324,ACC-00639,USR-0025,"Powers, Brennan and Sanchez - New Business #00324",Closed Won,5,3462.47,USD,New Business,Referral,false,2025-09-29,2025-10-11,true,true,false,HS-004031,LEAD-004031,2026-04-01 05:30:00
+OPP-00325,ACC-01176,,"Walsh, Wu and Hart - New Business #00325",Closed Lost,6,3954.16,USD,New Business,Outbound,false,2026-01-21,2026-03-08,false,true,false,HS-004034,LEAD-004034,2026-04-01 05:30:00
+OPP-00326,ACC-01070,USR-0024,"Owen, Walker and Franklin - New Business #00326",Negotiation,4,3695.17,USD,New Business,Partner,true,2026-03-10,,false,false,false,HS-004035,LEAD-004035,2026-04-01 05:30:00
+OPP-00327,ACC-00646,,"Fry, Hobbs and Buck - New Business #00327",Closed Lost,6,3223.01,USD,New Business,Partner,true,2026-01-30,2026-02-21,false,true,false,HS-004062,LEAD-004062,2026-04-01 05:30:00
+OPP-00328,ACC-00368,USR-0028,Jackson-Meza - New Business #00328,Proposal,3,4698.72,USD,New Business,Event,false,2026-01-27,,false,false,false,HS-004070,LEAD-004070,2026-04-01 05:30:00
+OPP-00329,ACC-00664,USR-0028,Sanders and Sons - New Business #00329,Closed Lost,6,2588.54,USD,New Business,Inbound,false,2026-03-11,2026-03-27,false,true,false,HS-004072,LEAD-004072,2026-04-01 05:30:00
+OPP-00330,ACC-00551,USR-0030,"Harvey, Randall and Hernandez - New Business #00330",Closed Lost,6,11308.53,USD,New Business,Inbound,false,2025-12-30,2026-02-12,false,true,false,HS-004079,LEAD-004079,2026-04-01 05:30:00
+OPP-00331,ACC-00248,USR-0029,"Miller, Murphy and Craig - New Business #00331",Closed Lost,6,4105.21,USD,New Business,Referral,false,2025-11-30,2025-12-22,false,true,false,HS-004084,LEAD-004084,2026-04-01 05:30:00
+OPP-00332,ACC-00555,USR-0024,Shaw-Carr - New Business #00332,Closed Lost,6,1845.33,USD,New Business,Content,false,2026-03-01,2026-03-24,false,true,false,HS-004099,LEAD-004099,2026-04-01 05:30:00
+OPP-00333,ACC-00034,USR-0032,Novak PLC - New Business #00333,Closed Won,5,28966.52,USD,New Business,Content,false,2025-12-18,2026-01-14,true,true,false,HS-004103,LEAD-004103,2026-04-01 05:30:00
+OPP-00334,ACC-01071,USR-0034,Marquez-Fletcher - New Business #00334,Closed Lost,6,21722.43,USD,New Business,Outbound,false,2025-12-06,2026-01-24,false,true,false,HS-004104,LEAD-004104,2026-04-01 05:30:00
+OPP-00335,ACC-00459,USR-0026,Kelly-Norman - New Business #00335,Closed Lost,6,3373.49,USD,New Business,Inbound,false,2025-09-10,2025-10-16,false,true,false,HS-004113,LEAD-004113,2026-04-01 05:30:00
+OPP-00336,ACC-01183,USR-0024,"Brandt, Carter and Boyd - New Business #00336",Closed Lost,6,10452.40,USD,New Business,Outbound,false,2025-10-20,2025-11-16,false,true,false,HS-004114,LEAD-004114,2026-04-01 05:30:00
+OPP-00337,ACC-00116,USR-0036,"Mitchell, Nelson and Flores - New Business #00337",Closed Lost,6,61418.53,USD,New Business,Outbound,false,2025-11-09,2026-02-05,false,true,false,HS-004134,LEAD-004134,2026-04-01 05:30:00
+OPP-00338,ACC-00206,USR-0023,Davis Ltd - New Business #00338,Closed Lost,6,3241.82,USD,New Business,Content,false,2025-10-30,2025-12-16,false,true,false,HS-004138,LEAD-004138,2026-04-01 05:30:00
+OPP-00339,ACC-00105,USR-0026,Stafford Inc - New Business #00339,Closed Lost,6,,USD,New Business,Inbound,false,2026-02-25,2026-03-18,false,true,false,HS-004149,LEAD-004149,2026-04-01 05:30:00
+OPP-00340,ACC-00742,USR-0025,Faulkner-Casey - New Business #00340,Closed Lost,6,5608.71,USD,New Business,Content,false,2025-10-13,2025-11-02,false,true,false,HS-004178,LEAD-004178,2026-04-01 05:30:00
+OPP-00341,ACC-00053,USR-0023,Newton and Sons - New Business #00341,Closed Lost,6,5663.70,USD,New Business,Inbound,false,2025-12-01,2025-12-18,false,true,false,HS-004217,LEAD-004217,2026-04-01 05:30:00
+OPP-00342,ACC-00941,USR-0025,Davis LLC - New Business #00342,Closed Lost,6,8513.81,USD,New Business,Outbound,false,2025-12-08,2026-01-03,false,true,false,HS-004234,LEAD-004234,2026-04-01 05:30:00
+OPP-00343,ACC-00243,USR-0025,"Sanford, Rivera and Garcia - New Business #00343",Closed Won,5,4360.98,USD,New Business,Outbound,false,2025-10-14,2025-11-25,true,true,false,HS-004246,LEAD-004246,2026-04-01 05:30:00
+OPP-00344,ACC-00307,USR-0025,Willis and Sons - New Business #00344,Closed Lost,6,4987.92,USD,New Business,Content,false,2025-11-18,2025-12-09,false,true,false,HS-004254,LEAD-004254,2026-04-01 05:30:00
+OPP-00345,ACC-00671,USR-0024,Tran-Silva - New Business #00345,Closed Lost,6,4638.01,USD,New Business,Content,false,2025-10-27,2025-11-06,false,true,false,HS-004261,LEAD-004261,2026-04-01 05:30:00
+OPP-00346,ACC-00512,USR-0023,May-Turner - New Business #00346,Closed Lost,6,2994.58,USD,New Business,Outbound,false,2025-11-03,2025-12-04,false,true,false,HS-004263,LEAD-004263,2026-04-01 05:30:00
+OPP-00347,ACC-00260,,"Thomas, Murray and King - New Business #00347",Closed Lost,6,4389.85,USD,New Business,Content,false,2025-12-23,2026-01-18,false,true,false,HS-004266,LEAD-004266,2026-04-01 05:30:00
+OPP-00348,ACC-00498,USR-0025,Owens-Holmes - New Business #00348,Closed Lost,6,1649.00,USD,New Business,Paid,false,2026-01-24,2026-02-16,false,true,false,HS-004271,LEAD-004271,2026-04-01 05:30:00
+OPP-00349,ACC-00224,USR-0027,Tran Inc - New Business #00349,Closed Lost,6,4167.16,USD,New Business,Paid,false,2025-12-13,2026-01-14,false,true,false,HS-004304,LEAD-004304,2026-04-01 05:30:00
+OPP-00350,ACC-00199,USR-0026,"Walker, Hernandez and Baker - New Business #00350",Closed Lost,6,4576.25,USD,New Business,Event,false,2025-11-11,2026-01-07,false,true,false,HS-004327,LEAD-004327,2026-04-01 05:30:00
+OPP-00351,ACC-00271,USR-0033,Parsons-Hall - New Business #00351,Proposal,3,,USD,New Business,Inbound,false,2026-02-20,,false,false,false,HS-004353,LEAD-004353,2026-04-01 05:30:00
+OPP-00352,ACC-00907,USR-0030,Oconnor PLC - New Business #00352,Closed Won,5,36621.24,USD,New Business,Event,false,2025-10-31,2026-01-14,true,true,false,HS-004358,LEAD-004358,2026-04-01 05:30:00
+OPP-00353,ACC-00772,USR-0025,"Marsh, Spears and Yang - New Business #00353",Closed Won,5,5182.47,USD,New Business,Event,false,2025-10-21,2025-11-21,true,true,false,HS-004377,LEAD-004377,2026-04-01 05:30:00
+OPP-00354,ACC-01078,USR-0030,Rogers LLC - New Business #00354,Negotiation,4,21208.26,USD,New Business,Paid,false,2026-02-18,,false,false,false,HS-004392,LEAD-004392,2026-04-01 05:30:00
+OPP-00355,ACC-00641,USR-0026,"Robinson, Shields and Brown - New Business #00355",Closed Lost,6,8703.24,USD,New Business,Inbound,false,2025-09-18,2025-10-24,false,true,false,HS-004398,LEAD-004398,2026-04-01 05:30:00
+OPP-00356,ACC-00084,USR-0026,Scott Ltd - New Business #00356,Proposal,3,3247.69,USD,New Business,Outbound,false,2026-03-17,,false,false,false,HS-004419,LEAD-004419,2026-04-01 05:30:00
+OPP-00357,ACC-00079,USR-0030,"Rivera, Johnson and Wiley - New Business #00357",Closed Lost,6,48825.42,USD,New Business,Outbound,false,2025-12-22,2026-01-22,false,true,false,HS-004423,LEAD-004423,2026-04-01 05:30:00
+OPP-00358,ACC-00365,USR-0028,Atkins PLC - New Business #00358,Closed Lost,6,4664.07,USD,New Business,Referral,false,2025-10-24,2025-12-17,false,true,false,HS-004449,LEAD-004449,2026-04-01 05:30:00
+OPP-00359,ACC-00058,USR-0024,Williams-Cook - New Business #00359,Closed Won,5,8563.06,USD,New Business,Content,false,2025-09-20,2025-10-19,true,true,false,HS-004476,LEAD-004476,2026-04-01 05:30:00
+OPP-00360,ACC-01176,USR-0026,"Walsh, Wu and Hart - New Business #00360",Closed Won,5,3573.28,USD,New Business,Inbound,false,2026-02-02,2026-02-18,true,true,false,HS-004478,LEAD-004478,2026-04-01 05:30:00
+OPP-00361,ACC-01016,USR-0023,Lopez-Williams - New Business #00361,Negotiation,4,8424.82,USD,New Business,Inbound,false,2026-03-04,,false,false,false,HS-004495,LEAD-004495,2026-04-01 05:30:00
+OPP-00362,ACC-00164,USR-0033,Miller Ltd - New Business #00362,Closed Lost,6,44057.99,USD,New Business,Paid,false,2026-01-26,2026-03-05,false,true,false,HS-004507,LEAD-004507,2026-04-01 05:30:00
+OPP-00363,ACC-00751,USR-0024,"Moore, Henderson and Bennett - New Business #00363",Negotiation,4,3634.16,USD,New Business,Inbound,false,2026-01-02,,false,false,false,HS-004516,LEAD-004516,2026-04-01 05:30:00
+OPP-00364,ACC-01112,USR-0028,Perez LLC - New Business #00364,Closed Lost,6,16692.47,USD,New Business,Partner,true,2026-02-02,2026-02-16,false,true,false,HS-004536,LEAD-004536,2026-04-01 05:30:00
+OPP-00365,ACC-00640,USR-0026,Morales and Sons - New Business #00365,Closed Lost,6,4513.10,USD,New Business,Outbound,false,2025-09-14,2025-10-18,false,true,false,HS-004566,LEAD-004566,2026-04-01 05:30:00
+OPP-00366,ACC-00423,USR-0034,Spencer-Garcia - New Business #00366,Closed Won,5,19524.68,USD,New Business,Outbound,false,2025-09-20,2025-10-18,true,true,false,HS-004582,LEAD-004582,2026-04-01 05:30:00
+OPP-00367,ACC-00574,USR-0034,Gilbert PLC - New Business #00367,Discovery,1,25185.90,USD,New Business,Outbound,false,2026-03-21,,false,false,false,HS-004595,LEAD-004595,2026-04-01 05:30:00
+OPP-00368,ACC-00508,USR-0025,"Morgan, Bradshaw and Williams - New Business #00368",Closed Lost,6,5025.39,USD,New Business,Partner,true,2025-09-15,2025-09-28,false,true,false,HS-004604,LEAD-004604,2026-04-01 05:30:00
+OPP-00369,ACC-00431,USR-0026,Combs Ltd - New Business #00369,Closed Won,5,9600.16,USD,New Business,Content,false,2025-11-15,2025-12-07,true,true,false,HS-004637,LEAD-004637,2026-04-01 05:30:00
+OPP-00370,ACC-00566,USR-0025,Stewart-Bailey - New Business #00370,Discovery,1,15904.99,USD,New Business,Outbound,false,2026-03-26,,false,false,false,HS-004646,LEAD-004646,2026-04-01 05:30:00
+OPP-00371,ACC-00823,USR-0034,Schultz Inc - New Business #00371,Closed Won,5,36445.43,USD,New Business,Referral,false,2025-12-28,2026-03-06,true,true,false,HS-004667,LEAD-004667,2026-04-01 05:30:00
+OPP-00372,ACC-00082,USR-0023,Chandler-Edwards - New Business #00372,Closed Lost,6,,USD,New Business,Inbound,false,2025-12-29,2026-02-09,false,true,false,HS-004674,LEAD-004674,2026-04-01 05:30:00
+OPP-00373,ACC-00260,USR-0026,"Thomas, Murray and King - New Business #00373",Closed Won,5,6326.90,USD,New Business,Inbound,false,2026-02-24,2026-03-17,true,true,false,HS-004700,LEAD-004700,2026-04-01 05:30:00
+OPP-00374,ACC-00135,USR-0023,DELETEME - King-Miller - New Business #00374,Closed Won,5,4545.53,USD,New Business,Referral,false,2026-01-02,2026-01-12,true,true,true,HS-004707,LEAD-004707,2026-04-01 05:30:00
+OPP-00375,ACC-01036,USR-0026,"Matthews, Harrington and Rodriguez - New Business #00375",Closed Lost,6,10575.02,USD,New Business,Outbound,false,2026-02-18,2026-03-09,false,true,false,HS-004709,LEAD-004709,2026-04-01 05:30:00
+OPP-00376,ACC-00099,USR-0027,Chambers and Sons - New Business #00376,Negotiation,4,,USD,New Business,Inbound,false,2026-02-13,,false,false,false,HS-004719,LEAD-004719,2026-04-01 05:30:00
+OPP-00377,ACC-00176,USR-0029,Perez-White - New Business #00377,Closed Won,5,2078.24,USD,New Business,Outbound,false,2025-12-07,2025-12-27,true,true,false,HS-004723,LEAD-004723,2026-04-01 05:30:00
+OPP-00378,ACC-00961,USR-0032,Garcia Ltd - New Business #00378,Closed Won,5,64539.31,USD,New Business,Paid,false,2025-10-07,2025-12-12,true,true,false,HS-004731,LEAD-004731,2026-04-01 05:30:00
+OPP-00379,ACC-00665,USR-0024,"Morris, Campbell and Owens - New Business #00379",Closed Lost,6,3990.79,USD,New Business,Outbound,false,2026-01-29,2026-02-17,false,true,false,HS-004735,LEAD-004735,2026-04-01 05:30:00
+OPP-00380,ACC-00283,USR-0025,"Ramsey, Whitney and Coffey - New Business #00380",Closed Lost,6,5615.04,USD,New Business,Paid,false,2025-11-29,2025-12-26,false,true,false,HS-004736,LEAD-004736,2026-04-01 05:30:00
+OPP-00381,ACC-00525,USR-0033,"Edwards, Hines and Jimenez - New Business #00381",Closed Lost,6,44614.98,USD,New Business,Inbound,false,2025-10-05,2025-11-04,false,true,false,HS-004745,LEAD-004745,2026-04-01 05:30:00
+OPP-00382,ACC-00173,USR-0004,"Tapia, Vaughn and Lee - New Business #00382",Closed Lost,6,6204.79,USD,New Business,Paid,false,2026-01-25,2026-02-16,false,true,false,HS-004751,LEAD-004751,2026-04-01 05:30:00
+OPP-00383,ACC-00984,USR-0025,"Johnson, Guzman and Mccall - New Business #00383",Closed Lost,6,3176.98,USD,New Business,Inbound,false,2026-03-10,2026-03-20,false,true,false,HS-004764,LEAD-004764,2026-04-01 05:30:00
+OPP-00384,ACC-00841,USR-0034,Williams Ltd - New Business #00384,Negotiation,4,,USD,New Business,Inbound,false,2026-01-08,,false,false,false,HS-004783,LEAD-004783,2026-04-01 05:30:00
+OPP-00385,ACC-01154,USR-0029,"Gregory, White and James - New Business #00385",Closed Lost,6,5217.92,USD,New Business,Referral,false,2025-12-07,2025-12-26,false,true,false,HS-004784,LEAD-004784,2026-04-01 05:30:00
+OPP-00386,ACC-01176,USR-0024,"Walsh, Wu and Hart - New Business #00386",Closed Lost,6,2978.93,USD,New Business,Inbound,false,2025-09-18,2025-10-16,false,true,false,HS-004795,LEAD-004795,2026-04-01 05:30:00
+OPP-00387,ACC-00628,USR-0029,Miller-Brandt - New Business #00387,Proposal,3,5188.24,USD,New Business,Outbound,false,2026-03-05,,false,false,false,HS-004805,LEAD-004805,2026-04-01 05:30:00
+OPP-00388,ACC-01189,USR-0029,"Monroe, Chapman and Barton - New Business #00388",Closed Lost,6,3778.38,USD,New Business,Event,false,2025-12-19,2026-01-06,false,true,false,HS-004807,LEAD-004807,2026-04-01 05:30:00
+OPP-00389,ACC-00509,USR-0023,Miller Ltd - New Business #00389,Closed Lost,6,6308.17,USD,New Business,Outbound,false,2026-01-01,2026-01-17,false,true,false,HS-004847,LEAD-004847,2026-04-01 05:30:00
+OPP-00390,ACC-00122,USR-0025,"Smith, Gilmore and Johnston - New Business #00390",Proposal,3,4968.42,USD,New Business,Partner,true,2026-02-19,,false,false,false,HS-004872,LEAD-004872,2026-04-01 05:30:00
+OPP-00391,ACC-00546,USR-0035,Whitney PLC - New Business #00391,Proposal,3,90591.44,USD,New Business,Outbound,false,2026-01-04,,false,false,false,HS-004874,LEAD-004874,2026-04-01 05:30:00
+OPP-00392,ACC-00907,USR-0030,Oconnor PLC - New Business #00392,Closed Lost,6,46465.80,USD,New Business,Referral,false,2025-11-18,2026-02-21,false,true,false,HS-004875,LEAD-004875,2026-04-01 05:30:00
+OPP-00393,ACC-00349,USR-0023,Moore-Collins - New Business #00393,Negotiation,4,5738.57,USD,New Business,Outbound,false,2026-03-03,,false,false,false,HS-004901,LEAD-004901,2026-04-01 05:30:00
+OPP-00394,ACC-00873,USR-0036,Hunter-Fuller - New Business #00394,Closed Lost,6,128363.21,USD,New Business,Outbound,false,2025-10-15,2026-02-18,false,true,false,HS-004937,LEAD-004937,2026-04-01 05:30:00
+OPP-00395,ACC-00339,USR-0023,Boone LLC - New Business #00395,Closed Won,5,7664.06,USD,New Business,Event,false,2025-09-25,2025-10-16,true,true,false,HS-004944,LEAD-004944,2026-04-01 05:30:00
+OPP-00396,ACC-00299,,"Wood, Ramos and Sampson - New Business #00396",Closed Lost,6,8257.55,USD,New Business,Partner,true,2025-11-22,2025-12-22,false,true,false,HS-004958,LEAD-004958,2026-04-01 05:30:00
+OPP-00397,ACC-00225,USR-0026,Gay Inc - New Business #00397,Closed Lost,6,14016.86,USD,New Business,Outbound,false,2026-02-02,2026-02-20,false,true,false,HS-004960,LEAD-004960,2026-04-01 05:30:00
+OPP-00398,ACC-01077,USR-0026,"Lynch, Evans and Rodriguez - New Business #00398",Closed Lost,6,4815.05,USD,New Business,Inbound,false,2025-09-23,2025-10-05,false,true,false,HS-004966,LEAD-004966,2026-04-01 05:30:00
+OPP-00399,ACC-00577,USR-0025,Love-Garcia - New Business #00399,Negotiation,4,6835.71,USD,New Business,Inbound,false,2026-03-03,,false,false,false,HS-004990,LEAD-004990,2026-04-01 05:30:00
+OPP-00399D,ACC-00577,USR-0025,Love-Garcia - New Business #00399,Negotiation,4,6835.71,USD,New Business,Inbound,false,2026-03-03,,false,false,false,HS-004990,LEAD-004990,2026-04-01 05:30:00
+OPP-00400,ACC-00444,USR-0029,"Butler, Beck and Miller - New Business #00400",Closed Won,5,4284.17,USD,New Business,Inbound,false,2025-11-28,2026-01-10,true,true,false,HS-005024,LEAD-005024,2026-04-01 05:30:00
+OPP-00401,ACC-00636,USR-0034,Mendez-Mayer - New Business #00401,Discovery,1,41314.45,USD,New Business,Referral,false,2026-03-18,,false,false,false,HS-005043,LEAD-005043,2026-04-01 05:30:00
+OPP-00402,ACC-00411,USR-0024,Stanley PLC - New Business #00402,Closed Lost,6,4478.70,USD,New Business,Partner,true,2026-02-26,2026-03-14,false,true,false,HS-005072,LEAD-005072,2026-04-01 05:30:00
+OPP-00403,ACC-00185,USR-0034,Hernandez PLC - New Business #00403,Closed Lost,6,21751.64,USD,New Business,Event,false,2025-12-15,2026-02-05,false,true,false,HS-005078,LEAD-005078,2026-04-01 05:30:00
+OPP-00404,ACC-01099,USR-0023,Taylor and Sons - New Business #00404,Closed Lost,6,8798.43,USD,New Business,Inbound,false,2025-09-11,2025-10-03,false,true,false,HS-005079,LEAD-005079,2026-04-01 05:30:00
+OPP-00405,ACC-00063,USR-0030,"Tran, Jordan and Williams - New Business #00405",Closed Lost,6,14616.34,USD,New Business,Paid,false,2025-11-19,2025-12-27,false,true,false,HS-005084,LEAD-005084,2026-04-01 05:30:00
+OPP-00406,ACC-00981,USR-0029,Gray Ltd - New Business #00406,Closed Won,5,4105.93,USD,New Business,Referral,false,2026-02-04,2026-02-19,true,true,false,HS-005104,LEAD-005104,2026-04-01 05:30:00
+OPP-00407,ACC-00160,USR-0034,"Barnett, Rogers and Snyder - New Business #00407",Closed Lost,6,29913.81,USD,New Business,Inbound,false,2025-12-28,2026-02-22,false,true,false,HS-005115,LEAD-005115,2026-04-01 05:30:00
+OPP-00408,ACC-01016,USR-0029,Lopez-Williams - New Business #00408,Closed Lost,6,10348.95,USD,New Business,Outbound,false,2025-10-10,2025-11-04,false,true,false,HS-005123,LEAD-005123,2026-04-01 05:30:00
+OPP-00409,ACC-00812,USR-0026,Martin-Taylor - New Business #00409,Closed Lost,6,3118.25,USD,New Business,Inbound,false,2026-01-26,2026-03-14,false,true,false,HS-005125,LEAD-005125,2026-04-01 05:30:00
+OPP-00410,ACC-00331,USR-0026,Davis Inc - New Business #00410,Proposal,3,7574.62,USD,New Business,Outbound,false,2026-03-16,,false,false,false,HS-005137,LEAD-005137,2026-04-01 05:30:00
+OPP-00411,ACC-00707,USR-0028,Goodwin Ltd - New Business #00411,Proposal,3,2272.76,USD,New Business,Referral,false,2026-03-21,,false,false,false,HS-005138,LEAD-005138,2026-04-01 05:30:00
+OPP-00412,ACC-00443,,Mendez and Sons - New Business #00412,Closed Won,5,9298.86,USD,New Business,Paid,false,2025-12-19,2026-02-07,true,true,false,HS-005148,LEAD-005148,2026-04-01 05:30:00
+OPP-00413,ACC-00758,USR-0029,"Terrell, Byrd and Ross - New Business #00413",Closed Lost,6,5045.47,USD,New Business,Event,false,2026-01-13,2026-02-14,false,true,false,HS-005180,LEAD-005180,2026-04-01 05:30:00
+OPP-00414,ACC-00971,USR-0029,"Robinson, Fox and Smith - New Business #00414",Closed Lost,6,7925.03,USD,New Business,Event,false,2025-10-30,2025-11-24,false,true,false,HS-005189,LEAD-005189,2026-04-01 05:30:00
+OPP-00415,ACC-00642,USR-0032,"Holder, Young and Hendricks - New Business #00415",Closed Lost,6,30942.96,USD,New Business,Event,false,2026-02-07,2026-03-30,false,true,false,HS-005191,LEAD-005191,2026-04-01 05:30:00
+OPP-00416,ACC-01071,USR-0033,Marquez-Fletcher - New Business #00416,Closed Lost,6,13210.80,USD,New Business,Inbound,false,2025-10-07,2025-12-19,false,true,false,HS-005220,LEAD-005220,2026-04-01 05:30:00
+OPP-00417,ACC-00034,USR-0030,Novak PLC - New Business #00417,Closed Lost,6,28829.89,USD,New Business,Content,false,2026-01-17,2026-03-06,false,true,false,HS-005227,LEAD-005227,2026-04-01 05:30:00
+OPP-00418,ACC-00656,USR-0029,Boone-Davis - New Business #00418,Closed Won,5,5498.21,USD,New Business,Inbound,false,2026-02-04,2026-03-03,true,true,false,HS-005232,LEAD-005232,2026-04-01 05:30:00
+OPP-00419,ACC-00550,USR-0028,"Williams, Castillo and Warren - New Business #00419",Closed Lost,6,,EUR,New Business,Outbound,false,2025-12-04,2026-01-02,false,true,false,HS-005233,LEAD-005233,2026-04-01 05:30:00
+OPP-00420,ACC-00661,USR-0036,Giles Ltd - New Business #00420,Closed Lost,6,119110.43,USD,New Business,Inbound,false,2025-12-16,2026-03-16,false,true,false,HS-005235,LEAD-005235,2026-04-01 05:30:00
+OPP-00421,ACC-00675,USR-0028,Levy-May - New Business #00421,Closed Won,5,4359.77,USD,New Business,Paid,false,2025-09-20,2025-10-30,true,true,false,HS-005240,LEAD-005240,2026-04-01 05:30:00
+OPP-00422,ACC-00468,USR-0030,Jackson-Wallace - New Business #00422,Closed Won,5,11106.61,USD,New Business,Event,false,2025-11-06,2026-01-13,true,true,false,HS-005241,LEAD-005241,2026-04-01 05:30:00
+OPP-00423,ACC-00729,USR-0025,Hardy PLC - New Business #00423,Closed Won,5,7433.04,USD,New Business,Content,false,2026-01-03,2026-03-12,true,true,false,HS-005253,LEAD-005253,2026-04-01 05:30:00
+OPP-00424,ACC-00692,USR-0025,Adams-Sanders - New Business #00424,Closed Won,5,2651.70,USD,New Business,Outbound,false,2025-11-22,2026-01-12,true,true,false,HS-005290,LEAD-005290,2026-04-01 05:30:00
+OPP-00425,ACC-00488,,"Daniels, Vance and York - New Business #00425",Closed Lost,6,5278.42,USD,New Business,Outbound,false,2025-11-08,2025-11-24,false,true,false,HS-005298,LEAD-005298,2026-04-01 05:30:00
+OPP-00426,ACC-00425,USR-0024,Cole-Palmer - New Business #00426,Closed Lost,6,4038.21,USD,New Business,Content,false,2026-03-02,2026-03-24,false,true,false,HS-005310,LEAD-005310,2026-04-01 05:30:00
+OPP-00427,ACC-00862,USR-0035,Abbott Ltd - New Business #00427,Demo,2,29778.52,USD,New Business,Inbound,false,2025-12-10,,false,false,false,HS-005318,LEAD-005318,2026-04-01 05:30:00
+OPP-00428,ACC-00994,USR-0028,Bell-Bennett - New Business #00428,Closed Lost,6,4374.10,USD,New Business,Outbound,false,2025-12-08,2026-01-06,false,true,false,HS-005324,LEAD-005324,2026-04-01 05:30:00
+OPP-00429,ACC-00583,USR-0032,"Rodgers, Jefferson and Johnson - New Business #00429",Closed Lost,6,21577.42,USD,New Business,Outbound,false,2026-01-13,2026-02-10,false,true,false,HS-005326,LEAD-005326,2026-04-01 05:30:00
+OPP-00430,ACC-01077,USR-0028,"Lynch, Evans and Rodriguez - New Business #00430",Proposal,3,5875.49,USD,New Business,Outbound,false,2026-03-20,,false,false,false,HS-005331,LEAD-005331,2026-04-01 05:30:00
+OPP-00431,ACC-00422,USR-0024,"Taylor, Wright and Davidson - New Business #00431",Closed Lost,6,8481.29,USD,New Business,Outbound,false,2025-12-22,2026-01-19,false,true,false,HS-005335,LEAD-005335,2026-04-01 05:30:00
+OPP-00432,ACC-00467,USR-0034,Parker-Morrison - New Business #00432,Demo,2,,USD,New Business,Event,false,2026-02-21,,false,false,false,HS-005369,LEAD-005369,2026-04-01 05:30:00
+OPP-00433,ACC-01144,USR-0033,"Edwards, Rodgers and Davis - New Business #00433",Closed Won,5,49507.85,USD,New Business,Content,false,2025-09-28,2025-12-07,true,true,false,HS-005371,LEAD-005371,2026-04-01 05:30:00
+OPP-00434,ACC-00183,USR-0028,Wilson-Jones - New Business #00434,Closed Lost,6,4552.61,USD,New Business,Paid,false,2025-11-03,2025-11-25,false,true,false,HS-005380,LEAD-005380,2026-04-01 05:30:00
+OPP-00435,ACC-01100,USR-0025,Ortiz-Hudson - New Business #00435,Demo,2,5589.97,USD,New Business,Event,false,2026-03-18,,false,false,false,HS-005383,LEAD-005383,2026-04-01 05:30:00
+OPP-00436,ACC-00561,USR-0025,Payne-Lowe - New Business #00436,Closed Lost,6,4173.67,USD,New Business,Event,false,2026-02-05,2026-02-20,false,true,false,HS-005405,LEAD-005405,2026-04-01 05:30:00
+OPP-00437,ACC-01067,USR-0034,Byrd LLC - New Business #00437,Negotiation,4,29219.04,CAD,New Business,Outbound,false,2026-01-11,,false,false,false,HS-005415,LEAD-005415,2026-04-01 05:30:00
+OPP-00438,ACC-01190,USR-0025,Ellis-Lawrence - New Business #00438,Closed Lost,6,2659.07,USD,New Business,Content,false,2026-02-09,2026-02-23,false,true,false,HS-005417,LEAD-005417,2026-04-01 05:30:00
+OPP-00439,ACC-01089,USR-0034,"DELETEME - White, Davis and Anderson - New Business #00439",Negotiation,4,8541.19,USD,New Business,Inbound,false,2026-02-05,,false,false,true,HS-005420,LEAD-005420,2026-04-01 05:30:00
+OPP-00440,ACC-00739,,"Mccann, Taylor and Flores - New Business #00440",Closed Lost,6,11281.91,USD,New Business,Outbound,false,2025-10-04,2025-10-21,false,true,false,HS-005429,LEAD-005429,2026-04-01 05:30:00
+OPP-00441,ACC-00080,USR-0036,White-Estes - New Business #00441,Negotiation,4,49199.02,USD,New Business,Outbound,false,2026-01-12,,false,false,false,HS-005432,LEAD-005432,2026-04-01 05:30:00
+OPP-00442,ACC-00458,USR-0023,"Kennedy, Johnson and Lucas - New Business #00442",Closed Lost,6,4863.44,USD,New Business,Content,false,2026-02-27,2026-03-15,false,true,false,HS-005434,LEAD-005434,2026-04-01 05:30:00
+OPP-00443,ACC-00491,USR-0029,Conner and Sons - New Business #00443,Closed Lost,6,1649.35,USD,New Business,Inbound,false,2025-11-30,2025-12-20,false,true,false,HS-005458,LEAD-005458,2026-04-01 05:30:00
+OPP-00444,ACC-01011,USR-0030,Little Inc - New Business #00444,Closed Lost,6,27668.27,GBP,New Business,Content,false,2025-11-26,2025-12-27,false,true,false,HS-005468,LEAD-005468,2026-04-01 05:30:00
+OPP-00445,ACC-00307,USR-0023,Willis and Sons - New Business #00445,Closed Won,5,4293.69,USD,New Business,Inbound,false,2025-12-14,2026-01-09,true,true,false,HS-005487,LEAD-005487,2026-04-01 05:30:00
+OPP-00446,ACC-00009,USR-0023,"Harris, Collins and Carney - New Business #00446",Closed Lost,6,3247.20,USD,New Business,Paid,false,2025-10-15,2025-12-29,false,true,false,HS-005495,LEAD-005495,2026-04-01 05:30:00
+OPP-00447,ACC-00560,USR-0028,Stevens PLC - New Business #00447,Closed Lost,6,12313.50,USD,New Business,Outbound,false,2026-02-24,2026-03-29,false,true,false,HS-005504,LEAD-005504,2026-04-01 05:30:00
+OPP-00448,ACC-00605,USR-0026,"Carrillo, Vaughn and Fowler - New Business #00448",Closed Lost,6,6291.06,USD,New Business,Outbound,false,2026-02-23,2026-03-09,false,true,false,HS-005514,LEAD-005514,2026-04-01 05:30:00
+OPP-00449,ACC-00650,USR-0036,White-Medina - New Business #00449,Closed Lost,6,59196.59,USD,New Business,Inbound,false,2025-12-23,2026-02-26,false,true,false,HS-005517,LEAD-005517,2026-04-01 05:30:00
+OPP-00450,ACC-00306,USR-0032,Jones PLC - New Business #00450,Closed Won,5,40915.43,USD,New Business,Content,false,2025-10-12,2025-12-11,true,true,false,HS-005533,LEAD-005533,2026-04-01 05:30:00
+OPP-00451,ACC-00042,USR-0029,Donovan-Harris - New Business #00451,Closed Lost,6,11280.80,USD,New Business,Inbound,false,2026-02-04,2026-02-19,false,true,false,HS-005541,LEAD-005541,2026-04-01 05:30:00
+OPP-00452,ACC-00807,USR-0033,"Greer, Potter and Evans - New Business #00452",Closed Lost,6,21109.01,USD,New Business,Inbound,false,2025-12-24,2026-03-24,false,true,false,HS-005547,LEAD-005547,2026-04-01 05:30:00
+OPP-00453,ACC-00540,USR-0027,"Cook, Wells and Bryant - New Business #00453",Closed Lost,6,34149.31,USD,New Business,Inbound,false,2026-01-03,2026-03-30,false,true,false,HS-005553,LEAD-005553,2026-04-01 05:30:00
+OPP-00454,ACC-00882,USR-0029,Parker Ltd - New Business #00454,Closed Won,5,7412.21,USD,New Business,Content,false,2025-12-16,2026-01-12,true,true,false,HS-005559,LEAD-005559,2026-04-01 05:30:00
+OPP-00455,ACC-00325,USR-0032,"Wilson, Pena and Rich - New Business #00455",Closed Lost,6,12298.89,USD,New Business,Outbound,false,2026-01-31,2026-03-01,false,true,false,HS-005562,LEAD-005562,2026-04-01 05:30:00
+OPP-00456,ACC-00008,USR-0025,Hickman Ltd - New Business #00456,Closed Lost,6,2646.74,USD,New Business,Content,false,2025-11-22,2025-12-25,false,true,false,HS-005567,LEAD-005567,2026-04-01 05:30:00
+OPP-00457,ACC-00036,USR-0030,"Woods, Calhoun and Schmidt - New Business #00457",Closed Won,5,21402.26,USD,New Business,Paid,false,2025-11-28,2026-01-18,true,true,false,HS-005582,LEAD-005582,2026-04-01 05:30:00
+OPP-00458,ACC-00870,USR-0035,Best-Townsend - New Business #00458,Closed Lost,6,82629.82,USD,New Business,Outbound,false,2025-12-25,2026-02-24,false,true,false,HS-005598,LEAD-005598,2026-04-01 05:30:00
+OPP-00459,ACC-00234,USR-0030,Monroe-Carpenter - New Business #00459,Closed Lost,6,30113.59,USD,New Business,Outbound,false,2025-11-30,2026-01-25,false,true,false,HS-005600,LEAD-005600,2026-04-01 05:30:00
+OPP-00460,ACC-00686,USR-0026,"Durham, Hopkins and Smith - New Business #00460",Closed Lost,6,4459.10,USD,New Business,Inbound,false,2025-09-19,2025-10-04,false,true,false,HS-005608,LEAD-005608,2026-04-01 05:30:00
+OPP-00461,ACC-00626,USR-0033,"Stuart, Brooks and Vance - New Business #00461",Closed Lost,6,12365.60,USD,New Business,Outbound,false,2026-01-30,2026-03-19,false,true,false,HS-005644,LEAD-005644,2026-04-01 05:30:00
+OPP-00462,ACC-01062,USR-0023,Thompson-Harrell - New Business #00462,Closed Lost,6,2813.73,USD,New Business,Referral,false,2026-01-22,2026-03-03,false,true,false,HS-005659,LEAD-005659,2026-04-01 05:30:00
+OPP-00463,ACC-00805,USR-0024,Weaver-Sherman - New Business #00463,Closed Lost,6,7210.90,USD,New Business,Inbound,false,2025-10-16,2025-11-08,false,true,false,HS-005684,LEAD-005684,2026-04-01 05:30:00
+OPP-00464,ACC-00799,USR-0025,Miller Inc - New Business #00464,Closed Won,5,11071.08,USD,New Business,Paid,false,2025-10-19,2025-12-17,true,true,false,HS-005699,LEAD-005699,2026-04-01 05:30:00
+OPP-00465,ACC-00891,USR-0034,Moore-Ayala - New Business #00465,Closed Lost,6,26935.37,USD,New Business,Inbound,false,2025-11-03,2026-02-15,false,true,false,HS-005700,LEAD-005700,2026-04-01 05:30:00
+OPP-00466,ACC-00953,USR-0036,"Wright, Mcknight and Stephens - New Business #00466",Closed Won,5,0.00,USD,New Business,Content,false,2025-10-08,2026-02-06,true,true,false,HS-005701,LEAD-005701,2026-04-01 05:30:00
+OPP-00467,ACC-00042,USR-0028,Donovan-Harris - New Business #00467,Closed Lost,6,4073.26,USD,New Business,Content,false,2025-11-25,2025-12-20,false,true,false,HS-005706,LEAD-005706,2026-04-01 05:30:00
+OPP-00468,ACC-00678,USR-0023,White-Preston - New Business #00468,Proposal,3,5008.54,USD,New Business,Inbound,false,2026-02-28,,false,false,false,HS-005707,LEAD-005707,2026-04-01 05:30:00
+OPP-00469,ACC-00042,USR-0026,Donovan-Harris - New Business #00469,Closed Won,5,1687.35,USD,New Business,Referral,false,2026-02-18,2026-03-04,true,true,false,HS-005711,LEAD-005711,2026-04-01 05:30:00
+OPP-00470,ACC-00942,USR-0026,Williams Group - New Business #00470,Closed Lost,6,5023.66,USD,New Business,Inbound,false,2025-12-25,2026-01-18,false,true,false,HS-005712,LEAD-005712,2026-04-01 05:30:00
+OPP-00471,ACC-00036,USR-0032,"Woods, Calhoun and Schmidt - New Business #00471",Proposal,3,13317.84,USD,New Business,Inbound,false,2026-02-21,,false,false,false,HS-005757,LEAD-005757,2026-04-01 05:30:00
+OPP-00472,ACC-00067,USR-0026,Dickson-Brady - New Business #00472,Closed Lost,6,2141.07,USD,New Business,Referral,false,2025-09-12,2025-10-02,false,true,false,HS-005759,LEAD-005759,2026-04-01 05:30:00
+OPP-00473,ACC-00269,USR-0023,Smith-Grimes - New Business #00473,Closed Lost,6,12312.04,USD,New Business,Inbound,false,2025-10-24,2025-11-03,false,true,false,HS-005774,LEAD-005774,2026-04-01 05:30:00
+OPP-00474,ACC-01002,USR-0028,Bush-Reynolds - New Business #00474,Closed Lost,6,4780.34,USD,New Business,Inbound,false,2025-12-11,2026-01-02,false,true,false,HS-005809,LEAD-005809,2026-04-01 05:30:00
+OPP-00475,ACC-00356,USR-0025,Gregory-Watkins - New Business #00475,Closed Lost,6,7796.78,USD,New Business,Inbound,false,2025-11-27,2025-12-25,false,true,false,HS-005844,LEAD-005844,2026-04-01 05:30:00
+OPP-00476,ACC-00130,USR-0025,Meadows PLC - New Business #00476,Closed Lost,6,4667.54,USD,New Business,Inbound,false,2025-09-07,2025-10-04,false,true,false,HS-005875,LEAD-005875,2026-04-01 05:30:00
+OPP-00477,ACC-01057,USR-0026,Wright Group - New Business #00477,Closed Lost,6,3002.14,USD,New Business,Partner,true,2026-02-02,2026-02-07,false,true,false,HS-005877,LEAD-005877,2026-04-01 05:30:00
+OPP-00478,ACC-00621,USR-0036,"Robinson, Jones and Henderson - New Business #00478",Demo,2,192837.40,USD,New Business,Paid,false,2026-01-22,,false,false,false,HS-005892,LEAD-005892,2026-04-01 05:30:00
+OPP-00479,ACC-00618,USR-0023,Bryant-Brown - New Business #00479,Closed Lost,6,10292.37,USD,New Business,Outbound,false,2025-11-25,2025-12-06,false,true,false,HS-005906,LEAD-005906,2026-04-01 05:30:00
+OPP-00480,ACC-00443,USR-0033,Mendez and Sons - New Business #00480,Demo,2,12140.79,USD,New Business,Inbound,false,2026-03-11,,false,false,false,HS-005960,LEAD-005960,2026-04-01 05:30:00
+OPP-00481,ACC-00822,USR-0034,Burton-Brooks - New Business #00481,Closed Lost,6,52690.89,USD,New Business,Inbound,false,2025-11-04,2026-01-23,false,true,false,HS-005980,LEAD-005980,2026-04-01 05:30:00
+OPP-00482,ACC-01108,USR-0026,Powell-Sanford - New Business #00482,Closed Lost,6,7746.25,USD,New Business,Paid,false,2026-01-04,2026-01-25,false,true,false,HS-005993,LEAD-005993,2026-04-01 05:30:00
+OPP-00483,ACC-00160,USR-0037,"Barnett, Rogers and Snyder - Renewal #00483",Closed Won,5,11436.22,USD,Renewal,,false,2025-09-26,2025-11-11,true,true,false,,,2026-04-01 05:30:00
+OPP-00484,ACC-00418,USR-0037,Mckee-Lee - Expansion #00484,Closed Lost,6,0.00,USD,Expansion,,false,2026-01-22,2026-03-13,false,true,false,,,2026-04-01 05:30:00
+OPP-00485,ACC-00527,USR-0037,Landry PLC - Expansion #00485,Closed Won,5,22725.15,USD,Expansion,,false,2025-12-28,2026-02-12,true,true,false,,,2026-04-01 05:30:00
+OPP-00486,ACC-00312,USR-0040,Smith and Sons - Renewal #00486,Closed Lost,6,0.00,USD,Renewal,,false,2025-11-13,2026-02-04,false,true,false,,,2026-04-01 05:30:00
+OPP-00487,ACC-00797,USR-0037,"Wagner, Simpson and Cohen - Expansion #00487",Closed Lost,6,27337.28,USD,Expansion,,false,2025-09-20,2025-11-18,false,true,false,,,2026-04-01 05:30:00
+OPP-00488,ACC-00612,USR-0037,"Cox, Stark and Rodriguez - Expansion #00488",Negotiation,4,38313.92,USD,Expansion,,false,2026-02-22,,false,false,false,,,2026-04-01 05:30:00
+OPP-00489,ACC-01130,USR-0037,"Obrien, Taylor and Rivas - Renewal #00489",Negotiation,4,18224.87,USD,Renewal,,false,2026-02-11,,false,false,false,,,2026-04-01 05:30:00
+OPP-00490,ACC-00688,USR-0038,Nichols-Mitchell - Renewal #00490,Closed Lost,6,13060.14,USD,Renewal,,false,2026-01-25,2026-03-02,false,true,false,,,2026-04-01 05:30:00
+OPP-00491,ACC-00733,USR-0040,Fisher-Washington - Renewal #00491,Closed Won,5,75504.19,USD,Renewal,,false,2025-10-08,2026-01-11,true,true,false,,,2026-04-01 05:30:00
+OPP-00492,ACC-00852,USR-0037,Jones PLC - Renewal #00492,Closed Won,5,17249.43,USD,Renewal,,false,2025-10-05,2025-11-26,true,true,false,,,2026-04-01 05:30:00
+OPP-00493,ACC-00683,USR-0039,Mann Inc - Expansion #00493,Closed Lost,6,169577.17,USD,Expansion,,false,2025-09-21,2025-11-04,false,true,false,,,2026-04-01 05:30:00
+OPP-00494,ACC-00079,USR-0038,"Rivera, Johnson and Wiley - Expansion #00494",Discovery,1,23027.40,USD,Expansion,,false,2026-03-23,,false,false,false,,,2026-04-01 05:30:00
+OPP-00495,ACC-00750,USR-0037,"DELETEME - Porter, Schultz and Allen - Renewal #00495",Demo,2,53875.59,USD,Renewal,,false,2026-03-19,,false,false,true,,,2026-04-01 05:30:00
+OPP-00496,ACC-00773,USR-0038,"Thompson, Moore and Castro - Expansion #00496",Closed Won,5,18543.55,USD,Expansion,,false,2025-10-18,2025-11-25,true,true,false,,,2026-04-01 05:30:00
+OPP-00497,ACC-00037,USR-0039,Yu Inc - Renewal #00497,Closed Won,5,36355.02,USD,Renewal,,false,2025-11-10,2026-03-19,true,true,false,,,2026-04-01 05:30:00
+OPP-00498,ACC-00093,USR-0038,"Carroll, Sullivan and Bass - Renewal #00498",Discovery,1,21384.92,USD,Renewal,,false,2026-03-30,,false,false,false,,,2026-04-01 05:30:00
+OPP-00499,ACC-00007,,"Martin, Rose and Obrien - Renewal #00499",Closed Lost,6,19187.14,USD,Renewal,,false,2026-01-26,2026-03-09,false,true,false,,,2026-04-01 05:30:00
+OPP-00500,ACC-00342,USR-0037,"Austin, Day and Johnson - Renewal #00500",Closed Lost,6,17805.26,USD,Renewal,,false,2026-01-23,2026-02-23,false,true,false,,,2026-04-01 05:30:00
+OPP-00501,ACC-00502,USR-0038,Torres and Sons - Renewal #00501,Proposal,3,17181.50,USD,Renewal,,false,2025-12-02,,false,false,false,,,2026-04-01 05:30:00
+OPP-00502,ACC-00046,USR-0040,"Ferrell, Jones and Lewis - Renewal #00502",Discovery,1,109052.00,USD,Renewal,,false,2026-03-17,,false,false,false,,,2026-04-01 05:30:00
+OPP-00503,ACC-00709,USR-0040,"Allen, Davenport and Price - Renewal #00503",Proposal,3,60828.25,USD,Renewal,,false,2026-02-16,,false,false,false,,,2026-04-01 05:30:00
+OPP-00504,ACC-01188,USR-0038,"Morgan, Sherman and Williams - Renewal #00504",Closed Lost,6,24173.28,USD,Renewal,,false,2025-10-27,2025-11-16,false,true,false,,,2026-04-01 05:30:00
+OPP-00505,ACC-00946,USR-0038,Gomez and Sons - Expansion #00505,Demo,2,15849.46,USD,Expansion,,false,2026-01-29,,false,false,false,,,2026-04-01 05:30:00
+OPP-00506,ACC-00584,USR-0037,Butler and Sons - Expansion #00506,Closed Lost,6,17296.46,USD,Expansion,,false,2026-02-06,2026-03-18,false,true,false,,,2026-04-01 05:30:00
+OPP-00507,ACC-00990,USR-0039,Baker and Sons - Renewal #00507,Closed Lost,6,0.00,USD,Renewal,,false,2025-12-06,2026-02-07,false,true,false,,,2026-04-01 05:30:00
+OPP-00508,ACC-01184,USR-0037,"Rodriguez, Prince and Vasquez - Renewal #00508",Closed Won,5,11148.98,USD,Renewal,,false,2025-09-07,2025-09-29,true,true,false,,,2026-04-01 05:30:00
+OPP-00509,ACC-00636,USR-0038,Mendez-Mayer - Renewal #00509,Discovery,1,12780.81,USD,Renewal,,false,2026-03-19,,false,false,false,,,2026-04-01 05:30:00
+OPP-00510,ACC-00466,USR-0037,"Carter, Garcia and Murphy - Renewal #00510",Closed Lost,6,31025.10,USD,Renewal,,false,2025-10-21,2025-12-15,false,true,false,,,2026-04-01 05:30:00
+OPP-00511,ACC-00028,USR-0038,Russell Group - Renewal #00511,Closed Won,5,50801.98,USD,Renewal,,false,2025-10-22,2026-02-03,true,true,false,,,2026-04-01 05:30:00
+OPP-00512,ACC-00259,USR-0037,Harvey-Allen - Renewal #00512,Closed Won,5,37934.80,USD,Renewal,,false,2025-11-17,2025-12-31,true,true,false,,,2026-04-01 05:30:00
+OPP-00513,ACC-01188,USR-0038,"Morgan, Sherman and Williams - Expansion #00513",Closed Won,5,24706.07,USD,Expansion,,false,2025-10-20,2025-11-11,true,true,false,,,2026-04-01 05:30:00
+OPP-00514,ACC-00500,USR-0038,"Matthews, Saunders and Anderson - Renewal #00514",Discovery,1,33862.96,USD,Renewal,,false,2026-03-29,,false,false,false,,,2026-04-01 05:30:00
+OPP-00515,ACC-00490,USR-0040,Hicks-Martinez - Expansion #00515,Proposal,3,61684.49,USD,Expansion,,false,2025-10-27,,false,false,false,,,2026-04-01 05:30:00
+OPP-00516,ACC-00381,USR-0038,"Cole, Glass and Cunningham - Renewal #00516",Closed Lost,6,125795.81,USD,Renewal,,false,2025-09-08,2025-10-26,false,true,false,,,2026-04-01 05:30:00
+OPP-00517,ACC-01140,USR-0038,"Jones, Cummings and Conway - Renewal #00517",Proposal,3,18751.77,USD,Renewal,,false,2026-02-26,,false,false,false,,,2026-04-01 05:30:00
+OPP-00518,ACC-00893,USR-0037,Williams Inc - Renewal #00518,Discovery,1,30951.17,USD,Renewal,,false,2026-03-25,,false,false,false,,,2026-04-01 05:30:00
+OPP-00519,ACC-00794,USR-0037,Edwards Group - Expansion #00519,Demo,2,33266.49,USD,Expansion,,false,2026-03-08,,false,false,false,,,2026-04-01 05:30:00
+OPP-00520,ACC-00992,USR-0038,Williams Group - Renewal #00520,Closed Lost,6,34490.70,USD,Renewal,,false,2025-09-22,2025-11-24,false,true,false,,,2026-04-01 05:30:00
+OPP-00521,ACC-00794,USR-0038,Edwards Group - Expansion #00521,Closed Lost,6,33496.16,USD,Expansion,,false,2026-01-20,2026-03-28,false,true,false,,,2026-04-01 05:30:00
+OPP-00522,ACC-01042,USR-0037,Powell-Montgomery - Expansion #00522,Closed Lost,6,62453.56,USD,Expansion,,false,2026-01-06,2026-03-10,false,true,false,,,2026-04-01 05:30:00
+OPP-00523,ACC-00783,USR-0037,Rose-Fowler - Expansion #00523,Closed Won,5,13873.05,USD,Expansion,,false,2026-01-20,2026-03-12,true,true,false,,,2026-04-01 05:30:00
+OPP-00524,ACC-00741,USR-0037,Carter-Neal - Expansion #00524,Discovery,1,35889.66,USD,Expansion,,false,2026-03-18,,false,false,false,,,2026-04-01 05:30:00
+OPP-00525,ACC-00784,USR-0037,"Price, Long and Wilson - Renewal #00525",Closed Lost,6,32587.78,USD,Renewal,,false,2026-01-10,2026-03-27,false,true,false,,,2026-04-01 05:30:00
+OPP-00526,ACC-00233,,Hoover-Campbell - Expansion #00526,Closed Lost,6,0.00,USD,Expansion,,false,2025-12-12,2026-03-12,false,true,false,,,2026-04-01 05:30:00
+OPP-00527,ACC-00803,USR-0037,Dunn-Wilson - Renewal #00527,Negotiation,4,,USD,Renewal,,false,2025-12-19,,false,false,false,,,2026-04-01 05:30:00
+OPP-00528,ACC-01074,USR-0037,Byrd-Holloway - Renewal #00528,Closed Lost,6,42383.93,USD,Renewal,,false,2026-03-04,2026-03-31,false,true,false,,,2026-04-01 05:30:00
+OPP-00529,ACC-00402,USR-0037,"Hale, Myers and Larson - Expansion #00529",Closed Lost,6,17046.41,USD,Expansion,,false,2026-02-20,2026-03-16,false,true,false,,,2026-04-01 05:30:00
+OPP-00530,ACC-00304,USR-0037,"Harper, Smith and Buchanan - Renewal #00530",Closed Won,5,44877.13,USD,Renewal,,false,2025-11-10,2025-12-17,true,true,false,,,2026-04-01 05:30:00
+OPP-00531,ACC-00094,USR-0039,Mitchell-Jordan - Renewal #00531,Negotiation,4,139665.68,USD,Renewal,,false,2025-12-27,,false,false,false,,,2026-04-01 05:30:00
+OPP-00532,ACC-00584,USR-0038,Butler and Sons - Renewal #00532,Closed Lost,6,,USD,Renewal,,false,2026-01-07,2026-02-10,false,true,false,,,2026-04-01 05:30:00
+OPP-00533,ACC-00295,USR-0037,"Avery, Horton and Fernandez - Renewal #00533",Closed Lost,6,13733.24,USD,Renewal,,false,2026-01-21,2026-03-29,false,true,false,,,2026-04-01 05:30:00
+OPP-00534,ACC-00244,USR-0039,Garcia-Lozano - Expansion #00534,Closed Won,5,80425.56,USD,Expansion,,false,2025-12-01,2026-02-14,true,true,false,,,2026-04-01 05:30:00
+OPP-00535,ACC-00080,USR-0040,White-Estes - Expansion #00535,Discovery,1,146069.62,EUR,Expansion,,false,2026-03-10,,false,false,false,,,2026-04-01 05:30:00
+OPP-00536,ACC-00991,USR-0037,"Jones, Scott and Rodriguez - Renewal #00536",Closed Won,5,35388.15,USD,Renewal,,false,2025-11-16,2026-01-29,true,true,false,,,2026-04-01 05:30:00
+OPP-00537,ACC-01097,USR-0039,Mason Ltd - Renewal #00537,Proposal,3,109956.95,USD,Renewal,,false,2026-02-11,,false,false,false,,,2026-04-01 05:30:00
+OPP-00538,ACC-00280,USR-0038,Coffey-Phillips - Expansion #00538,Closed Lost,6,16220.22,USD,Expansion,,false,2025-09-29,2025-11-20,false,true,false,,,2026-04-01 05:30:00
+OPP-00539,ACC-00676,USR-0040,Murray-Oconnor - Renewal #00539,Closed Lost,6,46820.63,USD,Renewal,,false,2025-10-11,2026-01-03,false,true,false,,,2026-04-01 05:30:00
+OPP-00540,ACC-00745,USR-0037,Vargas PLC - Renewal #00540,Closed Won,5,23832.70,USD,Renewal,,false,2025-11-17,2026-02-23,true,true,false,,,2026-04-01 05:30:00
+OPP-00541,ACC-00688,USR-0038,Nichols-Mitchell - Renewal #00541,Demo,2,23023.18,USD,Renewal,,false,2026-02-16,,false,false,false,,,2026-04-01 05:30:00
+OPP-00542,ACC-00111,USR-0037,"Simmons, Meadows and Griffin - Renewal #00542",Proposal,3,25168.31,USD,Renewal,,false,2026-02-26,,false,false,false,,,2026-04-01 05:30:00
+OPP-00543,ACC-00004,USR-0037,"Arroyo, Miller and Tucker - Expansion #00543",Negotiation,4,63694.47,USD,Expansion,,false,2026-02-21,,false,false,false,,,2026-04-01 05:30:00
+OPP-00544,ACC-00927,USR-0038,Baker-Wilson - Renewal #00544,Negotiation,4,38645.55,USD,Renewal,,false,2026-03-01,,false,false,false,,,2026-04-01 05:30:00
+OPP-00545,ACC-00381,USR-0038,"Cole, Glass and Cunningham - Expansion #00545",Closed Lost,6,20015.97,EUR,Expansion,,false,2025-09-27,2026-02-17,false,true,false,,,2026-04-01 05:30:00
+OPP-00546,ACC-01059,USR-0037,Hill Group - Renewal #00546,Closed Lost,6,21506.59,USD,Renewal,,false,2025-10-31,2025-11-29,false,true,false,,,2026-04-01 05:30:00
+OPP-00547,ACC-00312,USR-0040,Smith and Sons - Renewal #00547,Closed Lost,6,48244.24,USD,Renewal,,false,2025-09-13,2025-12-16,false,true,false,,,2026-04-01 05:30:00
+OPP-00548,ACC-00106,USR-0037,Robinson-Brock - Renewal #00548,Negotiation,4,34084.65,USD,Renewal,,false,2026-02-08,,false,false,false,,,2026-04-01 05:30:00
+OPP-00549,ACC-00776,USR-0039,Foster-Mclaughlin - Renewal #00549,Demo,2,90611.64,USD,Renewal,,false,2026-02-17,,false,false,false,,,2026-04-01 05:30:00
+OPP-00550,ACC-00227,USR-0038,Jimenez Ltd - Renewal #00550,Closed Won,5,36336.18,USD,Renewal,,false,2025-11-22,2026-02-21,true,true,false,,,2026-04-01 05:30:00
+OPP-00551,ACC-00885,USR-0038,"Logan, Le and Jackson - Expansion #00551",Closed Lost,6,25348.99,USD,Expansion,,false,2026-02-02,2026-03-29,false,true,false,,,2026-04-01 05:30:00
+OPP-00552,ACC-00825,USR-0040,Gibson-Freeman - Renewal #00552,Closed Won,5,74180.60,USD,Renewal,,false,2026-01-17,2026-03-12,true,true,false,,,2026-04-01 05:30:00
+OPP-00553,ACC-00753,USR-0004,Ferguson-Mclean - Renewal #00553,Closed Won,5,62767.42,USD,Renewal,,false,2025-09-26,2025-11-06,true,true,false,,,2026-04-01 05:30:00
+OPP-00554,ACC-00578,USR-0040,Smith PLC - Expansion #00554,Demo,2,106788.95,USD,Expansion,,false,2026-02-19,,false,false,false,,,2026-04-01 05:30:00
+OPP-00555,ACC-01089,USR-0038,"White, Davis and Anderson - Renewal #00555",Closed Won,5,27699.39,USD,Renewal,,false,2025-12-17,2026-03-09,true,true,false,,,2026-04-01 05:30:00
+OPP-00556,ACC-01174,USR-0040,Gutierrez-Hawkins - Renewal #00556,Negotiation,4,67652.24,USD,Renewal,,false,2026-02-08,,false,false,false,,,2026-04-01 05:30:00
+OPP-00557,ACC-00466,USR-0037,"Carter, Garcia and Murphy - Renewal #00557",Closed Won,5,59281.97,USD,Renewal,,false,2025-09-21,2025-12-13,true,true,false,,,2026-04-01 05:30:00
+OPP-00558,ACC-00499,USR-0038,Humphrey PLC - Renewal #00558,Discovery,1,40467.85,USD,Renewal,,false,2026-03-25,,false,false,false,,,2026-04-01 05:30:00
+OPP-00559,ACC-00168,USR-0037,Holt-Torres - Expansion #00559,Closed Lost,6,38702.23,USD,Expansion,,false,2025-10-11,2025-11-27,false,true,false,,,2026-04-01 05:30:00
+OPP-00560,ACC-01167,USR-0004,Walton LLC - Expansion #00560,Closed Lost,6,32102.51,USD,Expansion,,false,2025-10-28,2025-12-15,false,true,false,,,2026-04-01 05:30:00
+OPP-00561,ACC-01198,USR-0037,Waller-Chavez - Expansion #00561,Closed Won,5,15176.55,USD,Expansion,,false,2025-12-02,2026-01-27,true,true,false,,,2026-04-01 05:30:00
+OPP-00562,ACC-00506,USR-0038,"Ferguson, Shaw and Jackson - Expansion #00562",Closed Lost,6,20818.44,USD,Expansion,,false,2025-10-11,2025-12-06,false,true,false,,,2026-04-01 05:30:00
+OPP-00563,ACC-00961,USR-0037,Garcia Ltd - Expansion #00563,Negotiation,4,15846.74,USD,Expansion,,false,2026-01-15,,false,false,false,,,2026-04-01 05:30:00
+OPP-00564,ACC-00451,USR-0038,Anderson-Bell - Renewal #00564,Discovery,1,11220.06,USD,Renewal,,false,2026-03-25,,false,false,false,,,2026-04-01 05:30:00
+OPP-00565,ACC-00249,USR-0039,"James, Stewart and Higgins - Renewal #00565",Negotiation,4,51199.01,USD,Renewal,,false,2026-02-18,,false,false,false,,,2026-04-01 05:30:00
+OPP-00566,ACC-00909,USR-0037,Hall LLC - Renewal #00566,Demo,2,24854.09,USD,Renewal,,false,2026-03-04,,false,false,false,,,2026-04-01 05:30:00
+OPP-00567,ACC-01121,USR-0040,"Wagner, Martinez and Dawson - Expansion #00567",Closed Won,5,65244.28,USD,Expansion,,false,2025-11-08,2026-02-20,true,true,false,,,2026-04-01 05:30:00
+OPP-00568,ACC-00233,USR-0037,Hoover-Campbell - Renewal #00568,Closed Won,5,13678.93,USD,Renewal,,false,2025-12-21,2026-03-04,true,true,false,,,2026-04-01 05:30:00
+OPP-00569,ACC-01153,USR-0038,Pruitt-Webb - Renewal #00569,Closed Won,5,10370.12,USD,Renewal,,false,2025-10-24,2025-12-02,true,true,false,,,2026-04-01 05:30:00
+OPP-00570,ACC-00190,USR-0038,"Branch, Torres and Oliver - Renewal #00570",Closed Won,5,16240.87,USD,Renewal,,false,2025-12-17,2026-02-24,true,true,false,,,2026-04-01 05:30:00
+OPP-00571,ACC-00114,USR-0038,"Ramirez, Strickland and Washington - Expansion #00571",Closed Won,5,20918.91,USD,Expansion,,false,2026-02-19,2026-03-23,true,true,false,,,2026-04-01 05:30:00
+OPP-00572,ACC-01182,USR-0039,Smith LLC - Renewal #00572,Demo,2,73170.26,USD,Renewal,,false,2026-03-02,,false,false,false,,,2026-04-01 05:30:00
+OPP-00573,ACC-00463,USR-0039,"Jimenez, Glass and Stone - Expansion #00573",Discovery,1,36576.50,USD,Expansion,,false,2026-02-14,,false,false,false,,,2026-04-01 05:30:00
+OPP-00574,ACC-00391,USR-0040,"Lopez, Jacobs and Mason - Renewal #00574",Discovery,1,83832.82,USD,Renewal,,false,2026-03-26,,false,false,false,,,2026-04-01 05:30:00
+OPP-00575,ACC-01003,USR-0040,"Martin, Preston and Moore - Renewal #00575",Proposal,3,31301.34,USD,Renewal,,false,2026-01-26,,false,false,false,,,2026-04-01 05:30:00
+OPP-00576,ACC-00369,USR-0039,Collier-Gillespie - Renewal #00576,Negotiation,4,,USD,Renewal,,false,2025-12-25,,false,false,false,,,2026-04-01 05:30:00
+OPP-00577,ACC-00238,USR-0037,Pollard and Sons - Expansion #00577,Closed Won,5,13786.47,USD,Expansion,,false,2025-11-29,2026-01-28,true,true,false,,,2026-04-01 05:30:00
+OPP-00578,ACC-00642,USR-0038,"Holder, Young and Hendricks - Expansion #00578",Negotiation,4,63368.05,USD,Expansion,,false,2026-03-01,,false,false,false,,,2026-04-01 05:30:00
+OPP-00579,ACC-00913,USR-0039,Barnes Inc - Renewal #00579,Closed Won,5,110814.10,USD,Renewal,,false,2025-11-30,2026-01-09,true,true,false,,,2026-04-01 05:30:00
+OPP-00580,ACC-00857,USR-0039,Goodwin PLC - Renewal #00580,Closed Won,5,92515.15,USD,Renewal,,false,2025-12-13,2026-03-08,true,true,false,,,2026-04-01 05:30:00
+OPP-00581,ACC-00340,USR-0038,"Richardson, Farmer and Andrews - Expansion #00581",Closed Won,5,17374.47,USD,Expansion,,false,2025-12-14,2026-01-13,true,true,false,,,2026-04-01 05:30:00
+OPP-00582,ACC-00723,USR-0038,Ward-Nelson - Expansion #00582,Closed Won,5,22135.23,USD,Expansion,,false,2026-01-23,2026-03-14,true,true,false,,,2026-04-01 05:30:00
+OPP-00583,ACC-00784,USR-0037,"Price, Long and Wilson - Renewal #00583",Discovery,1,,USD,Renewal,,false,2026-03-21,,false,false,false,,,2026-04-01 05:30:00
+OPP-00584,ACC-00966,USR-0039,Drake-Wolfe - Expansion #00584,Discovery,1,61228.61,USD,Expansion,,false,2026-03-23,,false,false,false,,,2026-04-01 05:30:00
+OPP-00585,ACC-00074,USR-0037,Torres-Pope - Expansion #00585,Closed Won,5,15980.06,USD,Expansion,,false,2026-01-04,2026-02-14,true,true,false,,,2026-04-01 05:30:00
+OPP-00586,ACC-00570,USR-0038,Williams-Moses - Expansion #00586,Closed Won,5,28540.75,USD,Expansion,,false,2025-10-22,2025-11-23,true,true,false,,,2026-04-01 05:30:00
+OPP-00587,ACC-00473,USR-0038,Cisneros and Sons - Expansion #00587,Closed Lost,6,39477.72,USD,Expansion,,false,2025-12-21,2026-01-14,false,true,false,,,2026-04-01 05:30:00
+OPP-00588,ACC-01064,USR-0039,Curry-Barker - Renewal #00588,Negotiation,4,185109.34,USD,Renewal,,false,2026-01-03,,false,false,false,,,2026-04-01 05:30:00
+OPP-00589,ACC-00116,USR-0040,"Mitchell, Nelson and Flores - Expansion #00589",Demo,2,0.00,USD,Expansion,,false,2026-03-03,,false,false,false,,,2026-04-01 05:30:00
+OPP-00590,ACC-00603,USR-0037,"Young, Contreras and Marshall - Renewal #00590",Demo,2,0.00,USD,Renewal,,false,2026-03-19,,false,false,false,,,2026-04-01 05:30:00
+OPP-00591,ACC-00385,USR-0039,"Brown, Romero and Collins - Renewal #00591",Closed Lost,6,106620.47,USD,Renewal,,false,2025-10-04,2025-11-22,false,true,false,,,2026-04-01 05:30:00
+OPP-00592,ACC-00722,USR-0038,Smith LLC - Renewal #00592,Negotiation,4,16947.47,USD,Renewal,,false,2026-02-28,,false,false,false,,,2026-04-01 05:30:00
+OPP-00593,ACC-00072,USR-0040,"Rodriguez, Brennan and Garrison - Renewal #00593",Closed Won,5,80833.25,USD,Renewal,,false,2025-09-23,2025-11-30,true,true,false,,,2026-04-01 05:30:00
+OPP-00594,ACC-00033,USR-0038,"Stanley, Tucker and Lee - Renewal #00594",Closed Lost,6,13881.61,USD,Renewal,,false,2026-02-01,2026-03-30,false,true,false,,,2026-04-01 05:30:00
+OPP-00595,ACC-00551,USR-0038,"Harvey, Randall and Hernandez - Renewal #00595",Closed Won,5,18290.38,USD,Renewal,,false,2025-09-12,2025-11-19,true,true,false,,,2026-04-01 05:30:00
+OPP-00596,ACC-00741,USR-0037,Carter-Neal - Renewal #00596,Closed Won,5,18348.95,USD,Renewal,,false,2025-11-21,2026-01-21,true,true,false,,,2026-04-01 05:30:00
+OPP-00597,ACC-00280,USR-0037,Coffey-Phillips - Renewal #00597,Closed Lost,6,12146.82,USD,Renewal,,false,2025-10-25,2025-11-27,false,true,false,,,2026-04-01 05:30:00
+OPP-00598,ACC-00893,USR-0038,Williams Inc - Renewal #00598,Proposal,3,43765.70,USD,Renewal,,false,2026-03-16,,false,false,false,,,2026-04-01 05:30:00
+OPP-00599,ACC-00157,USR-0039,"Adams, Christian and Rivas - Renewal #00599",Closed Lost,6,102787.47,USD,Renewal,,false,2025-10-15,2025-12-15,false,true,false,,,2026-04-01 05:30:00
+OPP-00600,ACC-00761,USR-0038,"Burgess, Grant and Watts - Renewal #00600",Closed Won,5,24041.56,USD,Renewal,,false,2025-09-23,2025-11-28,true,true,false,,,2026-04-01 05:30:00
+OPP-00601,ACC-00749,USR-0040,Fuentes Group - Renewal #00601,Demo,2,113347.73,USD,Renewal,,false,2026-02-11,,false,false,false,,,2026-04-01 05:30:00
+OPP-00602,ACC-00312,USR-0039,Smith and Sons - Renewal #00602,Closed Won,5,70441.38,USD,Renewal,,false,2025-09-17,2025-11-30,true,true,false,,,2026-04-01 05:30:00
+OPP-00603,ACC-00533,USR-0039,Williams-Williams - Renewal #00603,Closed Won,5,146474.43,USD,Renewal,,false,2025-10-04,2026-02-04,true,true,false,,,2026-04-01 05:30:00
+OPP-00604,ACC-01019,USR-0039,"Contreras, Miller and Cooper - Renewal #00604",Demo,2,70264.02,USD,Renewal,,false,2026-02-05,,false,false,false,,,2026-04-01 05:30:00
+OPP-00605,ACC-00502,USR-0038,Torres and Sons - Expansion #00605,Closed Won,5,0.00,USD,Expansion,,false,2025-12-12,2026-01-31,true,true,false,,,2026-04-01 05:30:00
+OPP-00606,ACC-00072,USR-0027,"Rodriguez, Brennan and Garrison - Expansion #00606",Closed Lost,6,0.00,USD,Expansion,,false,2025-09-05,2025-10-23,false,true,false,,,2026-04-01 05:30:00
+OPP-00607,ACC-00482,USR-0039,Green LLC - Renewal #00607,Closed Lost,6,203795.32,USD,Renewal,,false,2025-11-26,2026-01-10,false,true,false,,,2026-04-01 05:30:00
+OPP-00608,ACC-00297,USR-0040,Bass PLC - Expansion #00608,Closed Lost,6,82119.11,USD,Expansion,,false,2025-09-20,2025-10-18,false,true,false,,,2026-04-01 05:30:00
+OPP-00609,ACC-00381,USR-0037,"Cole, Glass and Cunningham - Renewal #00609",Proposal,3,46243.17,USD,Renewal,,false,2025-12-13,,false,false,false,,,2026-04-01 05:30:00
+OPP-00610,ACC-01050,USR-0037,Adams-Butler - Renewal #00610,Negotiation,4,47439.13,USD,Renewal,,false,2026-02-22,,false,false,false,,,2026-04-01 05:30:00
+OPP-00611,ACC-00302,USR-0038,Lopez-Martinez - Renewal #00611,Discovery,1,20768.56,USD,Renewal,,false,2026-03-22,,false,false,false,,,2026-04-01 05:30:00
+OPP-00612,ACC-00825,USR-0040,Gibson-Freeman - Renewal #00612,Closed Lost,6,89823.58,USD,Renewal,,false,2025-09-21,2025-11-30,false,true,false,,,2026-04-01 05:30:00
+OPP-00613,ACC-00527,USR-0004,Landry PLC - Renewal #00613,Closed Won,5,,USD,Renewal,,false,2026-02-15,2026-03-23,true,true,false,,,2026-04-01 05:30:00
+OPP-00614,ACC-00533,USR-0027,Williams-Williams - Renewal #00614,Proposal,3,53230.80,USD,Renewal,,false,2026-01-15,,false,false,false,,,2026-04-01 05:30:00
+OPP-00615,ACC-00793,USR-0038,Burns and Sons - Renewal #00615,Closed Won,5,17711.36,USD,Renewal,,false,2025-09-21,2025-11-10,true,true,false,,,2026-04-01 05:30:00
+OPP-00616,ACC-00145,USR-0038,Johnston-Odonnell - Renewal #00616,Closed Lost,6,29300.97,USD,Renewal,,false,2025-10-15,2025-12-11,false,true,false,,,2026-04-01 05:30:00
+OPP-00617,ACC-00854,USR-0037,Bell-Lewis - Renewal #00617,Closed Lost,6,,USD,Renewal,,false,2025-10-16,2025-12-05,false,true,false,,,2026-04-01 05:30:00
+OPP-00618,ACC-00314,USR-0037,"Fisher, Wilson and Brown - Expansion #00618",Closed Won,5,10709.34,USD,Expansion,,false,2025-12-20,2026-03-29,true,true,false,,,2026-04-01 05:30:00
+OPP-00619,ACC-00601,USR-0038,Turner-Sharp - Renewal #00619,Closed Lost,6,21114.98,USD,Renewal,,false,2025-12-29,2026-01-20,false,true,false,,,2026-04-01 05:30:00
+OPP-00620,ACC-01021,USR-0038,Randall PLC - Expansion #00620,Closed Lost,6,20606.34,USD,Expansion,,false,2026-01-02,2026-02-09,false,true,false,,,2026-04-01 05:30:00
+OPP-00621,ACC-01136,USR-0040,Kelley and Sons - Expansion #00621,Closed Lost,6,52839.30,USD,Expansion,,false,2025-09-17,2025-12-10,false,true,false,,,2026-04-01 05:30:00
+OPP-00622,ACC-00290,USR-0039,Reid Group - Expansion #00622,Closed Lost,6,,USD,Expansion,,false,2025-10-06,2026-01-09,false,true,false,,,2026-04-01 05:30:00

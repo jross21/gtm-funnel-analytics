@@ -1,0 +1,98 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: "Date spine for cohorts and freshness."
+    columns:
+      - name: date_day
+        tests: [unique, not_null]
+
+  - name: dim_accounts
+    description: "Conformed account dimension."
+    columns:
+      - name: account_id
+        tests: [unique, not_null]
+      - name: segment
+        tests:
+          - accepted_values:
+              values: ['SMB', 'Mid-Market', 'Enterprise']
+
+  - name: dim_users
+    description: "Conformed rep dimension."
+    columns:
+      - name: user_id
+        tests: [unique, not_null]
+      - name: role
+        tests:
+          - accepted_values:
+              values: ['SDR', 'AE', 'AM']
+
+  - name: fct_leads
+    description: "Canonical lead fact: furthest stage reached, MQL timing, speed-to-lead, SLA."
+    columns:
+      - name: lead_id
+        tests: [unique, not_null]
+      - name: segment
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SMB', 'Mid-Market', 'Enterprise']
+      - name: lifecycle_stage
+        description: "Furthest canonical stage reached."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['New', 'MQL', 'SAL', 'SQL', 'Opportunity', 'Closed Won', 'Closed Lost']
+
+  - name: fct_mqls
+    description: "Canonical MQL events (KPI #1), cohorted by MQL month."
+    columns:
+      - name: mql_event_id
+        tests: [unique, not_null]
+      - name: lead_id
+        tests:
+          - unique
+          - relationships:
+              to: ref('fct_leads')
+              field: lead_id
+      - name: mql_at
+        tests: [not_null]
+
+  - name: fct_opportunities
+    description: "Canonical opportunity fact (KPI #5/#7/#8). Test + null-amount rows excluded."
+    columns:
+      - name: opp_id
+        tests: [unique, not_null]
+      - name: opp_amount
+        tests: [not_null]
+      - name: opp_stage
+        tests: [not_null]
+      - name: created_date
+        tests: [not_null]
+      - name: segment
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SMB', 'Mid-Market', 'Enterprise']
+      - name: account_id
+        tests:
+          - relationships:
+              to: ref('dim_accounts')
+              field: account_id
+      - name: owner_id
+        tests:
+          - relationships:
+              to: ref('dim_users')
+              field: user_id
+
+  - name: fct_opportunity_stage
+    description: "Opportunity x stage spell with duration; feeds stage velocity."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [opp_id, stage_num]
+    columns:
+      - name: days_in_stage
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true

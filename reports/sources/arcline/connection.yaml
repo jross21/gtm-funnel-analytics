@@ -1,0 +1,6 @@
+name: arcline
+type: duckdb
+options:
+  # The warehouse dbt builds at the repo root. Path is relative to this source folder
+  # (reports/sources/arcline/ -> repo root). `dbt build` must run before the Evidence build.
+  filename: ../../../arcline.duckdb

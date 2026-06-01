@@ -1,0 +1,153 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Governed metric catalog — the contract between the KPI Dictionary (#08, the human
+# spec) and the dbt implementation. Each metric is defined ONCE here.
+#
+#   contract:        this file (definition, grain, filters, owner, SLA)
+#   implementation:  fct_metric_values (the SQL that computes it)
+#   BI projection:   dim_metric_catalog (queryable; carries the golden value)
+#   enforcement:     tests/assert_metric_values_match_catalog.sql (locks the value)
+#
+# The schema is intentionally MetricFlow-shaped (measure / dimensions / filters) so the
+# v2 migration to the dbt Semantic Layer is a port, not a rewrite.
+# ─────────────────────────────────────────────────────────────────────────────
+version: 1
+catalog_owner: RevOps
+source_of_truth: artifacts/08-kpi-dictionary
+notes: >
+  Golden `expected` values are the segment='All', grain='window' result over
+  2025-09-01..2026-03-31 on the deterministic seed=42 dataset.
+
+metrics:
+  - name: mql_volume
+    label: "MQL Volume"
+    kpi_dictionary_ref: "08 #1"
+    definition: "Count of first-time canonical MQLs (lead score >= 50)."
+    grain: [lead, daily]
+    dimensions: [segment]
+    filters:
+      - "lead_score >= 50"
+      - "is_internal = false"
+      - "merged-duplicate contacts removed"
+    source_systems: [hubspot]
+    owner: "Marketing Ops"
+    freshness_sla: "Daily by 6:30am ET"
+    maps_to: {model: fct_mqls, measure: "count(*)"}
+    surfaced_in: [fct_metric_values, index, conversion]
+    expected: {value: 2546}
+
+  - name: pipeline_created
+    label: "Pipeline Created"
+    kpi_dictionary_ref: "08 #5"
+    definition: "Sum of opp_amount for net-new opps created in period at Stage >= 1."
+    grain: [opportunity, weekly]
+    dimensions: [segment]
+    filters:
+      - "opp_type = 'New Business'"
+      - "is_partner_sourced = false"
+      - "opp_amount > 0 and currency = 'USD'"
+      - "opp_stage_num >= 1"
+      - "is_test = false"
+    source_systems: [salesforce]
+    owner: "Sales Ops"
+    freshness_sla: "Daily by 5:30am ET"
+    maps_to: {model: fct_opportunities, measure: "sum(opp_amount) where is_net_new_pipeline"}
+    surfaced_in: [fct_metric_values, index, which-number-is-right]
+    expected: {value: 6884381.39}
+
+  - name: win_rate
+    label: "Win Rate"
+    kpi_dictionary_ref: "08 #7"
+    definition: "Closed Won / (Closed Won + Closed Lost)."
+    grain: [opportunity, quarterly]
+    dimensions: [segment]
+    filters:
+      - "is_closed = true"
+      - "opp_amount >= 1000"
+      - "days open >= 7"
+    source_systems: [salesforce]
+    owner: "Sales Ops"
+    freshness_sla: "Daily"
+    maps_to: {model: fct_opportunities, measure: "count_if(is_won) / count(*)"}
+    surfaced_in: [fct_metric_values, index, which-number-is-right]
+    expected: {value: 0.3303}
+
+  - name: avg_sales_cycle_days
+    label: "Average Sales Cycle (days)"
+    kpi_dictionary_ref: "08 #8"
+    definition: "Median days from opportunity creation to Closed Won."
+    grain: [opportunity, quarterly]
+    dimensions: [segment]
+    filters: ["is_won = true"]
+    source_systems: [salesforce]
+    owner: "Sales Ops"
+    freshness_sla: "Weekly"
+    maps_to: {model: fct_opportunities, measure: "median(sales_cycle_days)"}
+    surfaced_in: [fct_metric_values, velocity]
+    expected: {value: 38.0}
+
+  - name: sla_compliance
+    label: "SLA Compliance"
+    kpi_dictionary_ref: "08 #9"
+    definition: "Share of MQLs whose first rep activity met the segment response SLA."
+    grain: [lead, weekly]
+    dimensions: [segment]
+    filters: ["SMB 5m / Mid-Market 15m / Enterprise 1h"]
+    source_systems: [salesforce]
+    owner: "RevOps"
+    freshness_sla: "Daily"
+    maps_to: {model: fct_leads, measure: "avg(met_sla)"}
+    surfaced_in: [fct_metric_values, index]
+    expected: {value: 0.6329}
+
+  - name: speed_to_lead_median_min
+    label: "Speed-to-Lead (median min)"
+    kpi_dictionary_ref: "08 #3"
+    definition: "Median minutes from canonical MQL to first rep activity (UTC-normalized)."
+    grain: [lead, daily]
+    dimensions: [segment]
+    filters: ["first activity exists"]
+    source_systems: [salesforce]
+    owner: "RevOps"
+    freshness_sla: "Daily"
+    maps_to: {model: fct_leads, measure: "median(response_minutes)"}
+    surfaced_in: [fct_metric_values]
+    expected: {value: 6.0}
+
+  - name: mql_to_sal_rate
+    label: "MQL -> SAL Conversion"
+    kpi_dictionary_ref: "08 #2"
+    definition: "Share of MQLs that reach SAL."
+    grain: [lead_cohort, monthly]
+    dimensions: [segment]
+    source_systems: [hubspot, salesforce]
+    owner: "RevOps"
+    freshness_sla: "Daily"
+    maps_to: {model: fct_funnel_conversion, measure: "conversion_rate where stage='SAL'"}
+    surfaced_in: [fct_metric_values, conversion]
+    expected: {value: 0.5518}
+
+  - name: sal_to_sql_rate
+    label: "SAL -> SQL Conversion"
+    kpi_dictionary_ref: "08 #4"
+    definition: "Share of SALs that reach SQL."
+    grain: [lead_cohort, monthly]
+    dimensions: [segment]
+    source_systems: [salesforce]
+    owner: "RevOps"
+    freshness_sla: "Daily"
+    maps_to: {model: fct_funnel_conversion, measure: "conversion_rate where stage='SQL'"}
+    surfaced_in: [fct_metric_values, conversion]
+    expected: {value: 0.4641}
+
+  - name: sql_to_opp_rate
+    label: "SQL -> Opportunity Conversion"
+    kpi_dictionary_ref: "08 #5"
+    definition: "Share of SQLs that convert to an Opportunity."
+    grain: [lead_cohort, monthly]
+    dimensions: [segment]
+    source_systems: [salesforce]
+    owner: "RevOps"
+    freshness_sla: "Daily"
+    maps_to: {model: fct_funnel_conversion, measure: "conversion_rate where stage='Opportunity'"}
+    surfaced_in: [fct_metric_values, conversion]
+    expected: {value: 0.7331}

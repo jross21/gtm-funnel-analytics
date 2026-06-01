@@ -1,0 +1,1201 @@
+account_id,account_name,segment_raw,industry,country,employee_count,created_date,is_test,_synced_at
+ACC-00001,"Ashley, Nielsen and Sellers",Small Business,Energy,Australia,92,2025-10-21,false,2026-04-01 05:30:00
+ACC-00002,"Nguyen, Smith and Hickman",SmallBiz,Healthcare,Canada,139,2025-06-06,false,2026-04-01 05:30:00
+ACC-00003,Allen-Allen,SMB,Education,United States,161,2025-10-07,false,2026-04-01 05:30:00
+ACC-00004,"Arroyo, Miller and Tucker",MidMarket,Energy,Canada,1605,2025-03-31,false,2026-04-01 05:30:00
+ACC-00005,Spence PLC,smb,Software,United States,56,2024-04-03,false,2026-04-01 05:30:00
+ACC-00006,Anderson Group,MM,Retail,Australia,1217,2024-03-05,false,2026-04-01 05:30:00
+ACC-00007,"Martin, Rose and Obrien",Mid Market,Media,United Kingdom,363,2025-04-03,false,2026-04-01 05:30:00
+ACC-00008,Hickman Ltd,Small Business,Software,Canada,92,2026-03-16,false,2026-04-01 05:30:00
+ACC-00009,"Harris, Collins and Carney",SMB,Telecom,Australia,16,2024-07-10,false,2026-04-01 05:30:00
+ACC-00010,"Brooks, Lam and Hayes",SmallBiz,Healthcare,Australia,65,2024-12-22,false,2026-04-01 05:30:00
+ACC-00011,Walker LLC,Small Business,Media,Germany,199,2025-06-28,false,2026-04-01 05:30:00
+ACC-00012,Chapman and Sons,smb,Education,Canada,41,2024-10-01,false,2026-04-01 05:30:00
+ACC-00013,"Robinson, Jones and Welch",SMB,Energy,Germany,142,2025-01-13,false,2026-04-01 05:30:00
+ACC-00014,Jones Inc,SmallBiz,Media,Australia,38,2025-02-11,false,2026-04-01 05:30:00
+ACC-00015,Jones-Young,Small Business,Financial Services,Canada,55,2024-09-04,false,2026-04-01 05:30:00
+ACC-00016,"Washington, Ryan and Cummings",MM,Manufacturing,Australia,357,2024-10-07,false,2026-04-01 05:30:00
+ACC-00017,"Johnston, Sanchez and Kennedy",Enterprise,Manufacturing,Australia,25763,2025-01-10,false,2026-04-01 05:30:00
+ACC-00018,Lee-Davis,ENT,Healthcare,Germany,14534,2025-08-10,false,2026-04-01 05:30:00
+ACC-00019,Gomez-Jenkins,,Healthcare,United States,28,2025-01-01,false,2026-04-01 05:30:00
+ACC-00020,"Brown, Valdez and Lucas",SmallBiz,Energy,Canada,147,2024-09-07,false,2026-04-01 05:30:00
+ACC-00021,Powell LLC,Small Business,Financial Services,United Kingdom,172,2024-01-17,false,2026-04-01 05:30:00
+ACC-00022,Wright and Sons,Mid Market,Logistics,United Kingdom,755,2025-05-29,false,2026-04-01 05:30:00
+ACC-00023,"West, Henderson and Ramirez",SMB,Logistics,Germany,26,2025-09-13,false,2026-04-01 05:30:00
+ACC-00024,Baxter Inc,smb,Financial Services,United Kingdom,45,2024-09-27,false,2026-04-01 05:30:00
+ACC-00025,Morton-Chase,Small Business,Financial Services,United States,121,2025-10-12,false,2026-04-01 05:30:00
+ACC-00026,Williams PLC,Enterprise,Telecom,United Kingdom,23457,2024-10-11,false,2026-04-01 05:30:00
+ACC-00027,Novak and Sons,smb,Software,United States,192,2024-12-08,false,2026-04-01 05:30:00
+ACC-00028,Russell Group,MidMarket,Software,United States,696,2025-02-03,false,2026-04-01 05:30:00
+ACC-00029,Hancock Inc,smb,Telecom,United States,118,2025-03-20,false,2026-04-01 05:30:00
+ACC-00030,Gray Group,smb,Telecom,Canada,113,2025-03-02,false,2026-04-01 05:30:00
+ACC-00031,House-Glover,smb,Software,Canada,166,2024-01-09,false,2026-04-01 05:30:00
+ACC-00032,Henderson-Bernard,SmallBiz,Manufacturing,United Kingdom,69,2024-03-30,false,2026-04-01 05:30:00
+ACC-00033,"Stanley, Tucker and Lee",Mid-Market,Healthcare,Canada,1386,2025-08-21,false,2026-04-01 05:30:00
+ACC-00034,Novak PLC,MM,Manufacturing,United States,1306,2026-01-21,false,2026-04-01 05:30:00
+ACC-00035,"Daniels, Adkins and Brown",SMB,Software,United States,115,2025-03-24,false,2026-04-01 05:30:00
+ACC-00036,"Woods, Calhoun and Schmidt",MidMarket,Retail,Australia,1933,2024-09-17,false,2026-04-01 05:30:00
+ACC-00037,Yu Inc,Strategic,Healthcare,Germany,26722,2026-01-12,false,2026-04-01 05:30:00
+ACC-00038,Jones Inc,ENT,Financial Services,United States,27591,2024-02-06,false,2026-04-01 05:30:00
+ACC-00039,"Hensley, Powell and David",SmallBiz,Telecom,United States,179,2024-03-15,false,2026-04-01 05:30:00
+ACC-00040,"Sanchez, Wheeler and Harvey",Strategic,Healthcare,Australia,7567,2025-03-01,false,2026-04-01 05:30:00
+ACC-00041,Sandoval-Cunningham,SMB,Energy,Canada,135,2024-12-02,false,2026-04-01 05:30:00
+ACC-00042,Donovan-Harris,smb,Energy,Germany,82,2024-08-03,false,2026-04-01 05:30:00
+ACC-00043,"Edwards, Baker and Anderson",enterprise,Healthcare,United States,7892,2024-02-25,false,2026-04-01 05:30:00
+ACC-00044,"Evans, Stewart and Walton",SmallBiz,Energy,United States,79,2025-08-13,false,2026-04-01 05:30:00
+ACC-00045,Smith PLC,SmallBiz,Healthcare,Canada,199,2025-09-29,false,2026-04-01 05:30:00
+ACC-00046,"Ferrell, Jones and Lewis",ENT,Media,United Kingdom,8907,2026-02-05,false,2026-04-01 05:30:00
+ACC-00047,Anderson-Bailey,SMB,Healthcare,United States,13,2025-07-09,false,2026-04-01 05:30:00
+ACC-00048,Suarez LLC,smb,Media,Australia,141,2025-09-20,false,2026-04-01 05:30:00
+ACC-00049,Moore-Bass,Small Business,Education,Australia,14,2025-08-09,false,2026-04-01 05:30:00
+ACC-00050,"Turner, Riggs and Roman",Mid Market,Financial Services,United Kingdom,422,2025-04-10,false,2026-04-01 05:30:00
+ACC-00051,"Smith, Montoya and Evans",SmallBiz,Telecom,Canada,35,2025-02-04,false,2026-04-01 05:30:00
+ACC-00052,"Garcia, Humphrey and Baker",MidMarket,Telecom,United Kingdom,715,2026-02-26,false,2026-04-01 05:30:00
+ACC-00053,Newton and Sons,SmallBiz,Media,United Kingdom,38,2025-06-03,false,2026-04-01 05:30:00
+ACC-00054,Campbell-Clark,Small Business,Financial Services,Germany,89,2024-01-06,false,2026-04-01 05:30:00
+ACC-00055,Harris-Walters,SmallBiz,Financial Services,Australia,150,2025-10-21,false,2026-04-01 05:30:00
+ACC-00056,Wagner-King,Small Business,Energy,Australia,13,2025-06-28,false,2026-04-01 05:30:00
+ACC-00057,Davis Group,Mid-Market,Healthcare,Germany,1033,2024-07-09,false,2026-04-01 05:30:00
+ACC-00058,Williams-Cook,SmallBiz,Logistics,Australia,174,2025-09-09,false,2026-04-01 05:30:00
+ACC-00059,Walsh LLC,Small Business,Financial Services,Canada,186,2024-12-15,false,2026-04-01 05:30:00
+ACC-00060,Figueroa PLC,Mid Market,Education,Canada,1017,2025-03-11,false,2026-04-01 05:30:00
+ACC-00061,"Patterson, Smith and Jones",,Telecom,Germany,169,2025-10-31,false,2026-04-01 05:30:00
+ACC-00062,"Mckee, Gardner and Davenport",SmallBiz,Software,United Kingdom,122,2024-10-20,false,2026-04-01 05:30:00
+ACC-00063,"Tran, Jordan and Williams",Mid-Market,Manufacturing,Canada,1862,2024-04-27,false,2026-04-01 05:30:00
+ACC-00064,Nolan-Flynn,,Financial Services,United States,15666,2025-04-18,false,2026-04-01 05:30:00
+ACC-00065,Nolan and Sons,SMB,Media,United States,144,2024-02-15,false,2026-04-01 05:30:00
+ACC-00066,"Wright, Garcia and Deleon",SmallBiz,Software,United Kingdom,122,2025-02-27,false,2026-04-01 05:30:00
+ACC-00067,Dickson-Brady,Small Business,Education,Canada,197,2025-02-17,false,2026-04-01 05:30:00
+ACC-00068,Hancock and Sons,Mid Market,Education,United Kingdom,278,2025-02-08,false,2026-04-01 05:30:00
+ACC-00069,Johnson-Doyle,SMB,Healthcare,Canada,132,2025-04-13,false,2026-04-01 05:30:00
+ACC-00070,Patton-Jenkins,smb,Software,United States,80,2026-01-29,false,2026-04-01 05:30:00
+ACC-00071,"Shields, Cochran and Adams",Small Business,Software,Australia,30,2024-02-12,false,2026-04-01 05:30:00
+ACC-00072,"Rodriguez, Brennan and Garrison",Strategic,Software,Australia,42491,2025-10-18,false,2026-04-01 05:30:00
+ACC-00073,Gonzalez Group,enterprise,Manufacturing,Australia,29809,2025-10-01,false,2026-04-01 05:30:00
+ACC-00074,Torres-Pope,MM,Energy,Germany,442,2025-11-08,false,2026-04-01 05:30:00
+ACC-00075,Walker Ltd,Small Business,Telecom,Australia,168,2025-01-14,false,2026-04-01 05:30:00
+ACC-00076,Ross LLC,Small Business,Logistics,Canada,60,2024-02-20,false,2026-04-01 05:30:00
+ACC-00077,Rasmussen LLC,SMB,Financial Services,United Kingdom,124,2024-07-09,false,2026-04-01 05:30:00
+ACC-00078,May-Ross,Small Business,Manufacturing,Germany,72,2024-12-21,false,2026-04-01 05:30:00
+ACC-00079,"Rivera, Johnson and Wiley",MidMarket,Healthcare,Canada,1626,2026-02-17,false,2026-04-01 05:30:00
+ACC-00080,White-Estes,enterprise,Retail,Germany,17761,2025-01-12,false,2026-04-01 05:30:00
+ACC-00081,Johnson-Carlson,MM,Retail,Germany,564,2025-10-21,false,2026-04-01 05:30:00
+ACC-00082,Chandler-Edwards,SmallBiz,Logistics,United States,64,2024-05-24,false,2026-04-01 05:30:00
+ACC-00083,"Joyce, Wilson and Lam",Small Business,Media,Germany,105,2025-12-06,false,2026-04-01 05:30:00
+ACC-00084,Scott Ltd,SmallBiz,Logistics,Germany,28,2025-05-24,false,2026-04-01 05:30:00
+ACC-00085,Smith-Frost,Small Business,Media,Australia,147,2024-04-22,false,2026-04-01 05:30:00
+ACC-00086,"Mcdaniel, Bentley and Mclaughlin",Enterprise,Education,United Kingdom,30496,2024-12-31,false,2026-04-01 05:30:00
+ACC-00087,Diaz Inc,Mid Market,Telecom,Australia,362,2024-07-26,false,2026-04-01 05:30:00
+ACC-00088,"Mccall, Hanson and Alvarado",SMB,Software,United Kingdom,127,2024-05-17,false,2026-04-01 05:30:00
+ACC-00089,Cortez LLC,SMB,Software,United Kingdom,100,2025-01-17,false,2026-04-01 05:30:00
+ACC-00090,"Parker, Ortiz and Powell",,Energy,Australia,161,2025-02-28,false,2026-04-01 05:30:00
+ACC-00091,Spencer-Lee,smb,Financial Services,Australia,170,2024-04-08,false,2026-04-01 05:30:00
+ACC-00092,"Bentley, Byrd and Orr",Small Business,Software,United Kingdom,134,2025-08-20,false,2026-04-01 05:30:00
+ACC-00093,"Carroll, Sullivan and Bass",MidMarket,Healthcare,Germany,1514,2024-09-30,false,2026-04-01 05:30:00
+ACC-00094,Mitchell-Jordan,enterprise,Energy,Germany,14985,2025-10-14,false,2026-04-01 05:30:00
+ACC-00095,"Lawson, Morris and Ramos",smb,Manufacturing,United States,192,2024-05-01,false,2026-04-01 05:30:00
+ACC-00096,"Lewis, Kennedy and Santana",Strategic,Retail,Germany,20399,2024-04-14,false,2026-04-01 05:30:00
+ACC-00097,"Jackson, Miller and Robertson",Small Business,Telecom,Australia,78,2025-10-01,false,2026-04-01 05:30:00
+ACC-00098,"Harvey, Davis and Crane",SMB,Manufacturing,Germany,197,2024-01-05,false,2026-04-01 05:30:00
+ACC-00099,Chambers and Sons,Strategic,Retail,United States,15006,2025-11-28,false,2026-04-01 05:30:00
+ACC-00100,Hernandez Inc,Mid-Market,Financial Services,United Kingdom,1258,2024-01-27,false,2026-04-01 05:30:00
+ACC-00101,Riggs PLC,Small Business,Software,United Kingdom,147,2025-11-07,false,2026-04-01 05:30:00
+ACC-00102,Gibson Ltd,SmallBiz,Retail,Canada,94,2024-01-10,false,2026-04-01 05:30:00
+ACC-00103,"Lee, Horton and Snyder",ENT,Energy,Germany,28155,2024-03-31,false,2026-04-01 05:30:00
+ACC-00104,Hernandez Ltd,Enterprise,Education,Germany,15627,2025-09-29,false,2026-04-01 05:30:00
+ACC-00105,Stafford Inc,SmallBiz,Logistics,Australia,14,2025-06-29,false,2026-04-01 05:30:00
+ACC-00106,Robinson-Brock,MM,Software,Germany,1814,2025-12-09,false,2026-04-01 05:30:00
+ACC-00107,"Holmes, Williams and Wright",SMB,Retail,United States,172,2025-09-28,false,2026-04-01 05:30:00
+ACC-00108,Bryant Group,SMB,Telecom,Canada,134,2026-01-15,false,2026-04-01 05:30:00
+ACC-00109,"Schmidt, Hansen and Stewart",SMB,Financial Services,United States,165,2025-05-11,false,2026-04-01 05:30:00
+ACC-00110,Salazar-Ball,Mid Market,Healthcare,Canada,1728,2024-07-19,false,2026-04-01 05:30:00
+ACC-00111,"Simmons, Meadows and Griffin",Mid-Market,Telecom,Australia,416,2025-09-25,false,2026-04-01 05:30:00
+ACC-00112,Manning Group,Mid Market,Education,United Kingdom,272,2025-01-09,false,2026-04-01 05:30:00
+ACC-00113,Green-Wright,,Logistics,United Kingdom,112,2025-09-03,false,2026-04-01 05:30:00
+ACC-00114,"Ramirez, Strickland and Washington",Mid-Market,Education,United Kingdom,479,2025-10-28,false,2026-04-01 05:30:00
+ACC-00115,Hill Inc,Small Business,Software,Canada,28,2025-08-05,false,2026-04-01 05:30:00
+ACC-00116,"Mitchell, Nelson and Flores",Strategic,Logistics,United Kingdom,4616,2025-05-20,false,2026-04-01 05:30:00
+ACC-00117,"Miller, Hernandez and Reyes",SMB,Education,United Kingdom,144,2024-12-03,false,2026-04-01 05:30:00
+ACC-00118,Mccarthy Inc,SMB,Energy,United States,81,2026-03-14,false,2026-04-01 05:30:00
+ACC-00119,Russell-Daniels,Small Business,Energy,Canada,130,2025-12-16,false,2026-04-01 05:30:00
+ACC-00120,Brown-Wall,Small Business,Healthcare,Australia,112,2024-09-04,false,2026-04-01 05:30:00
+ACC-00121,Stein-Silva,,Logistics,Canada,133,2024-12-28,false,2026-04-01 05:30:00
+ACC-00122,"Smith, Gilmore and Johnston",SmallBiz,Retail,United Kingdom,141,2024-11-27,false,2026-04-01 05:30:00
+ACC-00123,Smith-Bell,SMB,Financial Services,Australia,35,2026-02-16,false,2026-04-01 05:30:00
+ACC-00124,Castaneda-Ashley,smb,Logistics,United Kingdom,159,2025-05-16,false,2026-04-01 05:30:00
+ACC-00125,Medina-Navarro,Mid Market,Retail,United States,935,2025-11-19,false,2026-04-01 05:30:00
+ACC-00126,"Hurst, Freeman and Nelson",SMB,Logistics,Canada,184,2024-01-30,false,2026-04-01 05:30:00
+ACC-00127,Johnson-Rogers,smb,Retail,United States,52,2024-03-19,false,2026-04-01 05:30:00
+ACC-00128,"Yates, Ramsey and Pittman",Small Business,Media,Germany,113,2025-06-15,false,2026-04-01 05:30:00
+ACC-00129,Hooper PLC,MM,Manufacturing,Canada,1617,2024-10-08,false,2026-04-01 05:30:00
+ACC-00130,Meadows PLC,Small Business,Media,Germany,110,2024-10-22,false,2026-04-01 05:30:00
+ACC-00131,"Alvarado, Miller and Patterson",SmallBiz,Energy,United Kingdom,178,2024-04-15,false,2026-04-01 05:30:00
+ACC-00132,White-Green,SmallBiz,Energy,United Kingdom,61,2025-10-17,false,2026-04-01 05:30:00
+ACC-00133,Lewis-Murphy,Small Business,Education,Canada,103,2024-02-04,false,2026-04-01 05:30:00
+ACC-00134,Ramirez-Bean,SMB,Education,Australia,166,2024-02-15,false,2026-04-01 05:30:00
+ACC-00135,King-Miller,Small Business,Manufacturing,United Kingdom,42,2025-08-22,false,2026-04-01 05:30:00
+ACC-00136,Curry Inc,MidMarket,Telecom,United States,986,2025-11-09,false,2026-04-01 05:30:00
+ACC-00137,Walker-Jones,MidMarket,Manufacturing,Germany,476,2024-07-15,false,2026-04-01 05:30:00
+ACC-00138,"Williams, Johnson and Wright",Small Business,Media,Canada,105,2026-02-24,false,2026-04-01 05:30:00
+ACC-00139,Howell and Sons,ENT,Energy,United Kingdom,16926,2025-09-23,false,2026-04-01 05:30:00
+ACC-00140,Wells Inc,MM,Energy,Canada,1866,2025-06-09,false,2026-04-01 05:30:00
+ACC-00141,"Gould, Marshall and Scott",Small Business,Healthcare,Germany,109,2025-01-17,false,2026-04-01 05:30:00
+ACC-00142,Jackson-Lawson,SMB,Retail,Australia,184,2026-03-22,false,2026-04-01 05:30:00
+ACC-00143,"Higgins, Strickland and Martin",SMB,Education,Australia,198,2025-06-17,false,2026-04-01 05:30:00
+ACC-00144,Rodriguez-Johnson,SMB,Education,Canada,72,2024-03-06,false,2026-04-01 05:30:00
+ACC-00145,Johnston-Odonnell,Mid-Market,Retail,United Kingdom,1044,2026-01-23,false,2026-04-01 05:30:00
+ACC-00146,Sanders-Espinoza,SMB,Healthcare,Australia,188,2024-02-06,false,2026-04-01 05:30:00
+ACC-00147,Vargas Ltd,SMB,Healthcare,United States,103,2026-03-27,false,2026-04-01 05:30:00
+ACC-00148,Garcia LLC,Small Business,Software,United States,61,2024-07-18,false,2026-04-01 05:30:00
+ACC-00149,"Burke, Martinez and Riggs",Mid Market,Logistics,United Kingdom,1368,2024-11-29,false,2026-04-01 05:30:00
+ACC-00150,Reed Group,MM,Logistics,United States,1504,2024-10-27,false,2026-04-01 05:30:00
+ACC-00151,"Wood, Hunter and Peterson",SmallBiz,Manufacturing,Australia,170,2024-09-28,false,2026-04-01 05:30:00
+ACC-00152,Short-Garcia,MidMarket,Logistics,Australia,865,2025-02-17,false,2026-04-01 05:30:00
+ACC-00153,Reid-Poole,ENT,Media,United States,42813,2024-11-11,false,2026-04-01 05:30:00
+ACC-00154,"Hernandez, Thompson and Boyd",smb,Education,United Kingdom,108,2024-03-27,false,2026-04-01 05:30:00
+ACC-00155,"Nelson, Morton and Medina",SmallBiz,Telecom,Germany,129,2024-11-17,false,2026-04-01 05:30:00
+ACC-00156,Marshall-Petersen,SMB,Manufacturing,United States,59,2024-01-21,false,2026-04-01 05:30:00
+ACC-00157,"Adams, Christian and Rivas",,Retail,United Kingdom,16761,2024-04-26,false,2026-04-01 05:30:00
+ACC-00158,Ramirez Group,Small Business,Retail,Canada,42,2025-07-30,false,2026-04-01 05:30:00
+ACC-00159,Christensen PLC,MM,Telecom,Australia,1316,2025-12-21,false,2026-04-01 05:30:00
+ACC-00160,"Barnett, Rogers and Snyder",MidMarket,Logistics,Australia,1127,2025-08-13,false,2026-04-01 05:30:00
+ACC-00161,White-Lewis,Strategic,Energy,United Kingdom,43606,2024-03-01,false,2026-04-01 05:30:00
+ACC-00162,Peterson-Beard,Mid-Market,Education,United Kingdom,1369,2025-03-29,false,2026-04-01 05:30:00
+ACC-00163,"Beard, Peters and Black",MidMarket,Telecom,United States,1972,2024-05-06,false,2026-04-01 05:30:00
+ACC-00164,Miller Ltd,MidMarket,Telecom,Germany,1346,2024-10-11,false,2026-04-01 05:30:00
+ACC-00165,Freeman-Chang,smb,Software,United Kingdom,157,2026-02-28,false,2026-04-01 05:30:00
+ACC-00166,"Alvarez, Joseph and West",,Education,United Kingdom,17612,2026-03-12,false,2026-04-01 05:30:00
+ACC-00167,Davis and Sons,SMB,Energy,Germany,26,2024-06-30,false,2026-04-01 05:30:00
+ACC-00168,Holt-Torres,MM,Healthcare,Australia,1000,2025-11-05,false,2026-04-01 05:30:00
+ACC-00169,"Wood, Tran and Cooper",SMB,Manufacturing,Australia,19,2024-10-29,false,2026-04-01 05:30:00
+ACC-00170,"Pierce, Bell and Chavez",Mid-Market,Energy,Germany,1382,2025-09-26,false,2026-04-01 05:30:00
+ACC-00171,King-Martinez,MM,Energy,Canada,1641,2024-11-09,false,2026-04-01 05:30:00
+ACC-00172,Stewart Ltd,,Financial Services,Germany,54,2025-12-04,false,2026-04-01 05:30:00
+ACC-00173,"Tapia, Vaughn and Lee",SmallBiz,Media,Canada,138,2025-03-11,false,2026-04-01 05:30:00
+ACC-00174,"Washington, Hardy and Bray",SMB,Logistics,Australia,126,2025-07-04,false,2026-04-01 05:30:00
+ACC-00175,"Carlson, Hooper and Wall",smb,Education,United Kingdom,76,2025-10-01,false,2026-04-01 05:30:00
+ACC-00176,Perez-White,,Energy,United Kingdom,95,2024-11-21,false,2026-04-01 05:30:00
+ACC-00177,Erickson and Sons,Small Business,Education,Australia,45,2025-07-11,false,2026-04-01 05:30:00
+ACC-00178,Williams-Brown,SMB,Retail,Germany,90,2025-10-24,false,2026-04-01 05:30:00
+ACC-00179,Terry-Martinez,Strategic,Healthcare,Germany,21581,2025-03-14,false,2026-04-01 05:30:00
+ACC-00180,Garcia-Smith,SMB,Financial Services,Australia,172,2025-07-28,false,2026-04-01 05:30:00
+ACC-00181,Harrison-Alexander,SMB,Manufacturing,United Kingdom,183,2024-06-28,false,2026-04-01 05:30:00
+ACC-00182,Sheppard LLC,smb,Financial Services,Canada,25,2024-02-25,false,2026-04-01 05:30:00
+ACC-00183,Wilson-Jones,Small Business,Software,Canada,96,2026-02-28,false,2026-04-01 05:30:00
+ACC-00184,Jones-Soto,Small Business,Retail,United Kingdom,178,2026-02-25,false,2026-04-01 05:30:00
+ACC-00185,Hernandez PLC,MM,Media,Australia,712,2024-10-11,false,2026-04-01 05:30:00
+ACC-00186,Miller-Wright,SmallBiz,Media,Canada,179,2026-01-15,false,2026-04-01 05:30:00
+ACC-00187,"Duran, Obrien and Gibbs",SmallBiz,Energy,Canada,122,2025-05-23,false,2026-04-01 05:30:00
+ACC-00188,Rowe Group,Small Business,Education,Canada,66,2024-09-21,false,2026-04-01 05:30:00
+ACC-00189,Kerr-Evans,,Education,United States,63,2024-02-19,false,2026-04-01 05:30:00
+ACC-00190,"Branch, Torres and Oliver",MM,Media,Germany,1342,2024-12-25,false,2026-04-01 05:30:00
+ACC-00191,"Choi, Garcia and Farmer",SmallBiz,Telecom,United Kingdom,138,2024-07-28,false,2026-04-01 05:30:00
+ACC-00192,"Clark, Guerrero and Moore",enterprise,Healthcare,Germany,24573,2024-05-31,false,2026-04-01 05:30:00
+ACC-00193,Arnold and Sons,smb,Financial Services,United Kingdom,134,2024-09-18,false,2026-04-01 05:30:00
+ACC-00194,Ortiz Ltd,SmallBiz,Telecom,United Kingdom,36,2024-01-30,false,2026-04-01 05:30:00
+ACC-00195,"Harrison, Johnson and Roberts",Strategic,Financial Services,Canada,3971,2024-02-12,false,2026-04-01 05:30:00
+ACC-00196,Warner-Gibson,SMB,Telecom,United Kingdom,60,2025-02-27,false,2026-04-01 05:30:00
+ACC-00197,"Hall, Baker and Moody",SMB,Software,Australia,31,2025-06-05,false,2026-04-01 05:30:00
+ACC-00198,"Guerrero, Peck and Coleman",smb,Education,Germany,95,2024-06-18,false,2026-04-01 05:30:00
+ACC-00199,"Walker, Hernandez and Baker",smb,Manufacturing,Canada,89,2024-05-04,false,2026-04-01 05:30:00
+ACC-00200,Jones and Sons,SMB,Retail,Australia,40,2024-04-01,false,2026-04-01 05:30:00
+ACC-00201,Larson-Holloway,Small Business,Software,Canada,87,2024-12-19,false,2026-04-01 05:30:00
+ACC-00202,Gonzales-Harrison,MidMarket,Education,United Kingdom,668,2024-07-06,false,2026-04-01 05:30:00
+ACC-00203,Lyons-Bender,smb,Telecom,United Kingdom,174,2025-07-14,false,2026-04-01 05:30:00
+ACC-00204,"Fernandez, Kim and George",Small Business,Manufacturing,Canada,186,2025-01-30,false,2026-04-01 05:30:00
+ACC-00205,Navarro-Munoz,SMB,Education,Germany,46,2024-05-03,false,2026-04-01 05:30:00
+ACC-00206,Davis Ltd,smb,Financial Services,United States,184,2024-03-14,false,2026-04-01 05:30:00
+ACC-00207,"Matthews, Smith and Hubbard",SMB,Education,United States,39,2024-03-31,false,2026-04-01 05:30:00
+ACC-00208,Johnston-Hines,MidMarket,Healthcare,United States,1224,2024-07-08,false,2026-04-01 05:30:00
+ACC-00209,Ruiz Ltd,MM,Retail,United States,705,2025-11-30,false,2026-04-01 05:30:00
+ACC-00210,Moon-White,MidMarket,Financial Services,Australia,1591,2026-03-27,false,2026-04-01 05:30:00
+ACC-00211,"Graham, Olsen and Costa",SmallBiz,Healthcare,Australia,115,2025-01-07,false,2026-04-01 05:30:00
+ACC-00212,Bailey-Cook,Mid Market,Telecom,United States,850,2025-08-24,false,2026-04-01 05:30:00
+ACC-00213,"Garcia, Martin and Jenkins",SmallBiz,Media,Germany,31,2025-05-07,false,2026-04-01 05:30:00
+ACC-00214,Roberts-Landry,Small Business,Retail,Germany,70,2025-11-06,false,2026-04-01 05:30:00
+ACC-00215,"Johnson, Miller and King",SMB,Energy,Canada,82,2024-01-16,false,2026-04-01 05:30:00
+ACC-00216,Cordova Group,Small Business,Energy,Australia,144,2024-09-04,false,2026-04-01 05:30:00
+ACC-00217,"Bryan, Smith and Booth",,Financial Services,Australia,38,2025-05-01,false,2026-04-01 05:30:00
+ACC-00218,Gutierrez-Lopez,SmallBiz,Financial Services,Germany,141,2024-02-19,false,2026-04-01 05:30:00
+ACC-00219,Dean-Jimenez,SMB,Financial Services,Australia,60,2024-01-04,false,2026-04-01 05:30:00
+ACC-00220,Wolf-Harris,Small Business,Telecom,United Kingdom,121,2024-11-14,false,2026-04-01 05:30:00
+ACC-00221,"Anderson, Roberts and Gilmore",Enterprise,Software,Australia,21922,2025-03-15,false,2026-04-01 05:30:00
+ACC-00222,Martinez-Dudley,Mid-Market,Healthcare,Germany,290,2025-01-01,false,2026-04-01 05:30:00
+ACC-00223,"Lloyd, Mckinney and Collins",Small Business,Manufacturing,Germany,195,2025-11-16,false,2026-04-01 05:30:00
+ACC-00224,Tran Inc,SMB,Media,United States,53,2025-11-25,false,2026-04-01 05:30:00
+ACC-00225,Gay Inc,SmallBiz,Logistics,Germany,45,2025-03-29,false,2026-04-01 05:30:00
+ACC-00226,Valentine-Holland,SmallBiz,Logistics,United Kingdom,147,2025-09-17,false,2026-04-01 05:30:00
+ACC-00227,Jimenez Ltd,MM,Energy,Australia,469,2024-12-09,false,2026-04-01 05:30:00
+ACC-00228,Hicks-Hill,SmallBiz,Software,United States,161,2024-10-20,false,2026-04-01 05:30:00
+ACC-00229,Baird-Sanchez,Small Business,Telecom,United States,156,2025-12-30,false,2026-04-01 05:30:00
+ACC-00230,"Thomas, Lee and Greene",SMB,Logistics,United Kingdom,38,2024-10-21,false,2026-04-01 05:30:00
+ACC-00231,"Suarez, Shields and Hill",SmallBiz,Logistics,United States,184,2025-12-05,false,2026-04-01 05:30:00
+ACC-00232,Morgan-French,Enterprise,Healthcare,Canada,24550,2025-12-22,false,2026-04-01 05:30:00
+ACC-00233,Hoover-Campbell,MM,Logistics,Canada,943,2025-02-27,false,2026-04-01 05:30:00
+ACC-00234,Monroe-Carpenter,MM,Energy,United Kingdom,1609,2026-02-17,false,2026-04-01 05:30:00
+ACC-00235,"Burns, Hernandez and Ryan",Small Business,Energy,Australia,142,2025-12-10,false,2026-04-01 05:30:00
+ACC-00236,Cook-Hines,MM,Software,United States,567,2024-12-19,false,2026-04-01 05:30:00
+ACC-00237,Gibson-Morris,Small Business,Healthcare,Australia,197,2024-11-05,false,2026-04-01 05:30:00
+ACC-00238,Pollard and Sons,Mid Market,Education,Germany,910,2025-05-28,false,2026-04-01 05:30:00
+ACC-00239,"Reyes, Chase and Jenkins",MidMarket,Media,United Kingdom,892,2024-12-01,false,2026-04-01 05:30:00
+ACC-00240,Garner-Thornton,MM,Telecom,United Kingdom,1041,2024-02-25,false,2026-04-01 05:30:00
+ACC-00241,Hughes-Alvarado,SMB,Manufacturing,Canada,156,2024-04-17,false,2026-04-01 05:30:00
+ACC-00242,"Pollard, Simpson and Johnson",smb,Logistics,United States,74,2024-01-20,false,2026-04-01 05:30:00
+ACC-00243,"Sanford, Rivera and Garcia",SmallBiz,Financial Services,United States,99,2025-09-09,false,2026-04-01 05:30:00
+ACC-00244,Garcia-Lozano,ENT,Healthcare,United Kingdom,11700,2026-03-11,false,2026-04-01 05:30:00
+ACC-00245,Bowen Group,SMB,Software,United Kingdom,96,2024-07-31,false,2026-04-01 05:30:00
+ACC-00246,"Booker, Jones and Harrington",SMB,Retail,United States,192,2024-07-19,false,2026-04-01 05:30:00
+ACC-00247,Morgan-Schwartz,Small Business,Education,United States,54,2024-07-25,false,2026-04-01 05:30:00
+ACC-00248,"Miller, Murphy and Craig",smb,Energy,Canada,176,2025-09-25,false,2026-04-01 05:30:00
+ACC-00249,"James, Stewart and Higgins",enterprise,Logistics,Australia,19032,2026-02-20,false,2026-04-01 05:30:00
+ACC-00250,Brennan-Johnson,smb,Financial Services,Australia,67,2024-07-01,false,2026-04-01 05:30:00
+ACC-00251,Young Ltd,Small Business,Education,Australia,151,2025-05-20,false,2026-04-01 05:30:00
+ACC-00252,Bright-Francis,Small Business,Financial Services,United States,58,2025-01-07,false,2026-04-01 05:30:00
+ACC-00253,Good-Hodges,Mid-Market,Manufacturing,United Kingdom,1143,2025-08-25,false,2026-04-01 05:30:00
+ACC-00254,"Brennan, Wallace and Benson",SmallBiz,Manufacturing,Australia,86,2024-04-01,false,2026-04-01 05:30:00
+ACC-00255,Williams Inc,Mid Market,Software,Canada,1286,2026-02-11,false,2026-04-01 05:30:00
+ACC-00256,Howard-Jordan,SMB,Education,Germany,29,2024-11-11,false,2026-04-01 05:30:00
+ACC-00257,Schmidt PLC,MidMarket,Logistics,United States,1371,2024-12-05,false,2026-04-01 05:30:00
+ACC-00258,"Sparks, Jackson and Miller",SMB,Healthcare,Australia,144,2024-04-19,false,2026-04-01 05:30:00
+ACC-00259,Harvey-Allen,Mid Market,Energy,Canada,1162,2025-03-11,false,2026-04-01 05:30:00
+ACC-00260,"Thomas, Murray and King",smb,Healthcare,Canada,40,2024-01-30,false,2026-04-01 05:30:00
+ACC-00261,Estrada-Nolan,enterprise,Software,Germany,17763,2025-02-28,false,2026-04-01 05:30:00
+ACC-00262,Santana-Byrd,smb,Media,Canada,111,2025-11-07,false,2026-04-01 05:30:00
+ACC-00263,Jones LLC,,Manufacturing,United States,44,2026-02-19,false,2026-04-01 05:30:00
+ACC-00264,"Evans, Hayden and Vaughn",SmallBiz,Telecom,United States,41,2024-11-01,false,2026-04-01 05:30:00
+ACC-00265,Bruce-Gonzalez,Small Business,Financial Services,Canada,176,2024-01-25,false,2026-04-01 05:30:00
+ACC-00266,Castaneda-Rodriguez,SMB,Telecom,United States,71,2026-01-20,false,2026-04-01 05:30:00
+ACC-00267,Armstrong-Andrews,Small Business,Telecom,United Kingdom,110,2025-03-12,false,2026-04-01 05:30:00
+ACC-00268,"Phillips, Spence and Barrett",SmallBiz,Telecom,United States,165,2025-10-31,false,2026-04-01 05:30:00
+ACC-00269,Smith-Grimes,Small Business,Education,United States,167,2026-01-24,false,2026-04-01 05:30:00
+ACC-00270,"Beltran, Lozano and Mcgee",Small Business,Software,Australia,75,2024-02-16,false,2026-04-01 05:30:00
+ACC-00271,Parsons-Hall,Mid Market,Software,Germany,1347,2025-10-12,false,2026-04-01 05:30:00
+ACC-00272,Robinson-Lee,SMB,Telecom,United Kingdom,93,2024-08-23,false,2026-04-01 05:30:00
+ACC-00273,Byrd-Le,Small Business,Media,Australia,63,2024-08-18,false,2026-04-01 05:30:00
+ACC-00274,"Becker, Taylor and Davis",smb,Retail,Germany,34,2024-12-21,false,2026-04-01 05:30:00
+ACC-00275,"Lucas, Parker and Alexander",Mid-Market,Retail,Canada,475,2026-01-25,false,2026-04-01 05:30:00
+ACC-00276,"Diaz, Anderson and Browning",,Energy,Germany,97,2024-09-05,false,2026-04-01 05:30:00
+ACC-00277,Burgess-Thompson,Small Business,Software,United Kingdom,126,2026-02-18,false,2026-04-01 05:30:00
+ACC-00278,Buchanan LLC,Small Business,Financial Services,United States,138,2026-03-19,false,2026-04-01 05:30:00
+ACC-00279,"Shaw, Nelson and Martin",SmallBiz,Telecom,United Kingdom,65,2026-01-01,false,2026-04-01 05:30:00
+ACC-00280,Coffey-Phillips,MidMarket,Telecom,United Kingdom,1156,2025-09-07,false,2026-04-01 05:30:00
+ACC-00281,Brock-Mcdonald,Small Business,Manufacturing,Australia,145,2024-10-27,false,2026-04-01 05:30:00
+ACC-00282,Taylor and Sons,,Retail,Australia,1211,2024-05-02,false,2026-04-01 05:30:00
+ACC-00283,"Ramsey, Whitney and Coffey",Small Business,Energy,Australia,72,2024-12-09,false,2026-04-01 05:30:00
+ACC-00284,"Diaz, Gibbs and Smith",MidMarket,Manufacturing,Germany,934,2025-01-15,false,2026-04-01 05:30:00
+ACC-00285,"Martinez, Richardson and Curry",smb,Education,United States,71,2025-07-01,false,2026-04-01 05:30:00
+ACC-00286,Richards-Carson,MM,Logistics,Canada,235,2025-12-28,false,2026-04-01 05:30:00
+ACC-00287,Rodriguez-Hall,smb,Financial Services,Germany,188,2025-12-06,false,2026-04-01 05:30:00
+ACC-00288,Harvey PLC,SmallBiz,Logistics,United States,34,2025-12-15,false,2026-04-01 05:30:00
+ACC-00289,Herman-Walker,smb,Healthcare,Canada,63,2025-07-07,false,2026-04-01 05:30:00
+ACC-00290,Reid Group,Strategic,Healthcare,Australia,28019,2025-03-23,false,2026-04-01 05:30:00
+ACC-00291,"Turner, Ortiz and Taylor",Strategic,Media,Germany,37785,2024-07-28,false,2026-04-01 05:30:00
+ACC-00292,Torres Group,Mid-Market,Manufacturing,Germany,1957,2025-03-01,false,2026-04-01 05:30:00
+ACC-00293,Davis PLC,MidMarket,Media,United States,1170,2024-11-24,false,2026-04-01 05:30:00
+ACC-00294,Price LLC,Mid Market,Logistics,Canada,999,2024-05-24,false,2026-04-01 05:30:00
+ACC-00295,"Avery, Horton and Fernandez",,Manufacturing,Canada,1741,2025-03-22,false,2026-04-01 05:30:00
+ACC-00296,"Newton, Moore and Perry",smb,Logistics,Australia,73,2025-10-25,false,2026-04-01 05:30:00
+ACC-00297,Bass PLC,Enterprise,Telecom,Australia,17170,2025-11-22,false,2026-04-01 05:30:00
+ACC-00298,Crosby-Ramirez,Enterprise,Energy,Australia,38704,2024-07-10,false,2026-04-01 05:30:00
+ACC-00299,"Wood, Ramos and Sampson",SmallBiz,Logistics,United Kingdom,142,2024-07-15,false,2026-04-01 05:30:00
+ACC-00300,Garcia-Jennings,MM,Healthcare,Canada,664,2025-01-13,false,2026-04-01 05:30:00
+ACC-00301,"Winters, Newman and Brown",Small Business,Healthcare,Canada,134,2025-10-31,false,2026-04-01 05:30:00
+ACC-00302,Lopez-Martinez,MM,Financial Services,Canada,213,2024-02-02,false,2026-04-01 05:30:00
+ACC-00303,Davis-Lewis,MidMarket,Financial Services,Australia,622,2024-04-23,false,2026-04-01 05:30:00
+ACC-00304,"Harper, Smith and Buchanan",,Financial Services,United States,902,2025-01-04,false,2026-04-01 05:30:00
+ACC-00305,Zhang PLC,SmallBiz,Telecom,United States,15,2024-12-12,false,2026-04-01 05:30:00
+ACC-00306,Jones PLC,Mid Market,Telecom,Canada,1965,2024-02-27,false,2026-04-01 05:30:00
+ACC-00307,Willis and Sons,Small Business,Energy,Canada,61,2025-01-25,false,2026-04-01 05:30:00
+ACC-00308,Schroeder-Kramer,Mid Market,Retail,United States,1479,2025-11-13,false,2026-04-01 05:30:00
+ACC-00309,"Smith, Garrison and Thomas",SMB,Retail,United Kingdom,114,2024-07-18,false,2026-04-01 05:30:00
+ACC-00310,Fernandez and Sons,MM,Energy,Germany,202,2024-01-20,false,2026-04-01 05:30:00
+ACC-00311,Guerrero Inc,SmallBiz,Financial Services,United States,139,2025-08-19,false,2026-04-01 05:30:00
+ACC-00312,Smith and Sons,ENT,Manufacturing,Canada,24138,2024-05-25,false,2026-04-01 05:30:00
+ACC-00313,"Morris, Thompson and Williams",smb,Manufacturing,Germany,154,2024-09-22,false,2026-04-01 05:30:00
+ACC-00314,"Fisher, Wilson and Brown",Mid Market,Telecom,Australia,1885,2024-12-07,false,2026-04-01 05:30:00
+ACC-00315,Strickland-Palmer,SMB,Energy,Germany,162,2024-05-17,false,2026-04-01 05:30:00
+ACC-00316,Hayes and Sons,,Healthcare,United States,29353,2025-12-21,false,2026-04-01 05:30:00
+ACC-00317,"Williams, Logan and Camacho",smb,Financial Services,Canada,111,2024-08-18,false,2026-04-01 05:30:00
+ACC-00318,"Turner, Schneider and Johnson",SMB,Healthcare,United States,26,2024-12-23,false,2026-04-01 05:30:00
+ACC-00319,Boone-Simmons,Mid-Market,Software,Canada,1374,2025-09-04,false,2026-04-01 05:30:00
+ACC-00320,Henry Group,SmallBiz,Software,United States,22,2025-12-06,false,2026-04-01 05:30:00
+ACC-00321,Lam LLC,MM,Media,United Kingdom,1674,2024-02-05,false,2026-04-01 05:30:00
+ACC-00322,"Hernandez, Martinez and Weber",SMB,Media,Germany,121,2024-07-30,false,2026-04-01 05:30:00
+ACC-00323,"Kelley, Nguyen and Vang",Mid-Market,Media,United Kingdom,1550,2025-08-08,false,2026-04-01 05:30:00
+ACC-00324,"Phillips, Wagner and Jordan",smb,Retail,Canada,128,2024-06-19,false,2026-04-01 05:30:00
+ACC-00325,"Wilson, Pena and Rich",Mid Market,Financial Services,Germany,354,2024-10-03,false,2026-04-01 05:30:00
+ACC-00326,"Le, Lewis and Hayes",SMB,Software,Australia,21,2024-11-22,false,2026-04-01 05:30:00
+ACC-00327,Gutierrez Group,enterprise,Financial Services,Australia,33369,2024-05-27,false,2026-04-01 05:30:00
+ACC-00328,Perry-Davis,smb,Financial Services,Australia,191,2026-03-10,false,2026-04-01 05:30:00
+ACC-00329,Edwards-Scott,MidMarket,Financial Services,Germany,597,2025-01-22,false,2026-04-01 05:30:00
+ACC-00330,Mcdaniel Group,Small Business,Healthcare,Germany,11,2025-04-09,false,2026-04-01 05:30:00
+ACC-00331,Davis Inc,smb,Education,Canada,145,2025-01-15,false,2026-04-01 05:30:00
+ACC-00332,Reynolds Ltd,SMB,Telecom,Germany,80,2025-02-02,false,2026-04-01 05:30:00
+ACC-00333,"Watson, Anderson and Brown",smb,Retail,Canada,154,2024-03-26,false,2026-04-01 05:30:00
+ACC-00334,"Hoffman, Santiago and Jenkins",SmallBiz,Financial Services,Canada,153,2024-08-09,false,2026-04-01 05:30:00
+ACC-00335,"Pugh, Henderson and Moon",SMB,Manufacturing,United Kingdom,117,2025-06-08,false,2026-04-01 05:30:00
+ACC-00336,Schmitt PLC,Small Business,Manufacturing,United States,11,2024-06-23,false,2026-04-01 05:30:00
+ACC-00337,Bell-Lane,enterprise,Logistics,Germany,10254,2025-11-19,false,2026-04-01 05:30:00
+ACC-00338,Moore Group,SmallBiz,Education,United Kingdom,169,2026-02-06,false,2026-04-01 05:30:00
+ACC-00339,Boone LLC,smb,Healthcare,United Kingdom,121,2025-01-15,false,2026-04-01 05:30:00
+ACC-00340,"Richardson, Farmer and Andrews",Mid-Market,Software,Canada,1806,2024-03-22,false,2026-04-01 05:30:00
+ACC-00341,Bruce-Villegas,SMB,Retail,United Kingdom,43,2024-03-04,false,2026-04-01 05:30:00
+ACC-00342,"Austin, Day and Johnson",Mid-Market,Financial Services,Canada,818,2024-10-22,false,2026-04-01 05:30:00
+ACC-00343,"Gallegos, Adams and White",Small Business,Manufacturing,Canada,60,2026-02-01,false,2026-04-01 05:30:00
+ACC-00344,"Farmer, Dorsey and Bell",Small Business,Education,Australia,16,2026-02-01,false,2026-04-01 05:30:00
+ACC-00345,Kane PLC,SmallBiz,Financial Services,United States,31,2025-01-12,false,2026-04-01 05:30:00
+ACC-00346,"Morales, Thomas and Schultz",Small Business,Financial Services,Australia,192,2025-09-10,false,2026-04-01 05:30:00
+ACC-00347,Davis PLC,MM,Media,United States,1994,2024-12-28,false,2026-04-01 05:30:00
+ACC-00348,Bennett Group,SMB,Software,Canada,98,2026-02-16,false,2026-04-01 05:30:00
+ACC-00349,Moore-Collins,SmallBiz,Education,Australia,42,2025-10-19,false,2026-04-01 05:30:00
+ACC-00350,Frank-Bradley,SmallBiz,Media,United Kingdom,65,2026-03-07,false,2026-04-01 05:30:00
+ACC-00351,Ware and Sons,SmallBiz,Manufacturing,Germany,121,2025-01-20,false,2026-04-01 05:30:00
+ACC-00352,Webster Inc,SMB,Healthcare,United States,196,2024-03-25,false,2026-04-01 05:30:00
+ACC-00353,"Miller, Ramos and Coleman",Mid-Market,Media,United Kingdom,845,2025-06-30,false,2026-04-01 05:30:00
+ACC-00354,"Ramos, Nelson and Fischer",smb,Education,Germany,82,2026-01-29,false,2026-04-01 05:30:00
+ACC-00355,Reed Inc,,Manufacturing,Germany,17804,2024-08-10,false,2026-04-01 05:30:00
+ACC-00356,Gregory-Watkins,smb,Manufacturing,United Kingdom,65,2025-06-24,false,2026-04-01 05:30:00
+ACC-00357,"Estrada, Williams and Foster",smb,Manufacturing,Australia,75,2024-02-27,false,2026-04-01 05:30:00
+ACC-00358,"Brown, Harris and Dougherty",smb,Manufacturing,United States,105,2025-08-15,false,2026-04-01 05:30:00
+ACC-00359,Duran LLC,SmallBiz,Healthcare,Germany,116,2025-09-13,false,2026-04-01 05:30:00
+ACC-00360,Wilson-Jimenez,SmallBiz,Media,Australia,194,2026-01-30,false,2026-04-01 05:30:00
+ACC-00361,Thompson-James,,Logistics,Australia,19,2025-06-22,false,2026-04-01 05:30:00
+ACC-00362,"Hall, Hansen and Barnett",SmallBiz,Financial Services,Australia,185,2025-04-19,false,2026-04-01 05:30:00
+ACC-00363,Jones-Hensley,Small Business,Software,Australia,139,2026-01-19,false,2026-04-01 05:30:00
+ACC-00364,Graham Group,Small Business,Manufacturing,Germany,38,2025-11-29,false,2026-04-01 05:30:00
+ACC-00365,Atkins PLC,SMB,Retail,United Kingdom,11,2025-04-10,false,2026-04-01 05:30:00
+ACC-00366,Berry-Mckinney,SmallBiz,Education,Australia,197,2024-11-01,false,2026-04-01 05:30:00
+ACC-00367,Roberts-Sullivan,SMB,Healthcare,Germany,40,2024-12-22,false,2026-04-01 05:30:00
+ACC-00368,Jackson-Meza,SmallBiz,Healthcare,United Kingdom,55,2026-03-02,false,2026-04-01 05:30:00
+ACC-00369,Collier-Gillespie,enterprise,Education,Australia,11005,2026-02-02,false,2026-04-01 05:30:00
+ACC-00370,Kim Inc,MM,Media,Canada,411,2024-03-23,false,2026-04-01 05:30:00
+ACC-00371,Graham Group,MM,Retail,Canada,1215,2025-06-07,false,2026-04-01 05:30:00
+ACC-00372,"Miller, Harrell and Reese",Mid Market,Telecom,United Kingdom,1882,2024-10-30,false,2026-04-01 05:30:00
+ACC-00373,Cook and Sons,SMB,Financial Services,Australia,161,2024-06-30,false,2026-04-01 05:30:00
+ACC-00374,Dixon Inc,SmallBiz,Energy,Canada,148,2025-12-17,false,2026-04-01 05:30:00
+ACC-00375,"Hicks, Bullock and Bailey",SmallBiz,Media,United Kingdom,98,2024-12-21,false,2026-04-01 05:30:00
+ACC-00376,"Mullen, Brewer and Hernandez",Small Business,Logistics,Germany,31,2024-11-04,false,2026-04-01 05:30:00
+ACC-00377,Thomas and Sons,Mid-Market,Software,United Kingdom,1031,2026-02-27,false,2026-04-01 05:30:00
+ACC-00378,Morrison Ltd,Small Business,Retail,United States,119,2024-06-03,false,2026-04-01 05:30:00
+ACC-00379,Thompson Ltd,,Software,United Kingdom,189,2024-06-11,false,2026-04-01 05:30:00
+ACC-00380,Marshall-Elliott,MidMarket,Retail,Australia,641,2024-03-07,false,2026-04-01 05:30:00
+ACC-00381,"Cole, Glass and Cunningham",Mid Market,Education,Australia,1341,2024-10-22,false,2026-04-01 05:30:00
+ACC-00382,"Downs, Morris and Maddox",smb,Manufacturing,United States,48,2025-03-14,false,2026-04-01 05:30:00
+ACC-00383,Hernandez-Jones,ENT,Telecom,Germany,3939,2024-06-15,false,2026-04-01 05:30:00
+ACC-00384,Welch-Hogan,Small Business,Media,Australia,83,2024-02-06,false,2026-04-01 05:30:00
+ACC-00385,"Brown, Romero and Collins",enterprise,Education,Australia,7640,2024-08-19,false,2026-04-01 05:30:00
+ACC-00386,Johnson-Wood,Mid-Market,Telecom,United States,1499,2025-03-14,false,2026-04-01 05:30:00
+ACC-00387,Jones-Lin,enterprise,Media,Germany,21067,2025-10-12,false,2026-04-01 05:30:00
+ACC-00388,Gilbert PLC,smb,Financial Services,Australia,64,2024-09-11,false,2026-04-01 05:30:00
+ACC-00389,Ford-Spencer,Small Business,Healthcare,United States,193,2024-06-12,false,2026-04-01 05:30:00
+ACC-00390,"Huang, Cole and Pacheco",Mid-Market,Financial Services,Germany,1173,2025-11-11,false,2026-04-01 05:30:00
+ACC-00391,"Lopez, Jacobs and Mason",Strategic,Education,Canada,47282,2025-05-28,false,2026-04-01 05:30:00
+ACC-00392,Hayes LLC,Mid-Market,Manufacturing,United Kingdom,898,2025-03-21,false,2026-04-01 05:30:00
+ACC-00393,"Miller, Lucas and Williams",Enterprise,Telecom,United Kingdom,35832,2025-09-18,false,2026-04-01 05:30:00
+ACC-00394,"Kim, Gonzales and Mills",smb,Education,Canada,63,2024-10-23,false,2026-04-01 05:30:00
+ACC-00395,Cox LLC,SMB,Software,Germany,24,2025-04-10,false,2026-04-01 05:30:00
+ACC-00396,Ortiz-Morgan,SmallBiz,Financial Services,Australia,168,2024-03-12,false,2026-04-01 05:30:00
+ACC-00397,"Williams, Mccoy and Cook",SMB,Education,Canada,63,2026-03-11,false,2026-04-01 05:30:00
+ACC-00398,Davis-Gregory,,Media,Germany,187,2025-12-15,false,2026-04-01 05:30:00
+ACC-00399,King-York,,Media,United States,77,2024-05-05,false,2026-04-01 05:30:00
+ACC-00400,"Marks, Cook and Aguilar",SMB,Financial Services,United States,118,2024-10-25,false,2026-04-01 05:30:00
+ACC-00401,Rangel LLC,SmallBiz,Logistics,Germany,161,2024-06-14,false,2026-04-01 05:30:00
+ACC-00402,"Hale, Myers and Larson",Mid Market,Logistics,Germany,1755,2025-05-27,false,2026-04-01 05:30:00
+ACC-00403,Collins Group,SmallBiz,Financial Services,United States,99,2024-07-04,false,2026-04-01 05:30:00
+ACC-00404,"Conner, Li and Santiago",Small Business,Telecom,Australia,81,2024-09-23,false,2026-04-01 05:30:00
+ACC-00405,"Osborn, Gaines and Davis",SmallBiz,Retail,United States,127,2024-09-20,false,2026-04-01 05:30:00
+ACC-00406,"Henderson, Cox and Cox",Mid-Market,Logistics,United States,982,2025-10-24,false,2026-04-01 05:30:00
+ACC-00407,Bean LLC,Mid-Market,Telecom,United States,1487,2026-02-07,false,2026-04-01 05:30:00
+ACC-00408,Lee-Cooke,SmallBiz,Financial Services,United Kingdom,104,2025-03-11,false,2026-04-01 05:30:00
+ACC-00409,Jones Inc,Small Business,Telecom,United Kingdom,62,2026-03-26,false,2026-04-01 05:30:00
+ACC-00410,"Wise, Conley and Stephenson",Small Business,Retail,Australia,90,2026-03-09,false,2026-04-01 05:30:00
+ACC-00411,Stanley PLC,SMB,Healthcare,Canada,146,2025-06-06,false,2026-04-01 05:30:00
+ACC-00412,Harper and Sons,Small Business,Telecom,United States,99,2025-02-09,false,2026-04-01 05:30:00
+ACC-00413,White Ltd,SmallBiz,Energy,United States,162,2025-11-05,false,2026-04-01 05:30:00
+ACC-00414,"Lamb, Martin and Kim",MM,Energy,Australia,970,2025-01-08,false,2026-04-01 05:30:00
+ACC-00415,Diaz-Ball,MM,Energy,Germany,742,2024-10-12,false,2026-04-01 05:30:00
+ACC-00416,Bishop-Goodwin,Mid Market,Logistics,Australia,1929,2025-08-01,false,2026-04-01 05:30:00
+ACC-00417,Young-Allen,smb,Logistics,Australia,80,2025-02-18,false,2026-04-01 05:30:00
+ACC-00418,Mckee-Lee,MidMarket,Retail,United Kingdom,587,2025-05-05,false,2026-04-01 05:30:00
+ACC-00419,"Valentine, Joyce and Murray",Small Business,Manufacturing,United States,81,2025-05-28,false,2026-04-01 05:30:00
+ACC-00420,Strickland-Shaw,Mid-Market,Education,Germany,690,2025-04-06,false,2026-04-01 05:30:00
+ACC-00421,Burch-Montoya,Enterprise,Education,United States,15569,2024-06-11,false,2026-04-01 05:30:00
+ACC-00422,"Taylor, Wright and Davidson",smb,Media,United States,177,2025-08-19,false,2026-04-01 05:30:00
+ACC-00423,Spencer-Garcia,Mid Market,Education,United States,1552,2024-10-20,false,2026-04-01 05:30:00
+ACC-00424,"Rosales, Mitchell and Hines",SmallBiz,Financial Services,Canada,61,2024-07-22,false,2026-04-01 05:30:00
+ACC-00425,Cole-Palmer,smb,Energy,United Kingdom,167,2025-08-01,false,2026-04-01 05:30:00
+ACC-00426,Davis-Lozano,smb,Retail,Canada,158,2025-04-21,false,2026-04-01 05:30:00
+ACC-00427,Wilkerson-Arias,MM,Healthcare,United Kingdom,990,2025-11-03,false,2026-04-01 05:30:00
+ACC-00428,Brown-Shaw,smb,Manufacturing,United States,43,2024-07-08,false,2026-04-01 05:30:00
+ACC-00429,Hughes Inc,smb,Energy,Canada,182,2025-09-08,false,2026-04-01 05:30:00
+ACC-00430,Walker-Flores,,Healthcare,Canada,34,2024-01-12,false,2026-04-01 05:30:00
+ACC-00431,Combs Ltd,smb,Education,Canada,181,2024-07-12,false,2026-04-01 05:30:00
+ACC-00432,Moody-Taylor,Mid-Market,Telecom,Canada,1096,2025-05-30,false,2026-04-01 05:30:00
+ACC-00433,Lowery-Kennedy,MM,Logistics,Australia,1048,2025-05-18,false,2026-04-01 05:30:00
+ACC-00434,Blake Group,enterprise,Telecom,United Kingdom,39989,2024-10-21,false,2026-04-01 05:30:00
+ACC-00435,Gilbert-Bullock,smb,Energy,United States,120,2025-01-26,false,2026-04-01 05:30:00
+ACC-00436,Scott and Sons,smb,Retail,United Kingdom,117,2025-09-18,false,2026-04-01 05:30:00
+ACC-00437,"Bentley, Lynch and Henderson",MM,Telecom,United States,1483,2024-07-03,false,2026-04-01 05:30:00
+ACC-00438,Young-Martinez,Mid-Market,Education,Germany,1990,2025-07-01,false,2026-04-01 05:30:00
+ACC-00439,Barnes PLC,enterprise,Financial Services,Canada,8153,2024-11-25,false,2026-04-01 05:30:00
+ACC-00440,Brown-Copeland,SmallBiz,Logistics,Germany,188,2024-12-20,false,2026-04-01 05:30:00
+ACC-00441,Carlson-Smith,smb,Logistics,Canada,50,2024-05-19,false,2026-04-01 05:30:00
+ACC-00442,"Andrews, Higgins and Carter",Small Business,Software,Germany,190,2025-09-19,false,2026-04-01 05:30:00
+ACC-00443,Mendez and Sons,MidMarket,Software,Germany,1407,2024-06-06,false,2026-04-01 05:30:00
+ACC-00444,"Butler, Beck and Miller",SMB,Education,Australia,60,2026-01-25,false,2026-04-01 05:30:00
+ACC-00445,Jones-Fox,SmallBiz,Healthcare,Germany,199,2025-10-29,false,2026-04-01 05:30:00
+ACC-00446,"Hartman, Romero and Smith",SmallBiz,Healthcare,Canada,193,2025-04-05,false,2026-04-01 05:30:00
+ACC-00447,Williams-Hughes,smb,Telecom,United Kingdom,142,2024-07-26,false,2026-04-01 05:30:00
+ACC-00448,King-Smith,MM,Energy,United Kingdom,880,2025-08-28,false,2026-04-01 05:30:00
+ACC-00449,Cooper Ltd,SmallBiz,Logistics,United States,118,2025-04-13,false,2026-04-01 05:30:00
+ACC-00450,"Fuller, Ingram and Moss",enterprise,Software,Canada,11983,2026-01-05,false,2026-04-01 05:30:00
+ACC-00451,Anderson-Bell,MM,Energy,United States,452,2024-11-20,false,2026-04-01 05:30:00
+ACC-00452,Li-Thompson,Mid-Market,Manufacturing,Canada,539,2024-05-21,false,2026-04-01 05:30:00
+ACC-00453,"Marshall, Dominguez and Welch",,Retail,United Kingdom,150,2025-12-07,false,2026-04-01 05:30:00
+ACC-00454,Brown Group,MM,Logistics,United States,1969,2024-05-15,false,2026-04-01 05:30:00
+ACC-00455,Carter Inc,smb,Healthcare,Australia,23,2024-07-20,false,2026-04-01 05:30:00
+ACC-00456,Blackwell LLC,Mid-Market,Energy,Australia,376,2024-12-05,false,2026-04-01 05:30:00
+ACC-00457,Robertson-Hays,smb,Financial Services,United States,86,2025-01-15,false,2026-04-01 05:30:00
+ACC-00458,"Kennedy, Johnson and Lucas",SMB,Energy,Canada,182,2025-03-17,false,2026-04-01 05:30:00
+ACC-00459,Kelly-Norman,SmallBiz,Logistics,Canada,32,2024-07-27,false,2026-04-01 05:30:00
+ACC-00460,"Rivera, Martinez and Richardson",SMB,Telecom,United Kingdom,86,2026-02-01,false,2026-04-01 05:30:00
+ACC-00461,Paul-Kline,Mid-Market,Logistics,Canada,660,2024-01-29,false,2026-04-01 05:30:00
+ACC-00462,Morgan-Lopez,SmallBiz,Logistics,United Kingdom,158,2024-05-11,false,2026-04-01 05:30:00
+ACC-00463,"Jimenez, Glass and Stone",Enterprise,Logistics,Australia,13911,2025-11-26,false,2026-04-01 05:30:00
+ACC-00464,Acosta Inc,Small Business,Software,Australia,174,2025-03-20,false,2026-04-01 05:30:00
+ACC-00465,Morrison-Short,MidMarket,Media,Germany,1284,2024-04-15,false,2026-04-01 05:30:00
+ACC-00466,"Carter, Garcia and Murphy",Mid-Market,Telecom,United States,1511,2026-03-10,false,2026-04-01 05:30:00
+ACC-00467,Parker-Morrison,MidMarket,Financial Services,United Kingdom,1972,2025-09-02,false,2026-04-01 05:30:00
+ACC-00468,Jackson-Wallace,Mid-Market,Energy,Germany,718,2024-12-13,false,2026-04-01 05:30:00
+ACC-00469,Williams-Berg,SMB,Manufacturing,United Kingdom,137,2025-02-18,false,2026-04-01 05:30:00
+ACC-00470,Mendez-Graham,SmallBiz,Manufacturing,Australia,159,2026-02-27,false,2026-04-01 05:30:00
+ACC-00471,"Whitney, Gould and Jones",SmallBiz,Energy,Germany,65,2025-07-09,false,2026-04-01 05:30:00
+ACC-00472,"Sullivan, Palmer and Brady",SmallBiz,Financial Services,Canada,161,2025-01-07,false,2026-04-01 05:30:00
+ACC-00473,Cisneros and Sons,Mid Market,Education,Australia,482,2026-03-18,false,2026-04-01 05:30:00
+ACC-00474,"Gregory, Kim and Martinez",smb,Logistics,Germany,100,2024-02-28,false,2026-04-01 05:30:00
+ACC-00475,Osborne LLC,SmallBiz,Media,United Kingdom,126,2025-12-18,false,2026-04-01 05:30:00
+ACC-00476,Reyes-Bradley,Small Business,Energy,Germany,82,2025-05-15,false,2026-04-01 05:30:00
+ACC-00477,"Hernandez, Cole and Watson",enterprise,Energy,Canada,13976,2025-09-23,false,2026-04-01 05:30:00
+ACC-00478,Hines-Berry,SMB,Logistics,Canada,135,2026-02-05,false,2026-04-01 05:30:00
+ACC-00479,"Richardson, Edwards and Ramirez",SmallBiz,Retail,Canada,184,2025-08-06,false,2026-04-01 05:30:00
+ACC-00480,Johnson and Sons,Small Business,Retail,United Kingdom,20,2025-01-06,false,2026-04-01 05:30:00
+ACC-00481,Holmes-Mcintyre,MidMarket,Energy,United States,1714,2024-11-21,false,2026-04-01 05:30:00
+ACC-00482,Green LLC,enterprise,Software,Canada,37985,2025-03-17,false,2026-04-01 05:30:00
+ACC-00483,"Griffin, Davies and Mitchell",MidMarket,Healthcare,Germany,1522,2025-12-27,false,2026-04-01 05:30:00
+ACC-00484,Gonzalez-Taylor,Small Business,Media,United Kingdom,158,2025-10-17,false,2026-04-01 05:30:00
+ACC-00485,Hayes Ltd,SMB,Retail,United States,74,2026-02-24,false,2026-04-01 05:30:00
+ACC-00486,Osborn-Cochran,Mid-Market,Logistics,Canada,1539,2026-01-30,false,2026-04-01 05:30:00
+ACC-00487,Contreras-Mckinney,Small Business,Financial Services,United Kingdom,21,2025-06-09,false,2026-04-01 05:30:00
+ACC-00488,"Daniels, Vance and York",SMB,Education,Australia,164,2024-02-17,false,2026-04-01 05:30:00
+ACC-00489,"Mckinney, Graves and Thompson",,Financial Services,United States,59,2026-03-08,false,2026-04-01 05:30:00
+ACC-00490,Hicks-Martinez,Strategic,Telecom,Australia,17943,2025-11-09,false,2026-04-01 05:30:00
+ACC-00491,Conner and Sons,SMB,Financial Services,United States,45,2024-04-08,false,2026-04-01 05:30:00
+ACC-00492,Johnson-Spencer,SMB,Telecom,United States,24,2024-01-25,false,2026-04-01 05:30:00
+ACC-00493,Mcdonald-Bird,,Energy,United Kingdom,353,2025-09-27,false,2026-04-01 05:30:00
+ACC-00494,Salazar Inc,,Education,Canada,1349,2024-12-26,false,2026-04-01 05:30:00
+ACC-00495,Parker Ltd,,Retail,United Kingdom,1468,2024-10-10,false,2026-04-01 05:30:00
+ACC-00496,"Mendoza, Jenkins and Ortiz",,Financial Services,United Kingdom,161,2025-10-02,false,2026-04-01 05:30:00
+ACC-00497,"Jones, Compton and Day",smb,Energy,Canada,161,2025-11-21,false,2026-04-01 05:30:00
+ACC-00498,Owens-Holmes,SmallBiz,Logistics,Germany,172,2025-12-23,false,2026-04-01 05:30:00
+ACC-00499,Humphrey PLC,Mid-Market,Healthcare,Canada,1554,2024-06-26,false,2026-04-01 05:30:00
+ACC-00500,"Matthews, Saunders and Anderson",MM,Telecom,United States,731,2026-03-18,false,2026-04-01 05:30:00
+ACC-00501,"Bartlett, Brown and Martinez",Small Business,Manufacturing,United Kingdom,64,2025-05-24,false,2026-04-01 05:30:00
+ACC-00502,Torres and Sons,Mid-Market,Logistics,Australia,443,2024-09-25,false,2026-04-01 05:30:00
+ACC-00503,Donovan-Perez,MM,Media,Germany,1296,2024-03-01,false,2026-04-01 05:30:00
+ACC-00504,"Jacobson, Singleton and King",SMB,Retail,United Kingdom,26,2026-03-27,false,2026-04-01 05:30:00
+ACC-00505,"Huber, Hill and Weber",SMB,Education,Germany,156,2024-07-13,false,2026-04-01 05:30:00
+ACC-00506,"Ferguson, Shaw and Jackson",MidMarket,Media,United States,1568,2026-02-26,false,2026-04-01 05:30:00
+ACC-00507,"Moore, Hopkins and Le",smb,Software,Germany,147,2026-01-30,false,2026-04-01 05:30:00
+ACC-00508,"Morgan, Bradshaw and Williams",SmallBiz,Media,Germany,124,2026-03-29,false,2026-04-01 05:30:00
+ACC-00509,Miller Ltd,Small Business,Retail,United Kingdom,137,2025-01-29,false,2026-04-01 05:30:00
+ACC-00510,"Baker, Clark and Armstrong",ENT,Retail,United Kingdom,24479,2026-03-04,false,2026-04-01 05:30:00
+ACC-00511,"Fowler, Jimenez and Burton",SmallBiz,Media,United States,90,2024-06-26,false,2026-04-01 05:30:00
+ACC-00512,May-Turner,Small Business,Software,Germany,92,2024-10-27,false,2026-04-01 05:30:00
+ACC-00513,Ballard Ltd,Mid Market,Energy,United States,587,2025-04-12,false,2026-04-01 05:30:00
+ACC-00514,Evans-Jones,SMB,Telecom,Australia,41,2024-11-25,false,2026-04-01 05:30:00
+ACC-00515,Moore Group,Small Business,Manufacturing,Germany,68,2024-12-04,false,2026-04-01 05:30:00
+ACC-00516,Marshall-Peterson,Mid-Market,Healthcare,Canada,1830,2026-02-13,false,2026-04-01 05:30:00
+ACC-00517,Edwards Ltd,MM,Retail,Australia,847,2026-03-30,false,2026-04-01 05:30:00
+ACC-00518,Gross-Valencia,Small Business,Healthcare,Canada,57,2025-07-13,false,2026-04-01 05:30:00
+ACC-00519,Anderson-Wood,smb,Energy,Australia,11,2026-03-23,false,2026-04-01 05:30:00
+ACC-00520,"Rodriguez, Allen and Martinez",smb,Logistics,Germany,173,2024-11-25,false,2026-04-01 05:30:00
+ACC-00521,Wright-Davis,SmallBiz,Manufacturing,United Kingdom,136,2025-11-13,false,2026-04-01 05:30:00
+ACC-00522,Dougherty-Lin,SmallBiz,Retail,Canada,197,2025-01-03,false,2026-04-01 05:30:00
+ACC-00523,Wright-Grimes,enterprise,Media,Germany,48106,2024-08-08,false,2026-04-01 05:30:00
+ACC-00524,Li PLC,Small Business,Media,United States,116,2024-05-23,false,2026-04-01 05:30:00
+ACC-00525,"Edwards, Hines and Jimenez",MM,Retail,United Kingdom,1421,2025-09-06,false,2026-04-01 05:30:00
+ACC-00526,"Owens, Koch and Jimenez",smb,Manufacturing,United Kingdom,34,2024-12-18,false,2026-04-01 05:30:00
+ACC-00527,Landry PLC,Mid-Market,Telecom,United Kingdom,301,2024-07-05,false,2026-04-01 05:30:00
+ACC-00528,Levy-Lewis,Mid Market,Media,United States,238,2026-03-11,false,2026-04-01 05:30:00
+ACC-00529,Williams-Campbell,smb,Healthcare,Germany,179,2024-08-13,false,2026-04-01 05:30:00
+ACC-00530,"Khan, Pena and Ruiz",SMB,Software,Australia,120,2025-10-22,false,2026-04-01 05:30:00
+ACC-00531,"Smith, Rodriguez and Anderson",Mid-Market,Financial Services,United States,1134,2025-05-12,false,2026-04-01 05:30:00
+ACC-00532,Luna-Gallagher,Small Business,Retail,Canada,23,2025-01-05,false,2026-04-01 05:30:00
+ACC-00533,Williams-Williams,enterprise,Financial Services,United States,28311,2024-05-26,false,2026-04-01 05:30:00
+ACC-00534,"Lee, Tran and Jones",ENT,Media,Germany,9201,2026-01-05,false,2026-04-01 05:30:00
+ACC-00535,"Cole, Pierce and Bryan",Mid-Market,Financial Services,Germany,553,2025-05-06,false,2026-04-01 05:30:00
+ACC-00536,"Becker, Wilson and Hester",enterprise,Retail,United Kingdom,16413,2026-01-25,false,2026-04-01 05:30:00
+ACC-00537,Brooks-Hatfield,smb,Energy,Canada,149,2024-02-07,false,2026-04-01 05:30:00
+ACC-00538,"Mcmillan, Fischer and Gonzalez",smb,Energy,Canada,13,2024-09-23,false,2026-04-01 05:30:00
+ACC-00539,"Morales, Williams and Williams",MidMarket,Healthcare,Germany,1336,2025-09-28,false,2026-04-01 05:30:00
+ACC-00540,"Cook, Wells and Bryant",Mid-Market,Energy,United States,385,2025-12-10,false,2026-04-01 05:30:00
+ACC-00541,"Barry, Taylor and Velazquez",MidMarket,Logistics,Canada,520,2024-02-04,false,2026-04-01 05:30:00
+ACC-00542,Martin-Ewing,Small Business,Retail,United States,88,2024-03-09,false,2026-04-01 05:30:00
+ACC-00543,"Kirby, Wheeler and Romero",Mid-Market,Media,Australia,984,2024-06-14,false,2026-04-01 05:30:00
+ACC-00544,"Patel, Erickson and Evans",Strategic,Software,Canada,46398,2025-03-01,false,2026-04-01 05:30:00
+ACC-00545,Richardson Ltd,SmallBiz,Education,Germany,145,2024-06-09,false,2026-04-01 05:30:00
+ACC-00546,Whitney PLC,enterprise,Financial Services,United Kingdom,39888,2024-03-05,false,2026-04-01 05:30:00
+ACC-00547,Robles-Swanson,Mid-Market,Logistics,Australia,1306,2025-01-29,false,2026-04-01 05:30:00
+ACC-00548,"Soto, Carlson and Baker",smb,Media,United States,135,2025-08-29,false,2026-04-01 05:30:00
+ACC-00549,"Patton, Parsons and Lane",Small Business,Energy,United States,171,2025-03-05,false,2026-04-01 05:30:00
+ACC-00550,"Williams, Castillo and Warren",smb,Media,Canada,186,2026-03-05,false,2026-04-01 05:30:00
+ACC-00551,"Harvey, Randall and Hernandez",Mid-Market,Manufacturing,Australia,514,2024-11-05,false,2026-04-01 05:30:00
+ACC-00552,"Allen, Armstrong and Graves",SMB,Media,Australia,108,2025-08-25,false,2026-04-01 05:30:00
+ACC-00553,Smith LLC,SmallBiz,Education,Germany,81,2024-06-12,false,2026-04-01 05:30:00
+ACC-00554,Hernandez-Vaughn,SmallBiz,Media,Germany,100,2026-01-29,false,2026-04-01 05:30:00
+ACC-00555,Shaw-Carr,SMB,Logistics,Germany,197,2025-03-20,false,2026-04-01 05:30:00
+ACC-00556,Salas-Fitzgerald,SMB,Logistics,Germany,172,2024-10-05,false,2026-04-01 05:30:00
+ACC-00557,Thornton PLC,smb,Retail,Germany,153,2024-04-25,false,2026-04-01 05:30:00
+ACC-00558,Hoffman Ltd,smb,Software,Australia,148,2025-03-02,false,2026-04-01 05:30:00
+ACC-00559,Fox-Edwards,Mid-Market,Retail,Australia,1915,2024-07-25,false,2026-04-01 05:30:00
+ACC-00560,Stevens PLC,Small Business,Manufacturing,Australia,141,2025-02-05,false,2026-04-01 05:30:00
+ACC-00561,Payne-Lowe,smb,Financial Services,United States,140,2024-04-18,false,2026-04-01 05:30:00
+ACC-00562,"Becker, Lara and Baker",SMB,Retail,United States,49,2024-12-27,false,2026-04-01 05:30:00
+ACC-00563,Lee-Wright,Small Business,Media,Canada,63,2024-12-15,false,2026-04-01 05:30:00
+ACC-00564,"Evans, David and Hendrix",Mid-Market,Manufacturing,Canada,791,2025-06-18,false,2026-04-01 05:30:00
+ACC-00565,Bush-Vaughn,smb,Software,United Kingdom,57,2024-10-02,false,2026-04-01 05:30:00
+ACC-00566,Stewart-Bailey,smb,Energy,Australia,11,2024-11-05,false,2026-04-01 05:30:00
+ACC-00567,"Hill, Martinez and Rhodes",SMB,Media,United States,14,2025-06-02,false,2026-04-01 05:30:00
+ACC-00568,Huang-Foster,Small Business,Education,United Kingdom,150,2024-03-23,false,2026-04-01 05:30:00
+ACC-00569,Blevins-Ballard,Mid Market,Telecom,Canada,240,2026-03-14,false,2026-04-01 05:30:00
+ACC-00570,Williams-Moses,MM,Telecom,Canada,1585,2025-10-07,false,2026-04-01 05:30:00
+ACC-00571,Reed Group,MidMarket,Telecom,Australia,1965,2025-08-27,false,2026-04-01 05:30:00
+ACC-00572,"Scott, Mendoza and Harris",SMB,Telecom,United Kingdom,111,2024-04-30,false,2026-04-01 05:30:00
+ACC-00573,"Nelson, Hoffman and Nelson",SMB,Telecom,United States,13,2024-03-04,false,2026-04-01 05:30:00
+ACC-00574,Gilbert PLC,MidMarket,Media,Canada,205,2025-01-28,false,2026-04-01 05:30:00
+ACC-00575,Sanchez Ltd,ENT,Retail,United States,8284,2024-06-19,false,2026-04-01 05:30:00
+ACC-00576,"Perez, Hall and Garcia",Enterprise,Telecom,Canada,39859,2025-02-17,false,2026-04-01 05:30:00
+ACC-00577,Love-Garcia,Small Business,Retail,United States,186,2025-08-21,false,2026-04-01 05:30:00
+ACC-00578,Smith PLC,Strategic,Telecom,Canada,44282,2025-02-17,false,2026-04-01 05:30:00
+ACC-00579,Russell Group,Mid-Market,Retail,United States,703,2024-12-05,false,2026-04-01 05:30:00
+ACC-00580,Santos-Avila,SmallBiz,Manufacturing,United Kingdom,183,2026-03-11,false,2026-04-01 05:30:00
+ACC-00581,Morris-Brewer,Small Business,Manufacturing,United States,15,2024-11-26,false,2026-04-01 05:30:00
+ACC-00582,Pearson and Sons,smb,Energy,Germany,97,2024-05-28,false,2026-04-01 05:30:00
+ACC-00583,"Rodgers, Jefferson and Johnson",MidMarket,Healthcare,United Kingdom,839,2024-11-24,false,2026-04-01 05:30:00
+ACC-00584,Butler and Sons,MidMarket,Retail,United Kingdom,1375,2024-10-23,false,2026-04-01 05:30:00
+ACC-00585,Osborn Group,Mid-Market,Media,Canada,584,2024-02-04,false,2026-04-01 05:30:00
+ACC-00586,Lopez-Curry,SmallBiz,Energy,United States,117,2025-02-09,false,2026-04-01 05:30:00
+ACC-00587,Mcdowell-Smith,SmallBiz,Healthcare,Germany,151,2024-10-09,false,2026-04-01 05:30:00
+ACC-00588,"Morrison, Hebert and Rogers",Mid-Market,Telecom,Australia,607,2025-05-12,false,2026-04-01 05:30:00
+ACC-00589,Hays-Daniels,MidMarket,Energy,Germany,1987,2025-02-04,false,2026-04-01 05:30:00
+ACC-00590,Small-Anderson,smb,Financial Services,United Kingdom,166,2025-03-13,false,2026-04-01 05:30:00
+ACC-00591,"Mcdonald, Lee and Rodriguez",smb,Logistics,Canada,12,2024-03-01,false,2026-04-01 05:30:00
+ACC-00592,Simon Ltd,SmallBiz,Healthcare,United States,189,2024-03-29,false,2026-04-01 05:30:00
+ACC-00593,Higgins-Smith,smb,Healthcare,Australia,16,2024-10-15,false,2026-04-01 05:30:00
+ACC-00594,Gibbs-Bradley,smb,Telecom,Canada,89,2024-11-11,false,2026-04-01 05:30:00
+ACC-00595,Thompson Ltd,smb,Manufacturing,Canada,27,2024-01-21,false,2026-04-01 05:30:00
+ACC-00596,Wilcox-Robertson,smb,Energy,United Kingdom,198,2024-10-14,false,2026-04-01 05:30:00
+ACC-00597,Morales Inc,SmallBiz,Energy,United Kingdom,187,2024-09-14,false,2026-04-01 05:30:00
+ACC-00598,Holden Group,Mid-Market,Energy,Germany,1719,2025-01-27,false,2026-04-01 05:30:00
+ACC-00599,Boyle-Smith,SmallBiz,Financial Services,Germany,145,2025-10-23,false,2026-04-01 05:30:00
+ACC-00600,Young-Molina,SMB,Telecom,United Kingdom,27,2026-01-30,false,2026-04-01 05:30:00
+ACC-00601,Turner-Sharp,Mid Market,Software,United States,697,2025-06-22,false,2026-04-01 05:30:00
+ACC-00602,Green LLC,Small Business,Energy,Germany,161,2025-10-20,false,2026-04-01 05:30:00
+ACC-00603,"Young, Contreras and Marshall",MM,Manufacturing,United States,1553,2024-08-14,false,2026-04-01 05:30:00
+ACC-00604,Sullivan PLC,,Software,Germany,95,2025-01-14,false,2026-04-01 05:30:00
+ACC-00605,"Carrillo, Vaughn and Fowler",smb,Education,United Kingdom,19,2025-12-22,false,2026-04-01 05:30:00
+ACC-00606,Richardson-Walker,SmallBiz,Education,Australia,90,2025-09-12,false,2026-04-01 05:30:00
+ACC-00607,Mendoza Group,smb,Software,United Kingdom,98,2024-07-30,false,2026-04-01 05:30:00
+ACC-00608,"Zhang, Brooks and Miles",SMB,Financial Services,Germany,76,2025-05-13,false,2026-04-01 05:30:00
+ACC-00609,Todd-Pham,Small Business,Retail,Australia,193,2024-07-29,false,2026-04-01 05:30:00
+ACC-00610,Gill Ltd,Enterprise,Energy,United Kingdom,48444,2025-04-19,false,2026-04-01 05:30:00
+ACC-00611,"Marks, Miller and Griffin",SmallBiz,Telecom,United Kingdom,116,2024-05-19,false,2026-04-01 05:30:00
+ACC-00612,"Cox, Stark and Rodriguez",MidMarket,Media,Canada,674,2024-05-16,false,2026-04-01 05:30:00
+ACC-00613,"Leach, Harris and Herrera",SmallBiz,Manufacturing,United Kingdom,82,2025-08-14,false,2026-04-01 05:30:00
+ACC-00614,Murphy PLC,,Media,United States,165,2024-01-11,false,2026-04-01 05:30:00
+ACC-00615,Wilson-Harris,SMB,Healthcare,Canada,23,2025-06-27,false,2026-04-01 05:30:00
+ACC-00616,"Burns, Nolan and Griffin",smb,Telecom,Canada,179,2024-07-31,false,2026-04-01 05:30:00
+ACC-00617,Chavez PLC,SMB,Financial Services,United Kingdom,73,2025-08-11,false,2026-04-01 05:30:00
+ACC-00618,Bryant-Brown,smb,Financial Services,Germany,29,2025-08-14,false,2026-04-01 05:30:00
+ACC-00619,Chambers-Parker,SmallBiz,Manufacturing,Australia,58,2025-01-30,false,2026-04-01 05:30:00
+ACC-00620,Foster Inc,enterprise,Software,Australia,7472,2025-04-24,false,2026-04-01 05:30:00
+ACC-00621,"Robinson, Jones and Henderson",enterprise,Manufacturing,Canada,17658,2024-10-18,false,2026-04-01 05:30:00
+ACC-00622,"Brown, Mcknight and Michael",Small Business,Retail,Canada,46,2025-03-27,false,2026-04-01 05:30:00
+ACC-00623,Andersen Group,SmallBiz,Retail,Germany,126,2024-02-25,false,2026-04-01 05:30:00
+ACC-00624,Mitchell and Sons,SMB,Logistics,United States,74,2025-04-27,false,2026-04-01 05:30:00
+ACC-00625,Cannon Ltd,Small Business,Energy,Australia,178,2025-09-05,false,2026-04-01 05:30:00
+ACC-00626,"Stuart, Brooks and Vance",MidMarket,Financial Services,Australia,776,2026-02-08,false,2026-04-01 05:30:00
+ACC-00627,Kane-Knox,smb,Retail,Canada,168,2024-02-19,false,2026-04-01 05:30:00
+ACC-00628,Miller-Brandt,Small Business,Healthcare,Germany,83,2024-06-03,false,2026-04-01 05:30:00
+ACC-00629,"Anderson, Dalton and Wilson",SMB,Manufacturing,Germany,72,2024-11-14,false,2026-04-01 05:30:00
+ACC-00630,"Long, Anderson and Irwin",Small Business,Media,Australia,156,2024-01-14,false,2026-04-01 05:30:00
+ACC-00631,Avila LLC,smb,Healthcare,Australia,66,2025-03-04,false,2026-04-01 05:30:00
+ACC-00632,Nunez-Stephens,enterprise,Energy,Canada,4818,2025-08-05,false,2026-04-01 05:30:00
+ACC-00633,"Gray, Hall and Murray",MidMarket,Media,Australia,1640,2025-01-10,false,2026-04-01 05:30:00
+ACC-00634,Hill Ltd,smb,Media,United States,34,2025-07-31,false,2026-04-01 05:30:00
+ACC-00635,Johnson Ltd,SmallBiz,Software,Germany,168,2025-12-13,false,2026-04-01 05:30:00
+ACC-00636,Mendez-Mayer,Mid Market,Logistics,United Kingdom,1558,2025-04-29,false,2026-04-01 05:30:00
+ACC-00637,Allen Inc,,Software,United States,378,2025-04-01,false,2026-04-01 05:30:00
+ACC-00638,Wheeler Group,SMB,Education,Germany,133,2025-02-04,false,2026-04-01 05:30:00
+ACC-00639,"Powers, Brennan and Sanchez",smb,Education,Canada,143,2025-07-31,false,2026-04-01 05:30:00
+ACC-00640,Morales and Sons,Small Business,Software,United Kingdom,178,2025-08-06,false,2026-04-01 05:30:00
+ACC-00641,"Robinson, Shields and Brown",SmallBiz,Healthcare,Canada,46,2026-03-08,false,2026-04-01 05:30:00
+ACC-00642,"Holder, Young and Hendricks",MM,Logistics,Canada,753,2025-05-12,false,2026-04-01 05:30:00
+ACC-00643,"Flores, Harper and Chambers",smb,Software,Germany,127,2024-02-05,false,2026-04-01 05:30:00
+ACC-00644,Young-Walter,SmallBiz,Energy,Australia,190,2024-09-13,false,2026-04-01 05:30:00
+ACC-00645,"Boyd, Gutierrez and Hill",SmallBiz,Healthcare,United Kingdom,175,2024-12-23,false,2026-04-01 05:30:00
+ACC-00646,"Fry, Hobbs and Buck",SmallBiz,Media,United Kingdom,91,2024-08-28,false,2026-04-01 05:30:00
+ACC-00647,"Shelton, Peters and Williams",Strategic,Logistics,Australia,41675,2024-03-05,false,2026-04-01 05:30:00
+ACC-00648,David-Powers,SMB,Financial Services,Germany,76,2024-05-01,false,2026-04-01 05:30:00
+ACC-00649,"Flores, Butler and Hernandez",smb,Financial Services,Germany,166,2025-02-10,false,2026-04-01 05:30:00
+ACC-00650,White-Medina,enterprise,Software,Australia,5214,2024-01-22,false,2026-04-01 05:30:00
+ACC-00651,Atkinson LLC,smb,Healthcare,Canada,85,2026-03-19,false,2026-04-01 05:30:00
+ACC-00652,"Thomas, Ford and Brown",SMB,Financial Services,United States,118,2024-12-10,false,2026-04-01 05:30:00
+ACC-00653,Faulkner-Grant,smb,Financial Services,Canada,69,2025-11-08,false,2026-04-01 05:30:00
+ACC-00654,Price LLC,Small Business,Retail,United States,141,2024-06-21,false,2026-04-01 05:30:00
+ACC-00655,Rivera Inc,SmallBiz,Media,United Kingdom,134,2024-02-26,false,2026-04-01 05:30:00
+ACC-00656,Boone-Davis,Small Business,Software,United Kingdom,148,2026-02-16,false,2026-04-01 05:30:00
+ACC-00657,"Calderon, Williams and Bennett",MidMarket,Software,United States,1982,2025-12-08,false,2026-04-01 05:30:00
+ACC-00658,"Morrison, Russo and Lopez",Mid-Market,Software,Canada,242,2025-12-29,false,2026-04-01 05:30:00
+ACC-00659,"Ramsey, Hansen and Mendoza",Mid-Market,Energy,Canada,1046,2025-03-25,false,2026-04-01 05:30:00
+ACC-00660,Turner-Stout,smb,Energy,Australia,102,2024-01-23,false,2026-04-01 05:30:00
+ACC-00661,Giles Ltd,Strategic,Retail,United States,29463,2025-11-12,false,2026-04-01 05:30:00
+ACC-00662,Burgess Group,smb,Retail,United States,178,2024-04-01,false,2026-04-01 05:30:00
+ACC-00663,Dominguez Ltd,MM,Energy,Canada,1689,2024-12-09,false,2026-04-01 05:30:00
+ACC-00664,Sanders and Sons,smb,Media,Canada,97,2024-12-16,false,2026-04-01 05:30:00
+ACC-00665,"Morris, Campbell and Owens",smb,Energy,Canada,174,2024-10-26,false,2026-04-01 05:30:00
+ACC-00666,"Howard, Green and Hunt",SmallBiz,Education,Canada,124,2025-04-15,false,2026-04-01 05:30:00
+ACC-00667,Owens-Lang,,Telecom,Australia,376,2024-07-13,false,2026-04-01 05:30:00
+ACC-00668,"Harrison, Franco and Rocha",Small Business,Software,United States,18,2024-08-30,false,2026-04-01 05:30:00
+ACC-00669,Edwards-Williams,enterprise,Healthcare,United States,18103,2025-09-05,false,2026-04-01 05:30:00
+ACC-00670,Figueroa Inc,SmallBiz,Media,Canada,153,2024-10-21,false,2026-04-01 05:30:00
+ACC-00671,Tran-Silva,smb,Media,United States,198,2026-03-07,false,2026-04-01 05:30:00
+ACC-00672,"Butler, Hernandez and Rivera",smb,Media,United States,84,2025-03-31,false,2026-04-01 05:30:00
+ACC-00673,Hudson-Sanchez,SMB,Energy,Germany,153,2025-01-18,false,2026-04-01 05:30:00
+ACC-00674,"Pena, Cohen and Scott",Mid Market,Healthcare,Canada,1148,2025-03-31,false,2026-04-01 05:30:00
+ACC-00675,Levy-May,SmallBiz,Manufacturing,United Kingdom,187,2025-03-18,false,2026-04-01 05:30:00
+ACC-00676,Murray-Oconnor,Strategic,Retail,United Kingdom,11452,2025-03-16,false,2026-04-01 05:30:00
+ACC-00677,Jackson-Cortez,smb,Financial Services,Canada,54,2026-03-11,false,2026-04-01 05:30:00
+ACC-00678,White-Preston,Small Business,Education,Australia,154,2024-04-11,false,2026-04-01 05:30:00
+ACC-00679,"Bernard, Warren and Combs",SmallBiz,Energy,Australia,28,2024-05-05,false,2026-04-01 05:30:00
+ACC-00680,Landry Ltd,Mid Market,Financial Services,United States,300,2025-07-21,false,2026-04-01 05:30:00
+ACC-00681,Duran Group,MidMarket,Energy,United States,1690,2026-01-01,false,2026-04-01 05:30:00
+ACC-00682,Kirby and Sons,Small Business,Retail,Canada,185,2025-07-25,false,2026-04-01 05:30:00
+ACC-00683,Mann Inc,Enterprise,Media,United States,33888,2024-12-04,false,2026-04-01 05:30:00
+ACC-00684,Wagner LLC,MidMarket,Manufacturing,Australia,1097,2024-05-11,false,2026-04-01 05:30:00
+ACC-00685,Williamson Ltd,Small Business,Media,Canada,101,2025-11-18,false,2026-04-01 05:30:00
+ACC-00686,"Durham, Hopkins and Smith",Small Business,Retail,United Kingdom,171,2025-04-23,false,2026-04-01 05:30:00
+ACC-00687,"Arnold, Smith and Moreno",smb,Logistics,Germany,146,2024-06-04,false,2026-04-01 05:30:00
+ACC-00688,Nichols-Mitchell,MM,Energy,Germany,1904,2025-03-16,false,2026-04-01 05:30:00
+ACC-00689,"Li, Craig and Drake",Mid Market,Financial Services,United States,691,2025-11-23,false,2026-04-01 05:30:00
+ACC-00690,Rodriguez Inc,MM,Media,Germany,795,2024-03-15,false,2026-04-01 05:30:00
+ACC-00691,"Hernandez, Lee and Fox",SMB,Healthcare,United States,149,2026-01-07,false,2026-04-01 05:30:00
+ACC-00692,Adams-Sanders,SmallBiz,Telecom,United Kingdom,66,2024-10-04,false,2026-04-01 05:30:00
+ACC-00693,Chung-Stevens,SmallBiz,Education,United States,147,2024-10-30,false,2026-04-01 05:30:00
+ACC-00694,Branch and Sons,Small Business,Manufacturing,United States,158,2024-04-27,false,2026-04-01 05:30:00
+ACC-00695,Sutton-Abbott,SMB,Manufacturing,Australia,189,2024-11-08,false,2026-04-01 05:30:00
+ACC-00696,"Frey, Santos and Johnson",Small Business,Telecom,United States,52,2024-10-04,false,2026-04-01 05:30:00
+ACC-00697,Gray-Tran,Mid Market,Manufacturing,Australia,1590,2025-10-19,false,2026-04-01 05:30:00
+ACC-00698,Walsh Ltd,SmallBiz,Telecom,Germany,181,2026-02-25,false,2026-04-01 05:30:00
+ACC-00699,Miller Group,SMB,Software,Australia,185,2026-02-03,false,2026-04-01 05:30:00
+ACC-00700,"Mueller, Knight and Hodge",SmallBiz,Telecom,United Kingdom,132,2024-06-22,false,2026-04-01 05:30:00
+ACC-00701,Jacobson Inc,,Retail,United States,260,2025-05-29,false,2026-04-01 05:30:00
+ACC-00702,Lewis Ltd,Strategic,Retail,Australia,36381,2024-08-15,false,2026-04-01 05:30:00
+ACC-00703,"Alvarez, Williams and Jones",Small Business,Telecom,Germany,188,2024-02-16,false,2026-04-01 05:30:00
+ACC-00704,Lam-Elliott,MM,Education,United Kingdom,1428,2024-12-10,false,2026-04-01 05:30:00
+ACC-00705,White LLC,smb,Software,Germany,54,2024-09-17,false,2026-04-01 05:30:00
+ACC-00706,Ali PLC,SmallBiz,Software,Canada,183,2025-03-25,false,2026-04-01 05:30:00
+ACC-00707,Goodwin Ltd,smb,Financial Services,Canada,117,2025-10-24,false,2026-04-01 05:30:00
+ACC-00708,Hickman-Evans,MidMarket,Healthcare,Australia,981,2024-05-03,false,2026-04-01 05:30:00
+ACC-00709,"Allen, Davenport and Price",Enterprise,Telecom,Australia,41796,2024-07-28,false,2026-04-01 05:30:00
+ACC-00710,"Rivera, Campos and Taylor",MM,Logistics,Germany,1125,2025-07-20,false,2026-04-01 05:30:00
+ACC-00711,"Ramsey, Mason and Mccann",SMB,Telecom,Australia,121,2024-05-23,false,2026-04-01 05:30:00
+ACC-00712,Davis and Sons,SmallBiz,Manufacturing,United States,163,2025-02-21,false,2026-04-01 05:30:00
+ACC-00713,Peterson PLC,SMB,Retail,United Kingdom,74,2025-11-11,false,2026-04-01 05:30:00
+ACC-00714,"Sanders, Ayala and Johnson",SMB,Education,Canada,18,2026-03-06,false,2026-04-01 05:30:00
+ACC-00715,Bowers-Hayes,,Manufacturing,Australia,65,2025-03-27,false,2026-04-01 05:30:00
+ACC-00716,Kelly Group,Small Business,Financial Services,Germany,154,2026-02-18,false,2026-04-01 05:30:00
+ACC-00717,Lopez-Willis,Small Business,Logistics,Australia,14,2024-07-14,false,2026-04-01 05:30:00
+ACC-00718,Miller-Montgomery,smb,Education,United States,165,2025-05-21,false,2026-04-01 05:30:00
+ACC-00719,Marquez Inc,Mid-Market,Energy,Canada,1129,2025-07-09,false,2026-04-01 05:30:00
+ACC-00720,Moore-Dawson,Small Business,Retail,United States,147,2024-03-22,false,2026-04-01 05:30:00
+ACC-00721,"Moore, Price and Ward",Mid-Market,Telecom,Canada,228,2025-06-24,false,2026-04-01 05:30:00
+ACC-00722,Smith LLC,MM,Retail,Australia,866,2025-03-23,false,2026-04-01 05:30:00
+ACC-00723,Ward-Nelson,MidMarket,Logistics,Australia,1746,2026-01-31,false,2026-04-01 05:30:00
+ACC-00724,Miller Group,Enterprise,Manufacturing,United States,15775,2025-11-16,false,2026-04-01 05:30:00
+ACC-00725,Hawkins-Hunt,Small Business,Financial Services,Canada,10,2025-05-08,false,2026-04-01 05:30:00
+ACC-00726,Johnson LLC,smb,Healthcare,United States,48,2025-01-04,false,2026-04-01 05:30:00
+ACC-00727,"Davis, George and Nguyen",SmallBiz,Energy,Germany,179,2025-10-01,false,2026-04-01 05:30:00
+ACC-00728,Smith-Gutierrez,Small Business,Education,Canada,149,2026-01-18,false,2026-04-01 05:30:00
+ACC-00729,Hardy PLC,smb,Retail,Australia,189,2025-04-11,false,2026-04-01 05:30:00
+ACC-00730,Armstrong and Sons,SmallBiz,Education,Germany,109,2025-01-09,false,2026-04-01 05:30:00
+ACC-00731,"James, Taylor and Turner",MidMarket,Software,United States,459,2025-01-13,false,2026-04-01 05:30:00
+ACC-00732,Thomas-Jackson,Small Business,Energy,Germany,19,2024-10-15,false,2026-04-01 05:30:00
+ACC-00733,Fisher-Washington,enterprise,Education,United Kingdom,25656,2024-09-12,false,2026-04-01 05:30:00
+ACC-00734,Ward and Sons,SmallBiz,Financial Services,United Kingdom,66,2024-06-10,false,2026-04-01 05:30:00
+ACC-00735,"Weber, Wheeler and Gonzalez",MM,Education,Australia,1823,2024-10-14,false,2026-04-01 05:30:00
+ACC-00736,Taylor Inc,enterprise,Manufacturing,Canada,30045,2026-02-03,false,2026-04-01 05:30:00
+ACC-00737,Cook-Oliver,SMB,Retail,Germany,116,2024-10-10,false,2026-04-01 05:30:00
+ACC-00738,Alexander-Jordan,,Logistics,Canada,198,2024-03-08,false,2026-04-01 05:30:00
+ACC-00739,"Mccann, Taylor and Flores",SmallBiz,Education,United Kingdom,129,2025-07-27,false,2026-04-01 05:30:00
+ACC-00740,"Harris, Edwards and Oconnell",Small Business,Healthcare,United Kingdom,126,2024-06-20,false,2026-04-01 05:30:00
+ACC-00741,Carter-Neal,MidMarket,Financial Services,Germany,1489,2025-11-08,false,2026-04-01 05:30:00
+ACC-00742,Faulkner-Casey,SmallBiz,Healthcare,Australia,60,2024-08-26,false,2026-04-01 05:30:00
+ACC-00743,Bennett-Velasquez,,Energy,Australia,40339,2024-01-05,false,2026-04-01 05:30:00
+ACC-00744,Diaz-Frederick,MM,Software,Australia,519,2024-12-10,false,2026-04-01 05:30:00
+ACC-00745,Vargas PLC,MidMarket,Energy,United States,1015,2026-01-17,false,2026-04-01 05:30:00
+ACC-00746,Maldonado PLC,SmallBiz,Retail,United Kingdom,112,2024-03-27,false,2026-04-01 05:30:00
+ACC-00747,Benton Group,smb,Education,Germany,85,2026-01-18,false,2026-04-01 05:30:00
+ACC-00748,"Clark, Salinas and Guerra",smb,Financial Services,United Kingdom,116,2025-10-22,false,2026-04-01 05:30:00
+ACC-00749,Fuentes Group,Strategic,Software,Germany,29591,2024-11-15,false,2026-04-01 05:30:00
+ACC-00750,"Porter, Schultz and Allen",MidMarket,Media,United Kingdom,713,2024-11-22,false,2026-04-01 05:30:00
+ACC-00751,"Moore, Henderson and Bennett",smb,Media,Canada,105,2024-04-09,false,2026-04-01 05:30:00
+ACC-00752,Ewing-Mendoza,MidMarket,Logistics,Germany,318,2024-10-06,false,2026-04-01 05:30:00
+ACC-00753,Ferguson-Mclean,MM,Education,Canada,476,2024-03-11,false,2026-04-01 05:30:00
+ACC-00754,"Barnes, Johnson and Schmitt",Small Business,Energy,Germany,78,2025-08-31,false,2026-04-01 05:30:00
+ACC-00755,"Woodard, Herrera and Little",Small Business,Retail,United Kingdom,41,2026-02-16,false,2026-04-01 05:30:00
+ACC-00756,Rodriguez and Sons,SMB,Education,Canada,197,2025-02-10,false,2026-04-01 05:30:00
+ACC-00757,"Ortega, Jackson and Salazar",SmallBiz,Education,Australia,113,2024-01-27,false,2026-04-01 05:30:00
+ACC-00758,"Terrell, Byrd and Ross",SmallBiz,Education,Australia,140,2025-07-06,false,2026-04-01 05:30:00
+ACC-00759,Sheppard-Jordan,Small Business,Energy,Australia,116,2025-08-04,false,2026-04-01 05:30:00
+ACC-00760,Garcia and Sons,Small Business,Education,Canada,53,2024-10-15,false,2026-04-01 05:30:00
+ACC-00761,"Burgess, Grant and Watts",Mid-Market,Education,Australia,332,2024-07-21,false,2026-04-01 05:30:00
+ACC-00762,Griffin Group,SmallBiz,Financial Services,United States,173,2026-02-27,false,2026-04-01 05:30:00
+ACC-00763,Barton-Chapman,SMB,Media,Australia,86,2024-01-10,false,2026-04-01 05:30:00
+ACC-00764,"Hernandez, Cuevas and Webb",Small Business,Media,Australia,163,2024-07-25,false,2026-04-01 05:30:00
+ACC-00765,Perry-Nixon,smb,Retail,United States,58,2025-08-30,false,2026-04-01 05:30:00
+ACC-00766,Guerra Ltd,MidMarket,Financial Services,United States,908,2025-02-28,false,2026-04-01 05:30:00
+ACC-00767,Bailey LLC,SmallBiz,Energy,Canada,47,2025-03-31,false,2026-04-01 05:30:00
+ACC-00768,Mueller-Boyd,Small Business,Healthcare,United Kingdom,97,2025-10-17,false,2026-04-01 05:30:00
+ACC-00769,Alvarez-Kim,SMB,Healthcare,Germany,27,2025-04-16,false,2026-04-01 05:30:00
+ACC-00770,"Chavez, Jones and Williams",smb,Education,United Kingdom,43,2024-06-23,false,2026-04-01 05:30:00
+ACC-00771,"Wilson, Sweeney and Wong",SmallBiz,Retail,Germany,43,2024-06-18,false,2026-04-01 05:30:00
+ACC-00772,"Marsh, Spears and Yang",SmallBiz,Retail,Australia,16,2026-02-14,false,2026-04-01 05:30:00
+ACC-00773,"Thompson, Moore and Castro",Mid-Market,Media,Australia,395,2024-03-07,false,2026-04-01 05:30:00
+ACC-00774,Hall-Sullivan,ENT,Energy,Australia,43744,2025-02-21,false,2026-04-01 05:30:00
+ACC-00775,Lopez Ltd,MM,Media,United Kingdom,986,2025-06-19,false,2026-04-01 05:30:00
+ACC-00776,Foster-Mclaughlin,Strategic,Financial Services,United Kingdom,17156,2024-01-22,false,2026-04-01 05:30:00
+ACC-00777,Cole Group,Enterprise,Media,United Kingdom,6255,2025-07-07,false,2026-04-01 05:30:00
+ACC-00778,Smith-Lewis,Mid Market,Telecom,Canada,491,2024-09-02,false,2026-04-01 05:30:00
+ACC-00779,Goodwin-Stokes,enterprise,Financial Services,United States,12529,2025-05-08,false,2026-04-01 05:30:00
+ACC-00780,Ray PLC,MidMarket,Media,United Kingdom,382,2024-07-31,false,2026-04-01 05:30:00
+ACC-00781,Diaz and Sons,smb,Financial Services,Germany,29,2024-03-16,false,2026-04-01 05:30:00
+ACC-00782,Wilson-Lambert,Small Business,Manufacturing,Canada,154,2025-07-21,false,2026-04-01 05:30:00
+ACC-00783,Rose-Fowler,MM,Media,United Kingdom,1882,2025-01-07,false,2026-04-01 05:30:00
+ACC-00784,"Price, Long and Wilson",MidMarket,Energy,United States,1026,2025-08-29,false,2026-04-01 05:30:00
+ACC-00785,Bruce-Williamson,enterprise,Education,United States,29823,2025-03-08,false,2026-04-01 05:30:00
+ACC-00786,"Mccarthy, Evans and Mendez",Small Business,Media,Germany,153,2025-09-23,false,2026-04-01 05:30:00
+ACC-00787,Powers LLC,Enterprise,Retail,Germany,4942,2025-01-04,false,2026-04-01 05:30:00
+ACC-00788,Allen Inc,Small Business,Healthcare,Canada,131,2024-09-26,false,2026-04-01 05:30:00
+ACC-00789,Brooks and Sons,Mid Market,Financial Services,Australia,498,2024-01-18,false,2026-04-01 05:30:00
+ACC-00790,"Price, Carlson and Andrews",Mid-Market,Healthcare,Germany,953,2024-02-02,false,2026-04-01 05:30:00
+ACC-00791,Lopez-Reid,smb,Media,United Kingdom,63,2025-09-20,false,2026-04-01 05:30:00
+ACC-00792,"Ellison, Arias and Thompson",Small Business,Financial Services,Australia,153,2024-08-24,false,2026-04-01 05:30:00
+ACC-00793,Burns and Sons,MM,Software,Australia,1920,2026-03-09,false,2026-04-01 05:30:00
+ACC-00794,Edwards Group,Mid Market,Software,United Kingdom,641,2024-06-29,false,2026-04-01 05:30:00
+ACC-00795,"Brown, Howard and Smith",MM,Energy,United States,599,2025-12-06,false,2026-04-01 05:30:00
+ACC-00796,Lee Group,smb,Healthcare,Australia,154,2025-07-14,false,2026-04-01 05:30:00
+ACC-00797,"Wagner, Simpson and Cohen",,Logistics,United Kingdom,686,2025-03-04,false,2026-04-01 05:30:00
+ACC-00798,Mckinney-Wallace,smb,Financial Services,Germany,82,2024-12-21,false,2026-04-01 05:30:00
+ACC-00799,Miller Inc,SmallBiz,Healthcare,Germany,49,2024-10-30,false,2026-04-01 05:30:00
+ACC-00800,Carter LLC,Small Business,Media,United States,24,2025-09-21,false,2026-04-01 05:30:00
+ACC-00801,Medina and Sons,Small Business,Manufacturing,Canada,91,2024-09-12,false,2026-04-01 05:30:00
+ACC-00802,Cunningham-Barton,SmallBiz,Media,Germany,61,2026-02-09,false,2026-04-01 05:30:00
+ACC-00803,Dunn-Wilson,Mid Market,Retail,United States,1546,2024-01-06,false,2026-04-01 05:30:00
+ACC-00804,Adams PLC,smb,Logistics,United Kingdom,50,2024-09-17,false,2026-04-01 05:30:00
+ACC-00805,Weaver-Sherman,smb,Retail,Australia,33,2025-11-22,false,2026-04-01 05:30:00
+ACC-00806,"Alexander, Robinson and Coleman",smb,Healthcare,Australia,52,2024-01-30,false,2026-04-01 05:30:00
+ACC-00807,"Greer, Potter and Evans",Mid Market,Retail,United States,236,2024-12-21,false,2026-04-01 05:30:00
+ACC-00808,Cole LLC,SMB,Education,Canada,32,2024-08-13,false,2026-04-01 05:30:00
+ACC-00809,Gonzales Inc,smb,Media,United Kingdom,10,2024-04-12,false,2026-04-01 05:30:00
+ACC-00810,Clark Ltd,SMB,Manufacturing,United Kingdom,68,2024-09-26,false,2026-04-01 05:30:00
+ACC-00811,"Norris, Callahan and Bishop",smb,Healthcare,United Kingdom,14,2025-02-07,false,2026-04-01 05:30:00
+ACC-00812,Martin-Taylor,SmallBiz,Energy,United States,46,2024-04-30,false,2026-04-01 05:30:00
+ACC-00813,Li Inc,Strategic,Logistics,Germany,31293,2025-03-22,false,2026-04-01 05:30:00
+ACC-00814,"Bell, Campbell and Ryan",SmallBiz,Manufacturing,Australia,86,2024-06-16,false,2026-04-01 05:30:00
+ACC-00815,Werner-Carter,MM,Retail,United States,891,2024-12-24,false,2026-04-01 05:30:00
+ACC-00816,"Adams, Hodge and Duke",SmallBiz,Retail,Australia,101,2024-11-06,false,2026-04-01 05:30:00
+ACC-00817,"Ochoa, Taylor and Brady",MidMarket,Telecom,United Kingdom,303,2024-11-30,false,2026-04-01 05:30:00
+ACC-00818,Sellers-Riddle,SmallBiz,Logistics,Germany,175,2024-05-02,false,2026-04-01 05:30:00
+ACC-00819,"Martinez, Cline and Wright",SMB,Logistics,United States,96,2024-09-27,false,2026-04-01 05:30:00
+ACC-00820,"Morris, Wright and Bridges",SMB,Healthcare,Australia,176,2024-01-29,false,2026-04-01 05:30:00
+ACC-00821,Burns-Ray,Mid Market,Telecom,United Kingdom,213,2025-12-17,false,2026-04-01 05:30:00
+ACC-00822,Burton-Brooks,,Logistics,United States,504,2025-04-28,false,2026-04-01 05:30:00
+ACC-00823,Schultz Inc,MidMarket,Media,United Kingdom,857,2024-10-07,false,2026-04-01 05:30:00
+ACC-00824,Robertson-Ramirez,Small Business,Media,Canada,183,2025-04-06,false,2026-04-01 05:30:00
+ACC-00825,Gibson-Freeman,enterprise,Logistics,Germany,24645,2025-08-27,false,2026-04-01 05:30:00
+ACC-00826,"Smith, Schroeder and Oconnor",smb,Telecom,Canada,134,2024-01-10,false,2026-04-01 05:30:00
+ACC-00827,"Stanton, Reid and Terry",enterprise,Healthcare,United States,41114,2026-03-22,false,2026-04-01 05:30:00
+ACC-00828,Flynn Group,SMB,Energy,United Kingdom,33,2024-09-23,false,2026-04-01 05:30:00
+ACC-00829,Donaldson and Sons,Mid-Market,Telecom,Germany,1775,2026-02-01,false,2026-04-01 05:30:00
+ACC-00830,Adams-Clayton,Mid-Market,Financial Services,United States,1043,2026-01-18,false,2026-04-01 05:30:00
+ACC-00831,Kelley-Anderson,SMB,Manufacturing,Germany,39,2025-03-06,false,2026-04-01 05:30:00
+ACC-00832,Kramer-Shannon,SMB,Logistics,Australia,37,2025-10-15,false,2026-04-01 05:30:00
+ACC-00833,Williams Ltd,enterprise,Financial Services,Germany,30424,2024-04-02,false,2026-04-01 05:30:00
+ACC-00834,Smith-Noble,smb,Manufacturing,Canada,169,2024-08-20,false,2026-04-01 05:30:00
+ACC-00835,Alexander Inc,SmallBiz,Financial Services,Canada,99,2024-06-12,false,2026-04-01 05:30:00
+ACC-00836,Harris-Barker,,Healthcare,Australia,187,2025-02-18,false,2026-04-01 05:30:00
+ACC-00837,Khan LLC,Mid-Market,Logistics,Germany,1478,2024-06-27,false,2026-04-01 05:30:00
+ACC-00838,Baxter LLC,MM,Financial Services,Germany,1693,2024-08-16,false,2026-04-01 05:30:00
+ACC-00839,Pena LLC,Small Business,Logistics,United States,22,2025-09-03,false,2026-04-01 05:30:00
+ACC-00840,Watson Ltd,SMB,Telecom,United Kingdom,187,2024-05-11,false,2026-04-01 05:30:00
+ACC-00841,Williams Ltd,MM,Energy,Australia,1679,2024-04-24,false,2026-04-01 05:30:00
+ACC-00842,Barber-Fischer,smb,Education,United Kingdom,19,2025-01-22,false,2026-04-01 05:30:00
+ACC-00843,Rios-Padilla,Mid-Market,Healthcare,Australia,1962,2025-09-09,false,2026-04-01 05:30:00
+ACC-00844,Lewis Inc,Mid-Market,Logistics,United Kingdom,1041,2024-07-19,false,2026-04-01 05:30:00
+ACC-00845,Wheeler PLC,Mid-Market,Software,Canada,1593,2025-06-22,false,2026-04-01 05:30:00
+ACC-00846,"Wallace, Smith and Cooper",Small Business,Manufacturing,United States,154,2025-09-07,false,2026-04-01 05:30:00
+ACC-00847,Mcneil Group,smb,Education,United Kingdom,154,2025-01-03,false,2026-04-01 05:30:00
+ACC-00848,"Anderson, Jones and Reyes",Small Business,Education,Germany,156,2026-02-16,false,2026-04-01 05:30:00
+ACC-00849,"Shaffer, Garcia and Richardson",Small Business,Manufacturing,United Kingdom,54,2024-11-22,false,2026-04-01 05:30:00
+ACC-00850,Taylor-Ayala,MidMarket,Media,United Kingdom,402,2025-04-12,false,2026-04-01 05:30:00
+ACC-00851,May Ltd,smb,Financial Services,Canada,60,2025-11-27,false,2026-04-01 05:30:00
+ACC-00852,Jones PLC,Mid Market,Logistics,Canada,1044,2025-10-09,false,2026-04-01 05:30:00
+ACC-00853,Bishop and Sons,smb,Healthcare,Canada,53,2024-05-02,false,2026-04-01 05:30:00
+ACC-00854,Bell-Lewis,Mid Market,Energy,Germany,1840,2024-01-05,false,2026-04-01 05:30:00
+ACC-00855,"Hernandez, Jenkins and Parks",Small Business,Logistics,Australia,82,2024-07-12,false,2026-04-01 05:30:00
+ACC-00856,Miller Inc,Mid Market,Retail,United Kingdom,900,2025-09-06,false,2026-04-01 05:30:00
+ACC-00857,Goodwin PLC,Enterprise,Retail,Canada,32841,2025-07-12,false,2026-04-01 05:30:00
+ACC-00858,"Cruz, Richmond and Edwards",SmallBiz,Healthcare,Australia,102,2024-03-20,false,2026-04-01 05:30:00
+ACC-00859,Wright Ltd,Mid-Market,Energy,Germany,1306,2025-12-10,false,2026-04-01 05:30:00
+ACC-00860,Wright PLC,MidMarket,Financial Services,United States,1718,2024-06-25,false,2026-04-01 05:30:00
+ACC-00861,"Griffith, Mitchell and Pugh",SMB,Media,Australia,93,2024-04-23,false,2026-04-01 05:30:00
+ACC-00862,Abbott Ltd,Enterprise,Manufacturing,Canada,5409,2024-12-31,false,2026-04-01 05:30:00
+ACC-00863,Harris-Lawson,Small Business,Financial Services,United States,149,2024-02-23,false,2026-04-01 05:30:00
+ACC-00864,Adkins LLC,smb,Media,Australia,23,2025-10-30,false,2026-04-01 05:30:00
+ACC-00865,"Brown, Hurst and Blevins",Mid-Market,Education,United States,1832,2025-06-23,false,2026-04-01 05:30:00
+ACC-00866,Cruz-Allen,MidMarket,Software,Germany,1591,2024-08-07,false,2026-04-01 05:30:00
+ACC-00867,"Wheeler, Rice and Levine",SMB,Financial Services,Canada,135,2024-09-05,false,2026-04-01 05:30:00
+ACC-00868,Peck-Anderson,Mid Market,Media,Canada,1873,2024-06-17,false,2026-04-01 05:30:00
+ACC-00869,"Fisher, Payne and Thompson",Small Business,Media,Germany,184,2024-11-16,false,2026-04-01 05:30:00
+ACC-00870,Best-Townsend,enterprise,Financial Services,Australia,20731,2026-03-01,false,2026-04-01 05:30:00
+ACC-00871,Matthews Inc,SmallBiz,Software,Canada,25,2024-09-20,false,2026-04-01 05:30:00
+ACC-00872,Lewis-Livingston,smb,Financial Services,United States,188,2024-06-30,false,2026-04-01 05:30:00
+ACC-00873,Hunter-Fuller,Enterprise,Energy,Germany,15947,2025-06-09,false,2026-04-01 05:30:00
+ACC-00874,"Wang, Henderson and Morales",MM,Manufacturing,Germany,1363,2024-12-25,false,2026-04-01 05:30:00
+ACC-00875,"Herrera, Jensen and Ramirez",Enterprise,Healthcare,Canada,34691,2024-07-28,false,2026-04-01 05:30:00
+ACC-00876,Miller-Mccall,,Logistics,United States,1012,2025-01-24,false,2026-04-01 05:30:00
+ACC-00877,Herrera Group,Small Business,Energy,Germany,164,2024-08-09,false,2026-04-01 05:30:00
+ACC-00878,"Walters, Davenport and Becker",Small Business,Financial Services,Australia,73,2025-10-20,false,2026-04-01 05:30:00
+ACC-00879,Collins Group,smb,Software,United States,139,2024-06-07,false,2026-04-01 05:30:00
+ACC-00880,"Ashley, Allen and Sanchez",smb,Financial Services,Germany,140,2025-08-24,false,2026-04-01 05:30:00
+ACC-00881,Wilson-Salazar,SmallBiz,Healthcare,Australia,112,2024-03-21,false,2026-04-01 05:30:00
+ACC-00882,Parker Ltd,smb,Energy,United Kingdom,154,2025-04-13,false,2026-04-01 05:30:00
+ACC-00883,"Yang, Wilson and Zimmerman",SmallBiz,Software,Germany,17,2024-11-04,false,2026-04-01 05:30:00
+ACC-00884,"Smith, Crawford and Reed",Small Business,Financial Services,United Kingdom,199,2024-02-27,false,2026-04-01 05:30:00
+ACC-00885,"Logan, Le and Jackson",,Retail,Germany,260,2025-08-25,false,2026-04-01 05:30:00
+ACC-00886,Brady LLC,Mid-Market,Education,Canada,530,2024-10-03,false,2026-04-01 05:30:00
+ACC-00887,"Tanner, Wise and Johnson",,Manufacturing,Canada,163,2024-04-11,false,2026-04-01 05:30:00
+ACC-00888,Nelson-Brown,smb,Manufacturing,United States,23,2025-11-29,false,2026-04-01 05:30:00
+ACC-00889,"Proctor, Burton and Crawford",Enterprise,Retail,Canada,39263,2026-03-16,false,2026-04-01 05:30:00
+ACC-00890,"Ward, Porter and Bradley",enterprise,Financial Services,United States,36316,2024-03-04,false,2026-04-01 05:30:00
+ACC-00891,Moore-Ayala,MM,Healthcare,United States,319,2024-06-03,false,2026-04-01 05:30:00
+ACC-00892,"Craig, Wilson and Yang",,Logistics,Canada,197,2025-06-24,false,2026-04-01 05:30:00
+ACC-00893,Williams Inc,MM,Media,Australia,1060,2025-07-09,false,2026-04-01 05:30:00
+ACC-00894,Williams LLC,SMB,Education,Germany,79,2025-07-26,false,2026-04-01 05:30:00
+ACC-00895,Mora-White,SMB,Logistics,Australia,154,2024-07-30,false,2026-04-01 05:30:00
+ACC-00896,Tran Ltd,SmallBiz,Financial Services,United States,20,2026-03-23,false,2026-04-01 05:30:00
+ACC-00897,"Rios, Walker and Wright",Mid-Market,Financial Services,Australia,459,2024-04-27,false,2026-04-01 05:30:00
+ACC-00898,"Flores, Mckenzie and Duncan",smb,Financial Services,Germany,15,2024-07-19,false,2026-04-01 05:30:00
+ACC-00899,Shaw Inc,MM,Healthcare,Germany,1567,2024-11-14,false,2026-04-01 05:30:00
+ACC-00900,Walker PLC,Small Business,Software,United Kingdom,39,2025-04-11,false,2026-04-01 05:30:00
+ACC-00901,Finley Inc,Mid Market,Manufacturing,Australia,1662,2026-01-21,false,2026-04-01 05:30:00
+ACC-00902,Cline-Ayala,MM,Telecom,Australia,950,2024-03-11,false,2026-04-01 05:30:00
+ACC-00903,Murphy-Tran,SMB,Healthcare,United States,196,2024-03-19,false,2026-04-01 05:30:00
+ACC-00904,Wood LLC,SMB,Energy,Australia,160,2026-03-10,false,2026-04-01 05:30:00
+ACC-00905,"Mueller, Stevenson and Sanchez",Small Business,Education,Germany,58,2024-10-17,false,2026-04-01 05:30:00
+ACC-00906,Vargas-Snyder,SmallBiz,Healthcare,United States,72,2025-11-16,false,2026-04-01 05:30:00
+ACC-00907,Oconnor PLC,MidMarket,Software,Germany,719,2025-07-24,false,2026-04-01 05:30:00
+ACC-00908,Hernandez Group,SmallBiz,Education,Australia,138,2025-01-17,false,2026-04-01 05:30:00
+ACC-00909,Hall LLC,Mid-Market,Manufacturing,United Kingdom,502,2024-12-26,false,2026-04-01 05:30:00
+ACC-00910,"Franco, Wiley and Tapia",SMB,Media,Canada,28,2025-02-25,false,2026-04-01 05:30:00
+ACC-00911,Blake Group,SMB,Retail,Australia,55,2024-08-21,false,2026-04-01 05:30:00
+ACC-00912,"Acosta, Garcia and Moreno",Small Business,Manufacturing,Germany,180,2026-02-14,false,2026-04-01 05:30:00
+ACC-00913,Barnes Inc,Strategic,Energy,Canada,8337,2024-04-04,false,2026-04-01 05:30:00
+ACC-00914,Dawson Inc,smb,Manufacturing,Canada,162,2025-05-17,false,2026-04-01 05:30:00
+ACC-00915,Morse PLC,,Financial Services,Australia,107,2025-03-29,false,2026-04-01 05:30:00
+ACC-00916,Haynes-Watson,SmallBiz,Retail,Germany,17,2024-08-14,false,2026-04-01 05:30:00
+ACC-00917,"Miller, Davis and Anderson",,Education,Canada,62,2025-04-08,false,2026-04-01 05:30:00
+ACC-00918,Jones-Bradley,SMB,Software,United States,142,2024-09-01,false,2026-04-01 05:30:00
+ACC-00919,Bates-Anderson,SMB,Education,Canada,22,2024-07-06,false,2026-04-01 05:30:00
+ACC-00920,Green-Edwards,SmallBiz,Energy,Canada,190,2024-09-23,false,2026-04-01 05:30:00
+ACC-00921,Haynes-Moss,Enterprise,Manufacturing,United Kingdom,10318,2025-06-10,false,2026-04-01 05:30:00
+ACC-00922,Chavez-Hall,MM,Energy,United Kingdom,1675,2024-05-27,false,2026-04-01 05:30:00
+ACC-00923,Taylor PLC,smb,Financial Services,Canada,191,2024-03-27,false,2026-04-01 05:30:00
+ACC-00924,Moore and Sons,MidMarket,Software,United States,696,2024-03-25,false,2026-04-01 05:30:00
+ACC-00925,Owens-Russell,SMB,Education,Germany,15,2025-05-30,false,2026-04-01 05:30:00
+ACC-00926,"Howard, Townsend and Hayes",SMB,Software,United States,92,2025-01-14,false,2026-04-01 05:30:00
+ACC-00927,Baker-Wilson,MidMarket,Energy,United Kingdom,1182,2025-02-07,false,2026-04-01 05:30:00
+ACC-00928,Aguirre LLC,SMB,Telecom,Canada,153,2026-02-23,false,2026-04-01 05:30:00
+ACC-00929,"Terry, Williams and Huff",smb,Financial Services,United States,35,2026-02-11,false,2026-04-01 05:30:00
+ACC-00930,Hernandez-Dawson,smb,Healthcare,Australia,199,2024-03-10,false,2026-04-01 05:30:00
+ACC-00931,Foster-Williams,Small Business,Telecom,United States,49,2024-01-21,false,2026-04-01 05:30:00
+ACC-00932,Green-Ewing,smb,Software,United States,187,2025-10-22,false,2026-04-01 05:30:00
+ACC-00933,Crane Group,SmallBiz,Energy,Germany,92,2024-08-27,false,2026-04-01 05:30:00
+ACC-00934,"Adkins, Wright and Murray",,Energy,Australia,29,2024-03-20,false,2026-04-01 05:30:00
+ACC-00935,Martinez Inc,SMB,Manufacturing,United States,194,2024-12-21,false,2026-04-01 05:30:00
+ACC-00936,Anderson Group,Mid-Market,Education,United Kingdom,1287,2024-06-13,false,2026-04-01 05:30:00
+ACC-00937,Parks-Pace,SmallBiz,Software,Australia,178,2025-02-19,false,2026-04-01 05:30:00
+ACC-00938,Aguilar LLC,SMB,Telecom,United Kingdom,62,2025-07-22,false,2026-04-01 05:30:00
+ACC-00939,Johnson Inc,SMB,Retail,Canada,45,2024-10-15,false,2026-04-01 05:30:00
+ACC-00940,Orr Group,,Education,Australia,65,2026-01-10,false,2026-04-01 05:30:00
+ACC-00941,Davis LLC,Small Business,Energy,Australia,81,2024-06-06,false,2026-04-01 05:30:00
+ACC-00942,Williams Group,SMB,Retail,Germany,167,2025-10-14,false,2026-04-01 05:30:00
+ACC-00943,Jackson PLC,SmallBiz,Energy,Canada,84,2025-12-30,false,2026-04-01 05:30:00
+ACC-00944,Underwood-Foster,SMB,Education,United States,14,2024-09-26,false,2026-04-01 05:30:00
+ACC-00945,Reyes Group,smb,Manufacturing,United Kingdom,116,2026-02-05,false,2026-04-01 05:30:00
+ACC-00946,Gomez and Sons,MidMarket,Financial Services,Germany,1751,2024-09-17,false,2026-04-01 05:30:00
+ACC-00947,Ramirez-Stephenson,smb,Media,Australia,123,2024-04-12,false,2026-04-01 05:30:00
+ACC-00948,Mendez PLC,smb,Media,Germany,72,2025-06-14,false,2026-04-01 05:30:00
+ACC-00949,Holland Group,smb,Retail,United States,179,2025-03-08,false,2026-04-01 05:30:00
+ACC-00950,Andrade-Mendoza,Mid-Market,Software,United States,854,2025-02-19,false,2026-04-01 05:30:00
+ACC-00951,Ramirez and Sons,Small Business,Software,Germany,183,2025-03-07,false,2026-04-01 05:30:00
+ACC-00952,Gonzalez-Wilkerson,,Software,Canada,8657,2025-12-11,false,2026-04-01 05:30:00
+ACC-00953,"Wright, Mcknight and Stephens",Strategic,Media,United Kingdom,11728,2025-04-05,false,2026-04-01 05:30:00
+ACC-00954,Mayo Ltd,Small Business,Telecom,Australia,109,2024-12-26,false,2026-04-01 05:30:00
+ACC-00955,Castillo-Harrington,SmallBiz,Financial Services,Canada,142,2024-07-16,false,2026-04-01 05:30:00
+ACC-00956,Durham-Shaw,SmallBiz,Healthcare,Germany,174,2026-01-30,false,2026-04-01 05:30:00
+ACC-00957,Nelson-Johnson,Small Business,Financial Services,United States,141,2025-01-27,false,2026-04-01 05:30:00
+ACC-00958,"Robinson, Huang and Osborne",Small Business,Media,Australia,93,2025-03-05,false,2026-04-01 05:30:00
+ACC-00959,Stokes Group,Enterprise,Education,Australia,41000,2024-12-04,false,2026-04-01 05:30:00
+ACC-00960,"Howard, Silva and Hall",Small Business,Education,United Kingdom,147,2024-03-23,false,2026-04-01 05:30:00
+ACC-00961,Garcia Ltd,Mid Market,Financial Services,United Kingdom,1120,2025-03-17,false,2026-04-01 05:30:00
+ACC-00962,Adams Ltd,SMB,Logistics,Canada,92,2025-05-23,false,2026-04-01 05:30:00
+ACC-00963,Gallagher and Sons,MM,Software,United States,1730,2024-08-20,false,2026-04-01 05:30:00
+ACC-00964,"Bradford, Salinas and Kelly",SmallBiz,Healthcare,Germany,30,2024-11-26,false,2026-04-01 05:30:00
+ACC-00965,Thompson PLC,smb,Media,Germany,26,2025-12-16,false,2026-04-01 05:30:00
+ACC-00966,Drake-Wolfe,enterprise,Retail,Australia,36908,2025-04-06,false,2026-04-01 05:30:00
+ACC-00967,"Johnson, Haynes and Meza",SmallBiz,Telecom,United Kingdom,57,2025-09-04,false,2026-04-01 05:30:00
+ACC-00968,"Thomas, Vaughan and Copeland",SMB,Telecom,Canada,94,2024-09-21,false,2026-04-01 05:30:00
+ACC-00969,Weaver-Thompson,Small Business,Media,Canada,60,2025-09-16,false,2026-04-01 05:30:00
+ACC-00970,Davis and Sons,SMB,Education,Canada,29,2025-12-21,false,2026-04-01 05:30:00
+ACC-00971,"Robinson, Fox and Smith",SMB,Logistics,Germany,153,2024-08-03,false,2026-04-01 05:30:00
+ACC-00972,"Harris, Anderson and Love",MidMarket,Software,Germany,1662,2025-04-03,false,2026-04-01 05:30:00
+ACC-00973,Brown-Hernandez,SMB,Software,United States,198,2025-06-04,false,2026-04-01 05:30:00
+ACC-00974,"Stark, Schroeder and Mathis",enterprise,Financial Services,Australia,3478,2024-01-17,false,2026-04-01 05:30:00
+ACC-00975,Yu-Brooks,MidMarket,Retail,United Kingdom,1621,2024-10-12,false,2026-04-01 05:30:00
+ACC-00976,"Foster, Garcia and Turner",SMB,Energy,Germany,27,2025-10-12,false,2026-04-01 05:30:00
+ACC-00977,Daugherty Ltd,MidMarket,Manufacturing,United Kingdom,758,2025-10-12,false,2026-04-01 05:30:00
+ACC-00978,Conner-Yu,SmallBiz,Media,United Kingdom,160,2025-03-28,false,2026-04-01 05:30:00
+ACC-00979,"Stewart, Mann and Hoffman",,Media,Germany,92,2025-10-23,false,2026-04-01 05:30:00
+ACC-00980,"Buchanan, Walker and Chapman",enterprise,Financial Services,Australia,16116,2025-04-07,false,2026-04-01 05:30:00
+ACC-00981,Gray Ltd,smb,Energy,United States,169,2026-01-11,false,2026-04-01 05:30:00
+ACC-00982,"Phillips, Thompson and Smith",MM,Financial Services,Germany,593,2025-07-08,false,2026-04-01 05:30:00
+ACC-00983,"Fry, Myers and Gamble",Mid Market,Healthcare,Germany,1097,2024-08-29,false,2026-04-01 05:30:00
+ACC-00984,"Johnson, Guzman and Mccall",Small Business,Telecom,Australia,110,2025-05-15,false,2026-04-01 05:30:00
+ACC-00985,"Walker, Cunningham and Zuniga",Small Business,Education,Canada,146,2025-09-05,false,2026-04-01 05:30:00
+ACC-00986,Rivera Inc,SmallBiz,Retail,Australia,181,2024-12-05,false,2026-04-01 05:30:00
+ACC-00987,Reed LLC,,Software,Germany,132,2026-03-05,false,2026-04-01 05:30:00
+ACC-00988,Fields Inc,Small Business,Energy,United Kingdom,91,2025-10-26,false,2026-04-01 05:30:00
+ACC-00989,"Santiago, Daniel and Rogers",MidMarket,Healthcare,United Kingdom,1926,2025-05-09,false,2026-04-01 05:30:00
+ACC-00990,Baker and Sons,Strategic,Healthcare,Australia,23396,2026-01-23,false,2026-04-01 05:30:00
+ACC-00991,"Jones, Scott and Rodriguez",Mid Market,Logistics,Australia,509,2024-02-27,false,2026-04-01 05:30:00
+ACC-00992,Williams Group,MM,Media,United Kingdom,1297,2025-12-12,false,2026-04-01 05:30:00
+ACC-00993,"Barnes, Jackson and Gutierrez",Small Business,Manufacturing,Germany,106,2026-03-23,false,2026-04-01 05:30:00
+ACC-00994,Bell-Bennett,smb,Telecom,United States,81,2025-11-17,false,2026-04-01 05:30:00
+ACC-00995,Kramer-Lane,smb,Software,Australia,13,2024-01-22,false,2026-04-01 05:30:00
+ACC-00996,"Perez, Hayes and Lloyd",smb,Logistics,Germany,66,2025-10-14,false,2026-04-01 05:30:00
+ACC-00997,Phillips LLC,Small Business,Media,Australia,39,2024-07-08,false,2026-04-01 05:30:00
+ACC-00998,Lynn-Jones,ENT,Energy,United Kingdom,27941,2025-12-27,false,2026-04-01 05:30:00
+ACC-00999,Barron and Sons,SMB,Manufacturing,Germany,99,2024-12-11,false,2026-04-01 05:30:00
+ACC-01000,"Jones, Mcmahon and Spence",ENT,Financial Services,United States,13726,2025-11-29,false,2026-04-01 05:30:00
+ACC-01001,Wheeler-Austin,MM,Media,Canada,819,2024-05-01,false,2026-04-01 05:30:00
+ACC-01002,Bush-Reynolds,Small Business,Software,Germany,188,2025-02-12,false,2026-04-01 05:30:00
+ACC-01003,"Martin, Preston and Moore",Strategic,Logistics,United Kingdom,26687,2025-03-03,false,2026-04-01 05:30:00
+ACC-01004,Rivera and Sons,Small Business,Software,Australia,178,2024-05-31,false,2026-04-01 05:30:00
+ACC-01005,Terry-Bowen,ENT,Education,Germany,43315,2024-01-14,false,2026-04-01 05:30:00
+ACC-01006,"Fernandez, Guerrero and Evans",MidMarket,Healthcare,Canada,523,2025-09-16,false,2026-04-01 05:30:00
+ACC-01007,Williams PLC,SMB,Manufacturing,Australia,94,2024-08-19,false,2026-04-01 05:30:00
+ACC-01008,"Larsen, Hernandez and Ward",smb,Financial Services,Australia,90,2024-07-29,false,2026-04-01 05:30:00
+ACC-01009,Miller-Colon,Mid-Market,Software,United States,1578,2025-05-28,false,2026-04-01 05:30:00
+ACC-01010,"Greene, Gonzalez and Johnson",SmallBiz,Media,Germany,85,2026-01-20,false,2026-04-01 05:30:00
+ACC-01011,Little Inc,Mid Market,Manufacturing,United States,1071,2025-09-03,false,2026-04-01 05:30:00
+ACC-01012,Anthony-Parker,SmallBiz,Retail,Australia,21,2024-09-26,false,2026-04-01 05:30:00
+ACC-01013,Ruiz-Jacobson,MidMarket,Software,Canada,279,2025-01-24,false,2026-04-01 05:30:00
+ACC-01014,Davis-Stephens,Mid Market,Energy,Australia,759,2026-02-19,false,2026-04-01 05:30:00
+ACC-01015,Watson Group,Small Business,Healthcare,Canada,34,2024-01-04,false,2026-04-01 05:30:00
+ACC-01016,Lopez-Williams,Small Business,Retail,Australia,156,2024-01-04,false,2026-04-01 05:30:00
+ACC-01017,Marshall-Perez,SMB,Healthcare,Germany,47,2024-07-25,false,2026-04-01 05:30:00
+ACC-01018,Elliott-Hernandez,Mid-Market,Manufacturing,Canada,1131,2025-05-19,false,2026-04-01 05:30:00
+ACC-01019,"Contreras, Miller and Cooper",enterprise,Logistics,United Kingdom,35337,2024-12-27,false,2026-04-01 05:30:00
+ACC-01020,"Gutierrez, Avila and Perez",smb,Education,Canada,64,2026-03-01,false,2026-04-01 05:30:00
+ACC-01021,Randall PLC,Mid-Market,Healthcare,Germany,1011,2024-05-01,false,2026-04-01 05:30:00
+ACC-01022,Sheppard-Mcdaniel,Mid Market,Manufacturing,United Kingdom,1596,2025-12-26,false,2026-04-01 05:30:00
+ACC-01023,Armstrong-Young,Mid Market,Logistics,United States,541,2024-06-15,false,2026-04-01 05:30:00
+ACC-01024,Miller-Orr,Enterprise,Media,United Kingdom,39137,2024-12-06,false,2026-04-01 05:30:00
+ACC-01025,"Johnson, Duncan and Black",smb,Software,United Kingdom,166,2024-03-01,false,2026-04-01 05:30:00
+ACC-01026,"Byrd, Oliver and Martinez",Mid-Market,Media,United Kingdom,1361,2024-08-14,false,2026-04-01 05:30:00
+ACC-01027,Thompson-Joyce,SMB,Education,Germany,43,2024-12-25,false,2026-04-01 05:30:00
+ACC-01028,Stokes and Sons,Mid-Market,Healthcare,Canada,626,2024-11-15,false,2026-04-01 05:30:00
+ACC-01029,Henderson Ltd,smb,Education,Germany,66,2026-02-12,false,2026-04-01 05:30:00
+ACC-01030,Harris-Carson,SMB,Media,Canada,154,2024-09-17,false,2026-04-01 05:30:00
+ACC-01031,Flowers LLC,,Financial Services,Australia,89,2025-07-07,false,2026-04-01 05:30:00
+ACC-01032,Bartlett-Sloan,SmallBiz,Healthcare,Canada,183,2026-01-14,false,2026-04-01 05:30:00
+ACC-01033,Miller PLC,Enterprise,Logistics,Canada,13542,2024-07-24,false,2026-04-01 05:30:00
+ACC-01034,Arnold-Gates,smb,Manufacturing,United States,194,2024-11-07,false,2026-04-01 05:30:00
+ACC-01035,"Ellis, Marks and Buchanan",SmallBiz,Manufacturing,Australia,126,2025-08-29,false,2026-04-01 05:30:00
+ACC-01036,"Matthews, Harrington and Rodriguez",smb,Telecom,Germany,158,2025-12-21,false,2026-04-01 05:30:00
+ACC-01037,Hernandez PLC,SmallBiz,Media,Canada,62,2025-12-20,false,2026-04-01 05:30:00
+ACC-01038,"Chang, Ayers and Buckley",Mid-Market,Software,United States,1983,2024-12-15,false,2026-04-01 05:30:00
+ACC-01039,"Chan, Floyd and Dillon",SMB,Financial Services,Germany,27,2025-05-02,false,2026-04-01 05:30:00
+ACC-01040,Humphrey-Baker,ENT,Logistics,Germany,18817,2024-11-08,false,2026-04-01 05:30:00
+ACC-01041,"Washington, Lynch and Johnson",SMB,Logistics,Germany,27,2025-10-08,false,2026-04-01 05:30:00
+ACC-01042,Powell-Montgomery,MM,Telecom,United Kingdom,710,2024-09-02,false,2026-04-01 05:30:00
+ACC-01043,"Steele, Williams and Preston",smb,Software,United States,91,2025-09-03,false,2026-04-01 05:30:00
+ACC-01044,Vaughn-Williams,SmallBiz,Retail,United Kingdom,197,2025-07-15,false,2026-04-01 05:30:00
+ACC-01045,Mccall-Prince,SMB,Financial Services,Germany,72,2024-07-16,false,2026-04-01 05:30:00
+ACC-01046,Morgan LLC,Small Business,Education,Germany,146,2025-12-12,false,2026-04-01 05:30:00
+ACC-01047,Ramirez-Vasquez,Mid Market,Telecom,United Kingdom,1557,2025-12-29,false,2026-04-01 05:30:00
+ACC-01048,"Cohen, Compton and Perez",Mid Market,Manufacturing,Germany,938,2025-10-19,false,2026-04-01 05:30:00
+ACC-01049,Mccann-Ramos,Strategic,Retail,United States,32637,2025-04-09,false,2026-04-01 05:30:00
+ACC-01050,Adams-Butler,MM,Financial Services,United Kingdom,1500,2025-11-03,false,2026-04-01 05:30:00
+ACC-01051,"Davis, Alexander and Mcintyre",Mid Market,Telecom,Germany,648,2025-04-07,false,2026-04-01 05:30:00
+ACC-01052,Figueroa-Malone,MM,Media,Australia,581,2026-01-13,false,2026-04-01 05:30:00
+ACC-01053,Nicholson-Robertson,Small Business,Media,Australia,41,2025-08-21,false,2026-04-01 05:30:00
+ACC-01054,Jones Ltd,SmallBiz,Retail,Germany,192,2025-10-14,false,2026-04-01 05:30:00
+ACC-01055,"Powell, Deleon and Warren",Small Business,Healthcare,United Kingdom,45,2024-01-23,false,2026-04-01 05:30:00
+ACC-01056,"Johnson, Lee and Whitaker",SmallBiz,Software,United States,31,2025-08-10,false,2026-04-01 05:30:00
+ACC-01057,Wright Group,SmallBiz,Education,Germany,68,2025-04-20,false,2026-04-01 05:30:00
+ACC-01058,Hull Ltd,SMB,Energy,United Kingdom,153,2025-01-04,false,2026-04-01 05:30:00
+ACC-01059,Hill Group,MM,Retail,Canada,818,2025-01-29,false,2026-04-01 05:30:00
+ACC-01060,"Sanders, Leblanc and Maldonado",smb,Software,Australia,54,2024-05-15,false,2026-04-01 05:30:00
+ACC-01061,Watson PLC,ENT,Manufacturing,United Kingdom,6242,2024-09-14,false,2026-04-01 05:30:00
+ACC-01062,Thompson-Harrell,SMB,Retail,Germany,168,2025-02-24,false,2026-04-01 05:30:00
+ACC-01063,"Arnold, Cooper and Monroe",SMB,Logistics,Canada,129,2025-06-21,false,2026-04-01 05:30:00
+ACC-01064,Curry-Barker,enterprise,Retail,Germany,33757,2025-11-01,false,2026-04-01 05:30:00
+ACC-01065,Johnson-Williams,MidMarket,Retail,United Kingdom,1468,2025-05-22,false,2026-04-01 05:30:00
+ACC-01066,"Chan, Lewis and Walker",Mid-Market,Financial Services,Australia,1389,2024-03-10,false,2026-04-01 05:30:00
+ACC-01067,Byrd LLC,MidMarket,Telecom,United Kingdom,607,2024-10-19,false,2026-04-01 05:30:00
+ACC-01068,"Ortiz, Smith and Deleon",Strategic,Financial Services,Australia,27329,2024-04-14,false,2026-04-01 05:30:00
+ACC-01069,"Smith, Buck and Holland",Small Business,Logistics,United States,52,2025-07-16,false,2026-04-01 05:30:00
+ACC-01070,"Owen, Walker and Franklin",smb,Education,United States,29,2025-04-06,false,2026-04-01 05:30:00
+ACC-01071,Marquez-Fletcher,MM,Logistics,United Kingdom,1601,2025-06-12,false,2026-04-01 05:30:00
+ACC-01072,Coleman-Bennett,smb,Financial Services,United States,61,2024-06-18,false,2026-04-01 05:30:00
+ACC-01073,Stevens-Robinson,Small Business,Financial Services,Canada,13,2024-02-11,false,2026-04-01 05:30:00
+ACC-01074,Byrd-Holloway,Mid-Market,Energy,Germany,1310,2026-02-06,false,2026-04-01 05:30:00
+ACC-01075,Silva-Smith,Mid Market,Media,Australia,447,2025-12-21,false,2026-04-01 05:30:00
+ACC-01076,"Levy, Franco and Hoffman",Small Business,Energy,United Kingdom,68,2024-11-16,false,2026-04-01 05:30:00
+ACC-01077,"Lynch, Evans and Rodriguez",SMB,Healthcare,United States,140,2025-10-18,false,2026-04-01 05:30:00
+ACC-01078,Rogers LLC,Mid Market,Retail,Germany,392,2025-03-17,false,2026-04-01 05:30:00
+ACC-01079,"Nguyen, Hill and Douglas",Small Business,Energy,Canada,113,2024-08-22,false,2026-04-01 05:30:00
+ACC-01080,"Evans, Hernandez and Cannon",smb,Education,Australia,130,2025-05-26,false,2026-04-01 05:30:00
+ACC-01081,Trujillo PLC,smb,Logistics,Germany,88,2025-04-09,false,2026-04-01 05:30:00
+ACC-01082,Guerrero-Becker,smb,Software,United Kingdom,145,2025-07-16,false,2026-04-01 05:30:00
+ACC-01083,"Johnson, Jimenez and Phillips",SmallBiz,Energy,United Kingdom,63,2024-10-19,false,2026-04-01 05:30:00
+ACC-01084,Sullivan-Doyle,MM,Media,Germany,327,2025-05-13,false,2026-04-01 05:30:00
+ACC-01085,"Erickson, Armstrong and Lee",enterprise,Media,Canada,37151,2025-06-06,false,2026-04-01 05:30:00
+ACC-01086,"Reeves, Parks and Little",Small Business,Software,Canada,110,2024-12-13,false,2026-04-01 05:30:00
+ACC-01087,Knox-Powers,SmallBiz,Manufacturing,Australia,84,2024-12-29,false,2026-04-01 05:30:00
+ACC-01088,"Evans, Jackson and Sandoval",Small Business,Manufacturing,Australia,37,2024-12-24,false,2026-04-01 05:30:00
+ACC-01089,"White, Davis and Anderson",MidMarket,Software,United States,1045,2025-10-26,false,2026-04-01 05:30:00
+ACC-01090,Hardy-Hansen,Mid-Market,Software,Canada,596,2026-02-17,false,2026-04-01 05:30:00
+ACC-01091,Arroyo LLC,smb,Media,United States,58,2024-05-15,false,2026-04-01 05:30:00
+ACC-01092,"Davis, Kelly and Garner",Small Business,Financial Services,Canada,170,2024-06-16,false,2026-04-01 05:30:00
+ACC-01093,Fisher-Eaton,,Financial Services,United Kingdom,199,2025-06-10,false,2026-04-01 05:30:00
+ACC-01094,Green-Carter,smb,Financial Services,Australia,37,2024-01-17,false,2026-04-01 05:30:00
+ACC-01095,Ruiz Ltd,smb,Energy,United Kingdom,183,2025-01-18,false,2026-04-01 05:30:00
+ACC-01096,"Carpenter, Oliver and Kennedy",Small Business,Healthcare,Australia,53,2024-02-02,false,2026-04-01 05:30:00
+ACC-01097,Mason Ltd,Enterprise,Education,Australia,46588,2024-12-11,false,2026-04-01 05:30:00
+ACC-01098,Moreno-Gutierrez,smb,Education,Germany,101,2025-02-27,false,2026-04-01 05:30:00
+ACC-01099,Taylor and Sons,SmallBiz,Telecom,Australia,127,2025-08-31,false,2026-04-01 05:30:00
+ACC-01100,Ortiz-Hudson,smb,Education,United States,113,2024-06-06,false,2026-04-01 05:30:00
+ACC-01101,Thomas-Huffman,Small Business,Education,Germany,143,2024-07-11,false,2026-04-01 05:30:00
+ACC-01102,Maxwell Group,Small Business,Media,Germany,28,2025-10-28,false,2026-04-01 05:30:00
+ACC-01103,Welch-Thompson,Strategic,Media,Germany,41354,2024-05-09,false,2026-04-01 05:30:00
+ACC-01104,"Brown, Hayes and Clark",Small Business,Education,Australia,63,2024-11-12,false,2026-04-01 05:30:00
+ACC-01105,Johnston and Sons,SMB,Manufacturing,United Kingdom,108,2026-01-25,false,2026-04-01 05:30:00
+ACC-01106,Glover-Chan,MM,Energy,United Kingdom,1080,2024-06-27,false,2026-04-01 05:30:00
+ACC-01107,Mendez Ltd,Mid-Market,Manufacturing,Canada,1861,2024-02-23,false,2026-04-01 05:30:00
+ACC-01108,Powell-Sanford,,Healthcare,United Kingdom,151,2025-11-10,false,2026-04-01 05:30:00
+ACC-01109,Smith-Ferguson,SMB,Telecom,Germany,110,2025-10-10,false,2026-04-01 05:30:00
+ACC-01110,"Watson, Smith and Morris",Small Business,Energy,United States,125,2025-02-11,false,2026-04-01 05:30:00
+ACC-01111,"Lee, Rhodes and Sims",smb,Manufacturing,Canada,133,2024-11-27,false,2026-04-01 05:30:00
+ACC-01112,Perez LLC,smb,Manufacturing,United States,186,2024-06-01,false,2026-04-01 05:30:00
+ACC-01113,Anderson-Reyes,smb,Logistics,Australia,43,2024-06-23,false,2026-04-01 05:30:00
+ACC-01114,"Torres, Brown and Williams",SmallBiz,Energy,United States,174,2025-12-19,false,2026-04-01 05:30:00
+ACC-01115,Bryant-Meyer,SMB,Retail,Canada,192,2025-06-01,false,2026-04-01 05:30:00
+ACC-01116,"Morgan, Barron and Cowan",Mid Market,Financial Services,United States,283,2025-05-01,false,2026-04-01 05:30:00
+ACC-01117,Ferrell-Henry,Enterprise,Telecom,Germany,7088,2024-02-17,false,2026-04-01 05:30:00
+ACC-01118,Martin Group,smb,Media,United States,34,2025-07-23,false,2026-04-01 05:30:00
+ACC-01119,Perez Ltd,SmallBiz,Manufacturing,Canada,27,2024-12-13,false,2026-04-01 05:30:00
+ACC-01120,Clark Inc,smb,Financial Services,United Kingdom,23,2024-04-27,false,2026-04-01 05:30:00
+ACC-01121,"Wagner, Martinez and Dawson",Strategic,Financial Services,Australia,27050,2025-08-10,false,2026-04-01 05:30:00
+ACC-01122,Brooks Ltd,SMB,Logistics,Canada,182,2024-02-14,false,2026-04-01 05:30:00
+ACC-01123,Wise-Dean,Small Business,Retail,Australia,133,2024-11-01,false,2026-04-01 05:30:00
+ACC-01124,"Vang, Stanley and Valdez",SMB,Software,United Kingdom,49,2024-07-11,false,2026-04-01 05:30:00
+ACC-01125,Williams Inc,SMB,Software,United Kingdom,51,2024-04-20,false,2026-04-01 05:30:00
+ACC-01126,Wallace-Martinez,,Retail,Australia,44305,2026-03-14,false,2026-04-01 05:30:00
+ACC-01127,Wells-Hernandez,Small Business,Software,Australia,71,2024-01-07,false,2026-04-01 05:30:00
+ACC-01128,"Jennings, Smith and Fisher",,Logistics,United States,170,2025-01-06,false,2026-04-01 05:30:00
+ACC-01129,Bates LLC,SMB,Financial Services,Germany,146,2024-08-07,false,2026-04-01 05:30:00
+ACC-01130,"Obrien, Taylor and Rivas",MidMarket,Retail,Canada,742,2025-03-17,false,2026-04-01 05:30:00
+ACC-01131,Hunt PLC,SMB,Retail,Germany,38,2024-11-30,false,2026-04-01 05:30:00
+ACC-01132,Campbell Inc,Mid-Market,Healthcare,Canada,1992,2024-05-21,false,2026-04-01 05:30:00
+ACC-01133,Gonzalez-Gonzalez,Strategic,Software,United Kingdom,29127,2024-07-26,false,2026-04-01 05:30:00
+ACC-01134,Decker-Dudley,Small Business,Education,United Kingdom,193,2024-03-12,false,2026-04-01 05:30:00
+ACC-01135,Warner-Phillips,Mid Market,Healthcare,Australia,548,2024-12-07,false,2026-04-01 05:30:00
+ACC-01136,Kelley and Sons,ENT,Energy,Germany,14191,2026-02-15,false,2026-04-01 05:30:00
+ACC-01137,"Fitzpatrick, Rivera and Smith",MM,Logistics,Germany,1064,2025-06-15,false,2026-04-01 05:30:00
+ACC-01138,"Davis, Rodriguez and Andrews",SmallBiz,Financial Services,Canada,156,2025-06-09,false,2026-04-01 05:30:00
+ACC-01139,Hernandez-Davis,SmallBiz,Financial Services,United States,84,2025-06-22,false,2026-04-01 05:30:00
+ACC-01140,"Jones, Cummings and Conway",MidMarket,Media,Canada,275,2025-11-04,false,2026-04-01 05:30:00
+ACC-01141,"Hall, Hinton and Phillips",Small Business,Energy,Germany,35,2025-07-05,false,2026-04-01 05:30:00
+ACC-01142,Williams-Li,,Media,Canada,135,2024-07-17,false,2026-04-01 05:30:00
+ACC-01143,Phelps LLC,smb,Manufacturing,United States,146,2024-12-27,false,2026-04-01 05:30:00
+ACC-01144,"Edwards, Rodgers and Davis",Mid Market,Financial Services,United Kingdom,1083,2025-01-02,false,2026-04-01 05:30:00
+ACC-01145,Smith and Sons,MidMarket,Education,United States,727,2024-09-11,false,2026-04-01 05:30:00
+ACC-01146,"Holland, Murphy and Kline",SmallBiz,Retail,Australia,102,2026-03-03,false,2026-04-01 05:30:00
+ACC-01147,"Adams, Quinn and Watson",Mid Market,Financial Services,United Kingdom,1255,2024-06-19,false,2026-04-01 05:30:00
+ACC-01148,White-Morales,Mid-Market,Logistics,Canada,1526,2025-07-24,false,2026-04-01 05:30:00
+ACC-01149,Nelson-Cruz,enterprise,Financial Services,Germany,20857,2024-11-26,false,2026-04-01 05:30:00
+ACC-01150,Marsh-Banks,Small Business,Telecom,United States,28,2024-01-24,false,2026-04-01 05:30:00
+ACC-01151,Wilson Ltd,smb,Logistics,United Kingdom,119,2024-02-17,false,2026-04-01 05:30:00
+ACC-01152,"Brown, Dunlap and Moore",SMB,Financial Services,Canada,73,2024-08-12,false,2026-04-01 05:30:00
+ACC-01153,Pruitt-Webb,Mid-Market,Manufacturing,United Kingdom,1172,2025-12-23,false,2026-04-01 05:30:00
+ACC-01154,"Gregory, White and James",SmallBiz,Software,Germany,39,2024-03-01,false,2026-04-01 05:30:00
+ACC-01155,Carr-Huffman,smb,Financial Services,Germany,155,2025-04-16,false,2026-04-01 05:30:00
+ACC-01156,"Mcpherson, Anderson and Knapp",SmallBiz,Financial Services,Canada,48,2024-09-22,false,2026-04-01 05:30:00
+ACC-01157,Clay Group,SMB,Logistics,Canada,140,2025-02-24,false,2026-04-01 05:30:00
+ACC-01158,Brown Ltd,SmallBiz,Media,Germany,93,2025-04-03,false,2026-04-01 05:30:00
+ACC-01159,Smith-Oneill,smb,Telecom,Germany,28,2026-02-27,false,2026-04-01 05:30:00
+ACC-01160,"Saunders, Ray and Cunningham",MM,Media,Australia,1080,2025-03-01,false,2026-04-01 05:30:00
+ACC-01161,"Marks, Stone and Watts",Small Business,Education,Australia,156,2025-05-15,false,2026-04-01 05:30:00
+ACC-01162,"Davis, Stanley and Wright",MM,Manufacturing,Canada,1762,2025-04-28,false,2026-04-01 05:30:00
+ACC-01163,Alvarado-Davidson,,Manufacturing,United Kingdom,1070,2025-07-29,false,2026-04-01 05:30:00
+ACC-01164,Combs PLC,Mid Market,Media,Australia,928,2024-11-11,false,2026-04-01 05:30:00
+ACC-01165,"Brown, Schneider and Moore",Strategic,Financial Services,United States,26900,2025-10-22,false,2026-04-01 05:30:00
+ACC-01166,Christian-Booth,MidMarket,Media,Australia,1348,2025-08-22,false,2026-04-01 05:30:00
+ACC-01167,Walton LLC,Mid-Market,Retail,United States,1118,2024-04-27,false,2026-04-01 05:30:00
+ACC-01168,Rivera LLC,Small Business,Financial Services,United Kingdom,24,2025-12-02,false,2026-04-01 05:30:00
+ACC-01169,Hunter PLC,Mid-Market,Energy,Germany,902,2024-01-01,false,2026-04-01 05:30:00
+ACC-01170,"Gray, Montoya and Miller",Small Business,Software,Canada,107,2025-01-24,false,2026-04-01 05:30:00
+ACC-01171,Solis-West,,Software,United States,141,2025-10-06,false,2026-04-01 05:30:00
+ACC-01172,West-Wilson,smb,Telecom,Canada,103,2025-03-17,false,2026-04-01 05:30:00
+ACC-01173,Mcgee-Smith,smb,Retail,Germany,120,2024-02-13,false,2026-04-01 05:30:00
+ACC-01174,Gutierrez-Hawkins,Enterprise,Software,United States,34604,2025-01-04,false,2026-04-01 05:30:00
+ACC-01175,Petersen PLC,Small Business,Media,Germany,63,2025-03-07,false,2026-04-01 05:30:00
+ACC-01176,"Walsh, Wu and Hart",SmallBiz,Financial Services,Germany,16,2024-07-23,false,2026-04-01 05:30:00
+ACC-01177,"Powers, Clements and Cox",SmallBiz,Retail,Canada,111,2025-06-08,false,2026-04-01 05:30:00
+ACC-01178,Velasquez Group,ENT,Healthcare,Germany,16443,2026-03-27,false,2026-04-01 05:30:00
+ACC-01179,Castro-Harvey,Small Business,Energy,United States,115,2024-10-10,false,2026-04-01 05:30:00
+ACC-01180,Moran-Cox,Strategic,Telecom,Germany,34611,2026-01-07,false,2026-04-01 05:30:00
+ACC-01181,Wilson-Malone,Mid Market,Financial Services,Australia,1458,2024-10-11,false,2026-04-01 05:30:00
+ACC-01182,Smith LLC,ENT,Telecom,Australia,33306,2024-03-26,false,2026-04-01 05:30:00
+ACC-01183,"Brandt, Carter and Boyd",SMB,Software,Australia,103,2024-07-12,false,2026-04-01 05:30:00
+ACC-01184,"Rodriguez, Prince and Vasquez",Mid-Market,Telecom,United Kingdom,1292,2025-11-16,false,2026-04-01 05:30:00
+ACC-01185,"Newton, Ortiz and King",SmallBiz,Media,Australia,32,2024-03-20,false,2026-04-01 05:30:00
+ACC-01186,Lopez Group,SmallBiz,Education,United States,139,2024-06-17,false,2026-04-01 05:30:00
+ACC-01187,Bryant and Sons,Mid Market,Financial Services,United States,1305,2024-01-24,false,2026-04-01 05:30:00
+ACC-01188,"Morgan, Sherman and Williams",MM,Healthcare,United States,1425,2024-02-20,false,2026-04-01 05:30:00
+ACC-01189,"Monroe, Chapman and Barton",Small Business,Healthcare,Germany,142,2024-07-14,false,2026-04-01 05:30:00
+ACC-01190,Ellis-Lawrence,smb,Healthcare,United States,116,2025-04-10,false,2026-04-01 05:30:00
+ACC-01191,"Taylor, Porter and Moreno",SMB,Logistics,Canada,23,2024-06-06,false,2026-04-01 05:30:00
+ACC-01192,Tran Group,Mid Market,Retail,United States,753,2024-01-12,false,2026-04-01 05:30:00
+ACC-01193,"Webb, Romero and Morse",smb,Financial Services,Australia,51,2025-04-09,false,2026-04-01 05:30:00
+ACC-01194,Holt and Sons,Mid Market,Education,United States,1934,2025-04-01,false,2026-04-01 05:30:00
+ACC-01195,"Ochoa, Garcia and Sandoval",Small Business,Telecom,Germany,16,2025-01-19,false,2026-04-01 05:30:00
+ACC-01196,"Andrade, Gordon and Cruz",MM,Energy,United States,1204,2024-05-20,false,2026-04-01 05:30:00
+ACC-01197,"Moon, Farmer and Hill",SmallBiz,Education,United Kingdom,112,2025-05-28,false,2026-04-01 05:30:00
+ACC-01198,Waller-Chavez,MM,Telecom,Australia,442,2025-01-25,false,2026-04-01 05:30:00
+ACC-01199,Taylor PLC,Small Business,Energy,United Kingdom,60,2025-01-10,false,2026-04-01 05:30:00
+ACC-01200,"Tanner, Hunt and Cameron",SmallBiz,Telecom,United States,124,2025-10-18,false,2026-04-01 05:30:00

@@ -1,0 +1,110 @@
+version: 2
+
+models:
+  - name: stg_sf__accounts
+    description: "Cleaned accounts; messy segment labels resolved to a canonical segment."
+    columns:
+      - name: account_id
+        tests: [unique, not_null]
+      - name: segment
+        description: "Canonical segment — proves the crosswalk + employee_count fallback resolves every label."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SMB', 'Mid-Market', 'Enterprise']
+
+  - name: stg_sf__users
+    description: "Reps with role and segment coverage."
+    columns:
+      - name: user_id
+        tests: [unique, not_null]
+      - name: role
+        tests:
+          - accepted_values:
+              values: ['SDR', 'AE', 'AM']
+      - name: segment
+        tests:
+          - accepted_values:
+              values: ['SMB', 'Mid-Market', 'Enterprise']
+
+  - name: stg_sf__opportunities
+    description: "Deduped opportunities (injected duplicates removed) with cleaning flags."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [account_id, opp_name, created_date]
+    columns:
+      - name: opp_id
+        tests: [unique, not_null]
+      - name: account_id
+        tests: [not_null]
+      - name: opp_stage_num
+        tests:
+          - accepted_values:
+              values: [0, 1, 2, 3, 4, 5, 6]
+      - name: lead_source
+        tests:
+          - accepted_values:
+              values: ['Inbound', 'Outbound', 'Partner', 'Event', 'Referral', 'Content', 'Paid']
+              config:
+                where: "lead_source is not null"
+
+  - name: stg_sf__opportunity_stage_history
+    description: "Opportunity stage transitions; drives time-in-stage."
+    columns:
+      - name: history_id
+        tests: [unique, not_null]
+      - name: opp_id
+        tests:
+          - relationships:
+              to: ref('stg_sf__opportunities')
+              field: opp_id
+
+  - name: stg_sf__activities
+    description: "First-touch and logged rep activities (timestamp in rep-local time)."
+    columns:
+      - name: activity_id
+        tests: [unique, not_null]
+
+  - name: stg_hs__contacts
+    description: "Deduped HubSpot contacts; raw source/segment labels normalized."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [email]
+    columns:
+      - name: hs_contact_id
+        tests: [unique, not_null]
+      - name: segment
+        tests:
+          - accepted_values:
+              values: ['SMB', 'Mid-Market', 'Enterprise']
+      - name: lead_source
+        tests:
+          - accepted_values:
+              values: ['Inbound', 'Outbound', 'Partner', 'Event', 'Referral', 'Content', 'Paid']
+
+  - name: stg_hs__marketing_events
+    columns:
+      - name: event_id
+        tests: [unique, not_null]
+
+  - name: stg_hs__lead_score_history
+    columns:
+      - name: score_event_id
+        tests: [unique, not_null]
+
+  - name: stg_hs__lifecycle_history
+    description: "HubSpot lifecycle stage entries per contact."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [hs_contact_id, lifecycle_stage]
+    columns:
+      - name: lifecycle_stage
+        tests:
+          - accepted_values:
+              values: ['New', 'MQL', 'SAL', 'SQL', 'Opportunity']
+
+  - name: stg_hs__id_crosswalk
+    description: "HubSpot <-> Salesforce id crosswalk; ~8% unmatched."
+    columns:
+      - name: hs_contact_id
+        tests: [unique, not_null]

@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: fct_funnel_conversion
+    description: "MART A — leads reaching each stage + step conversion rate by segment."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [segment, stage]
+      - dbt_utils.expression_is_true:
+          expression: "leads_reaching <= coalesce(prior_stage_count, leads_reaching)"
+    columns:
+      - name: conversion_rate
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 1
+              inclusive: true
+
+  - name: fct_stage_velocity
+    description: "MART B — median/avg/p90 days-in-stage by segment and selling stage."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [segment, stage_num]
+    columns:
+      - name: median_days_in_stage
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+
+  - name: fct_cohort_progression
+    description: "MART C — monthly MQL cohort progression by months-since-MQL."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [cohort_month, segment, months_since]
+    columns:
+      - name: pct_reached_opportunity
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 1
+              inclusive: true

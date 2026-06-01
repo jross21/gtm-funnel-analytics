@@ -1,0 +1,40 @@
+name: 'arcline'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'arcline'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Project-wide variables. Data is static & deterministic (seed=42), so we anchor
+# "today" to a fixed date rather than now() — this keeps cohorts mature and makes
+# freshness testable in CI without a wall-clock dependency.
+vars:
+  build_anchor_date: '2026-04-01'      # treated as "today"
+  analysis_period_start: '2025-09-01'
+  analysis_period_end: '2026-03-31'
+  mql_score_threshold: 50              # canonical MQL lead-score cutoff
+  mql_threshold_naive_hubspot: 40      # the undocumented HubSpot threshold (for reconciliation)
+
+# Materialization strategy: cheap-to-rebuild views upstream, durable tables at the
+# marts layer (Evidence queries the marts). Everything lands in the default schema
+# so Evidence can query marts unqualified; organization is expressed via the model
+# directory tree. The Snowflake deploy path (docs/DEPLOY_SNOWFLAKE.md) layers schemas.
+models:
+  arcline:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
