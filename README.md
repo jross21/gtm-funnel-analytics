@@ -1,5 +1,7 @@
 # GTM Funnel Analytics
 
+**[Read the case study →](https://julianross.dev/case-studies/gtm-funnel-analytics/)**
+
 [![CI](https://github.com/jross21/gtm-funnel-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/jross21/gtm-funnel-analytics/actions/workflows/ci.yml)
 
 **The analytics-engineering layer that turns a KPI Dictionary into tested, governed,
